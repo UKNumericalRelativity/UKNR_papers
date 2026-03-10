@@ -1,5 +1,24 @@
 [
   {
+    "title": "A Reproducible Black Hole-Neutron Star Merger Gallery Example for the Einstein Toolkit",
+    "authors": [
+      "Rahime Matur",
+      "Beyhan Karakaş",
+      "Roland Haas",
+      "Ian Hawke",
+      "Nils Andersson",
+      "Steven R. Brandt"
+    ],
+    "abstract": "Black hole-neutron star mergers, together with binary neutron star mergers, are key laboratories for neutron star physics. They enable us to probe merger dynamics imprinted in gravitational waves and potential electromagnetic counterparts. These systems link microphysics and macrophysics by placing constraints on the dense matter equations of state, potentially revealing the imprint of hadron-quark phase transitions, clarifying the role of neutrino irradiation in shaping the ejecta, its r-process nucleosynthesis, and kilonova emission, as well as assessing how magnetically driven instabilities affect mass ejection and possible electromagnetic signatures. Despite their importance, black hole-neutron star mergers remain relatively less studied and therefore not yet well understood, largely due to the lack of publicly available numerical relativity setups suitable for such investigations. In this work, we present a fully reproducible black hole-neutron star merger simulation performed exclusively using Einstein Toolkit thorns, targeting the detected event \\texttt{GW230529}. The simulations are carried out at three resolutions with finest grid spacings of $162$, $222$ and $310$ meters to assess numerical robustness. The entire setup, from initial data to a parameter file with some of the analysis scripts, is publicly released as a new Einstein Toolkit gallery example and will be distributed as part of the Hypatia release, establishing a reference black hole-neutron star merger configuration within the Einstein Toolkit.",
+    "arxiv_id": "2603.07374v1",
+    "published": "2026-03-07T23:31:22Z",
+    "updated": "2026-03-07T23:31:22Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Accelerating Numerical Relativity Simulations with New Multistep Fourth-Order Runge-Kutta Methods",
     "authors": [
       "Lucas Timotheo Sanches",
