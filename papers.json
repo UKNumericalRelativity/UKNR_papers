@@ -1,5 +1,20 @@
 [
   {
+    "title": "Isotropic Coordinates for Generalized Schwarzschild-like Solutions",
+    "authors": [
+      "Zeyu Zeng",
+      "Elena Kopteva"
+    ],
+    "abstract": "We consider a broad class of static, spherically symmetric generalized Schwarzschild-like solutions with multiple non-interacting anisotropic fluid sources and derive the coordinate transformation from Schwarzschild-like (curvature) to isotropic coordinates with conformally flat spatial slices. The isotropic form removes spatial-sector coordinate pathologies at the horizon, clarifies geometric quantities (e.g., ADM mass and curvature invariants), and enables the construction of well-posed initial data on t=const hypersurfaces, suitable for the Hamiltonian and conformal formulations of numerical relativity and for perturbation theory. The backgrounds in isotropic coordinates we develop make it straightforward to separate environmental effects from intrinsic strong-gravity signals and meet the growing interest in non-vacuum black hole phenomenology across scattering, lensing, and waveform modeling.",
+    "arxiv_id": "2603.21040v1",
+    "published": "2026-03-22T03:34:17Z",
+    "updated": "2026-03-22T03:34:17Z",
+    "categories": [
+      "gr-qc",
+      "math-ph"
+    ]
+  },
+  {
     "title": "Impact of numerical-relativity waveform calibration on parametrized post-Einsteinian tests",
     "authors": [
       "Simone Mezzasoma",
