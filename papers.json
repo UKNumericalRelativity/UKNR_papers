@@ -1,5 +1,23 @@
 [
   {
+    "title": "High-order effective-one-body tidal interactions and gravitational scattering",
+    "authors": [
+      "Malte Schulze",
+      "Sebastiano Bernuzzi",
+      "Piero Rettegno",
+      "Joan Fontbuté",
+      "Andrea Placidi",
+      "Thibault Damour"
+    ],
+    "abstract": "Using state-of-the-art scattering results in post-Minkowskian (PM) gravity, we improve the tidal sector of four different flavors of the effective-one-body (EOB) formalism. We notably explore both adiabatic and post-adiabatic gravitoelectric and gravitomagnetic quadrupolar tidal effects at the next-to-next-to-leading PM-order. When comparing the predictions of the so-constructed Lagrange-PM-tidal version of EOB to recent numerical-relativity data on the scattering of neutron stars, we find improved agreement with respect to existing EOB models and PM expansions. Our work lays the foundation for the development of an accurate tidal sector of the PM EOB models, and points out the need to explore improved resummation schemes in PN EOB for bound and circularized orbits.",
+    "arxiv_id": "2603.22467v1",
+    "published": "2026-03-23T18:36:33Z",
+    "updated": "2026-03-23T18:36:33Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Isotropic Coordinates for Generalized Schwarzschild-like Solutions",
     "authors": [
       "Zeyu Zeng",
@@ -314,20 +332,6 @@
     "updated": "2026-01-26T21:41:51Z",
     "categories": [
       "astro-ph.HE",
-      "gr-qc"
-    ]
-  },
-  {
-    "title": "Euler-Poincaré Formulation of Barotropic Fluids Coupled with ADM Gravity",
-    "authors": [
-      "Allan Louie"
-    ],
-    "abstract": "This paper develops a geometric mechanics framework for the reduction of general relativistic hydrodynamic variational principles, from the variation of worldlines approach in 4D spacetime to 3-dimensional Eulerian descriptions. We consider a self-gravitating, barotropic fluid and obtain the Euler-Poincaré equations of the system by Lagrangian reduction. Using the decomposition of general relativity into 3 + 1 dimensions, with a direction of time defined, the gauge invariance of the action over spacetime diffeomorphisms permits a 3-dimensional description of the fluid diffeomorphism by gauge fixing. The configuration space thus mirrors the Newtonian case, and by employing the Euler-Poincaré theorem, we derive the Eulerian equations of motion, in the same form as the PDEs from Newtonian fluid dynamics. The equations of motion are then derived, where the fluid variables are measured in a separate frame of reference from the variables involving gravity. Furthermore, the general relativistic barotropic fluid exhibits a Kelvin-Noether circulation conservation, which we derive in both the inertial and moving frames of reference. Finally, potential applications to Numerical Relativity are discussed.",
-    "arxiv_id": "2601.17104v1",
-    "published": "2026-01-23T17:02:45Z",
-    "updated": "2026-01-23T17:02:45Z",
-    "categories": [
-      "math-ph",
       "gr-qc"
     ]
   }
