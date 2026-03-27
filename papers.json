@@ -1,5 +1,67 @@
 [
   {
+    "title": "Large-scale weak lensing convergence in nonlinear general relativity",
+    "authors": [
+      "Hayley J. Macpherson"
+    ],
+    "abstract": "In this work we investigate the weak lensing convergence using an end-to-end nonlinear general relativistic framework. Combining numerical relativity simulations of large-scale structure formation with general relativistic ray-tracing, we compare our nonlinear calculation to the expectation based on perturbation theory for a set of 20 synthetic observers. We focus on large angular scales $\\ell < 100$ across a broad range of redshifts with $0.05<z<3$. We confirm the importance of Doppler lensing for redshifts below $z\\sim$0.6, as predicted by previous works. On average across our observers, linear perturbation theory predicts the nonlinear convergence to within 3-30% across all redshifts and angular scales we study. In general, we find smaller angular scales are better matched by linear theory than larger angular scales. While we cannot definitively identify the source of the discrepancy, for our particular study of redshift slices on observers' light cones the differences are mostly below the level of cosmic variance.",
+    "arxiv_id": "2603.24838v1",
+    "published": "2026-03-25T22:08:26Z",
+    "updated": "2026-03-25T22:08:26Z",
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Fixing the center-of-mass frame of numerical relativity waveforms using the post-Newtonian center-of-mass charge",
+    "authors": [
+      "Aniket Khairnar",
+      "Leo C. Stein",
+      "Michael Boyle",
+      "Nils Deppe",
+      "Lawrence E. Kidder",
+      "Keefe Mitman",
+      "Jordan Moxon",
+      "Kyle C. Nelli",
+      "William Throwe",
+      "Nils L. Vu"
+    ],
+    "abstract": "The Bondi--van der Burg--Metzner--Sachs (BMS) frame of gravitational waves produced by numerical relativity (NR) simulations is crucial for building accurate waveform models. A proper comparison of NR waveforms with other models requires fixing the arbitrary BMS frame. In this work we improve the center-of-mass (CoM) frame fixing for quasicircular, nonprecessing binary systems. Past work approximated the CoM motion with just a linear fit. We compute a post-Newtonian result of the boosted CoM charge to also capture its physical out-spiraling oscillations. We show that using the analytical results improves the robustness of the fit parameters -- translation and boost vectors -- to the choice of duration and time of the fitting window. Our analysis demonstrates a maximum improvement in robustness when the window is placed at the center of the inspiral. We quantified this improvement by computing the ratio of variances of fit parameters when the fit window size is varied. The largest improvement in robustness of parameters is by a factor of $\\sim 25$ for the boost vector and $\\sim 20$ for the translation vector. Finally, we incorporate this method into the BMS frame-fixing routine of the python package $\\texttt{scri}$ for waveforms produced with Cauchy-characteristic evolution.",
+    "arxiv_id": "2603.24661v1",
+    "published": "2026-03-25T18:00:01Z",
+    "updated": "2026-03-25T18:00:01Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "hep-th"
+    ]
+  },
+  {
+    "title": "BLAZ4R and the eROSITA view of z>4 blazars",
+    "authors": [
+      "Tullia Sbarrato",
+      "Silvia Belladitta",
+      "Julien Wolf",
+      "Pietro Baldini",
+      "Dusan Tubín-Arenas",
+      "Mara Salvato",
+      "Emmanuel Momjian",
+      "Steven Hämmerich",
+      "Andrea Merloni",
+      "Werner Collmar",
+      "Joern Wilms"
+    ],
+    "abstract": "We present BLAZ4R, the first living catalog of confirmed $z>4$ blazars, with a focus on the contribution of eROSITA, on board of the Spectrum Roentgen Gamma (SRG) spacecraft. Blazars at $z>4$ are rare but powerful probes of how active supermassive black holes evolve in connection to relativistic jets, in the first 2 billion years of cosmic history. At these redshifts, X-ray observations are essential for constraining blazars jet power and orientation, enabling effective trace of their parent population. The all-sky surveys provided by eROSITA ensure X-ray detection for BLAZ4R sources and, in some cases, allow spectral and temporal studies of their jetted emission. BLAZ4R includes 54 confirmed blazars, characterized through their X-ray properties, radio spectra and morphology, and multiwavelength profiles. We confirm that jetted sources are significantly more numerous relative to non-jetted counterparts at high-$z$, and that blazars (and therefore the overall jetted population) do not exhibit significantly different features compared to the total active galactic nuclei population in the early Universe. Fast accretion processes that involve relativistic jets are clearly required to justify the existence of fully formed jetted AGN at $z>4$. However, the diverse multiwavelength properties characterizing BLAZ4R do not yet allow us to identify the specific signatures of these processes. We will continue updating BLAZ4R to search for such signatures and ultimately understand the early formation of jetted AGN.",
+    "arxiv_id": "2603.24659v1",
+    "published": "2026-03-25T18:00:00Z",
+    "updated": "2026-03-25T18:00:00Z",
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.CO"
+    ]
+  },
+  {
     "title": "High-order effective-one-body tidal interactions and gravitational scattering",
     "authors": [
       "Malte Schulze",
