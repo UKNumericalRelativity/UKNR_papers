@@ -1,5 +1,37 @@
 [
   {
+    "title": "Boson star-black hole binaries: initial data and head-on collisions",
+    "authors": [
+      "Zhuan Ning"
+    ],
+    "abstract": "We present a numerical-relativity study of comparable-mass boson star-black hole (BS-BH) head-on collisions, focusing on both initial-data construction and gravitational-wave (GW) phenomenology. We show that plain superposition can strongly perturb the BS core, leading to large constraint violations and unphysical radial oscillations. To remedy this problem, we introduce a one-body conformal-factor correction and find that it robustly suppresses these artifacts. Using the improved initial data, we analyze GW emission from equal- and unequal-mass BS-BH binaries and compare with matched BS-BS and BH-BH baselines. For equal masses, the BS-BH radiated energy increases with BS compactness and approaches the BH-BH limit for highly compact stars. For unequal masses, the dominant $(2,0)$ mode often remains close to the BH-BH morphology, whereas the subdominant $(3,0)$ mode provides clear discriminatory power when the BH is the heavier companion. Our results identify higher multipoles as a key observable for distinguishing mixed BS-BH mergers from pure BH binaries.",
+    "arxiv_id": "2604.15240v1",
+    "published": "2026-04-16T17:15:14Z",
+    "updated": "2026-04-16T17:15:14Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.HE"
+    ]
+  },
+  {
+    "title": "Consistent Treatment of Muons in Binary Neutron Star Mergers",
+    "authors": [
+      "Henrique Gieg",
+      "Ramon Jaeger",
+      "Maximiliano Ujevic",
+      "Tim Dietrich"
+    ],
+    "abstract": "We present a set of numerical-relativity binary neutron star merger simulations incorporating muons and muonic reactions for two baseline baryonic equations-of-state. In order to investigate the possible impact of muons and muonic weak reactions, we treat neutrinos with a gray (energy-independent) truncated moments scheme and an implicit-explicit time integrator. Newly computed neutrino rates are employed within the full kinematics approach for a set of relevant reactions, and pair-processes are modeled via opacities computed using reaction kernels, that allow a consistent treatment of neutrino interaction rates. We find that equilibration between matter and radiation is successfully captured by a novel two timescales approach. Of astrophysical interest is the general agreement between our muonic and non-muonic results regarding the remnant evolution, disk and outflow properties. Average electron fractions, asymptotic velocities and temperatures are different by less than $\\sim 6\\%$, while the main impact of muons is a reduction in ejecta masses by at most $\\sim 17\\%$. Therefore, based on our findings, accounting for the presence of muons and muonic reactions might result much less severe consequences regarding nucleosynthetic yields and electromagnetic counterparts than previously reported in the literature.",
+    "arxiv_id": "2604.14225v1",
+    "published": "2026-04-14T13:16:21Z",
+    "updated": "2026-04-14T13:16:21Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Post-Newtonian inspiral waveform model for eccentric precessing binaries with higher-order modes and matter effects",
     "authors": [
       "Gonzalo Morras",
