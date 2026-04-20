@@ -68,6 +68,25 @@
     ]
   },
   {
+    "title": "Novel ringdown tests of general relativity with black hole greybody factors",
+    "authors": [
+      "Romeo Felice Rosato",
+      "Francesco Crescimbeni",
+      "Sophia Yi",
+      "Emanuele Berti",
+      "Paolo Pani"
+    ],
+    "abstract": "We present GreyRing, a new model for the post-merger signal in black-hole binary coalescences based on the greybody factor of the remnant. The model accurately reproduces the full frequency-domain ringdown signal of a large set of comparable-mass, aligned-spin numerical relativity waveforms, achieving mismatches of order ${\\cal O}(10^{-6})$ for the dominant $(\\ell,m)=(2,2)$ mode, and typically outperforming state-of-the-art time-domain models. Building on this model, we introduce a novel consistency test of strong gravity based on the greybody factor: the remnant mass and spin inferred from GreyRing can be compared with those obtained through standard black hole spectroscopy. This agnostic test relies exclusively on the post-merger signal and does not require the inclusion of overtones or the choice of very early ringdown starting times, combining the advantages of inspiral-merger-ringdown consistency tests and traditional black hole spectroscopy. We apply the test to GW250114 and find that the remnant mass and spin inferred from GreyRing are consistent with those measured from the full signal. Remarkably, the inferred parameters can be measured with a precision comparable to, or slightly better than, that achieved with standard black-hole spectroscopy. Our greybody-factor waveform model allows for new precision tests of strong gravity using the ringdown signal.",
+    "arxiv_id": "2604.11895v2",
+    "published": "2026-04-13T18:00:07Z",
+    "updated": "2026-04-17T14:25:37Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "hep-ph"
+    ]
+  },
+  {
     "title": "Repopulating the pair-instability mass gap without sustained growth to massive IMBHs: the case of 47\\,Tuc",
     "authors": [
       "Debatri Chattopadhyay",
@@ -450,21 +469,6 @@
     "categories": [
       "astro-ph.HE",
       "astro-ph.IM"
-    ]
-  },
-  {
-    "title": "Tarnished by Tools: Cost of Systematics in Golden Dark Siren Cosmology",
-    "authors": [
-      "Giovanni Benetti",
-      "Koustav Chandra",
-      "Bangalore S. Sathyaprakash"
-    ],
-    "abstract": "Golden dark sirens - exceptionally well-localized gravitational-wave (GW) sources without electromagnetic counterparts - offer a powerful route to precision measurements of the Hubble constant, $H_0$, with next-generation (XG) detectors. The statistical promise of this method, however, places stringent demands on waveform accuracy and detector calibration, as even small systematic errors can dominate over statistical uncertainties at high signal-to-noise ratios. We investigate the impact of waveform-modeling systematics on golden dark siren cosmology using a synthetic population of binary black holes consistent with current GW observations and analyzed in the XG-detector era. By comparing state-of-the-art waveform models against numerical-relativity-based reference signals, we quantify modeling inaccuracies from both modeling and data-analysis perspectives and assess how they propagate into biases in luminosity distance, host-galaxy association, and single-event $H_0$ inference. We find that while current waveform models often allow recovery of statistically consistent $H_0$ posteriors, small waveform-induced biases can significantly affect three-dimensional localization and host galaxy ranking, occasionally leading to incorrect redshift assignments. We further derive order-of-magnitude requirements on detector calibration accuracy needed to ensure that calibration systematics remain subdominant for golden dark sirens observed with XG networks. To realize sub-percent $H_0$ measurements with golden dark sirens will require waveform and calibration accuracies that scale as $\\mathcal{O}(ρ^{-2})$ with signal-to-noise ratio, motivating sustained advances in waveform modeling, numerical relativity, and detector calibration for the XG era.",
-    "arxiv_id": "2602.14898v1",
-    "published": "2026-02-16T16:34:30Z",
-    "updated": "2026-02-16T16:34:30Z",
-    "categories": [
-      "gr-qc"
     ]
   }
 ]
