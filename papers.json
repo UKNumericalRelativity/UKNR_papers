@@ -1,5 +1,52 @@
 [
   {
+    "title": "Including higher-order modes in a quadrupolar eccentric numerical relativity surrogate using universal eccentric modulation functions",
+    "authors": [
+      "Tousif Islam",
+      "Adhrit Ravichandran",
+      "Peter James Nee",
+      "Scott E. Field",
+      "Vijay Varma",
+      "Harald P. Pfeiffer",
+      "Andrea Ceja",
+      "Noora Ghadiri",
+      "Lawrence E. Kidder",
+      "Prayush Kumar",
+      "Marlo Morales",
+      "Abhishek Ravishankar",
+      "Antoni Ramos-Buades",
+      "Katie Rink",
+      "Hannes R. Ruter",
+      "Mark A. Scheel",
+      "Md Arif Shaikh",
+      "Daniel Tellez"
+    ],
+    "abstract": "\\texttt{gwNRHME} is a framework that converts multi-modal (i.e., containing several spherical harmonic modes) quasi-circular waveforms into their eccentric counterparts, provided the quadrupolar eccentric mode is known, by exploiting universal eccentric modulation functions. Leveraging this framework, we combine the quasi-circular NR surrogate model \\texttt{NRHybSur3dq8} with the quadrupolar, non-spinning, eccentric surrogate \\texttt{NRSurE\\_q4NoSpin\\_22} to construct a multi-modal, non-spinning, eccentric model, denoted as \\model{}, which includes nine modes: $(2,\\{1,2\\})$, $(3,\\{1,2,3\\})$, $(4,\\{2,3,4\\})$, and $(5,5)$. When compared against 156 eccentric SXS NR waveforms, \\model{} achieves median frequency-domain mismatches (computed using the Advanced LIGO design sensitivity) of $\\sim 9\\times 10^{-5}$, with a standard deviation of $\\sim 2 \\times 10^{-4}$. To demonstrate the modularity of the framework, we further combine \\texttt{NRSurE\\_q4NoSpin\\_22} with effective-one-body (EOB) models \\texttt{SEOBNRv5HM} and \\texttt{TEOBResumS-Dali} in their non-spinning limits, yielding eccentric waveforms with median mismatches of $\\sim 2\\times10^{-4}$ and $\\sim 10^{-3}$, respectively, with standard deviation of $\\sim 2 \\times 10^{-3}$ and $\\sim 2 \\times 10^{-2}$ respectively. Finally, we provide both a surrogate model, \\texttt{gwEccEvolve\\_q4NoSpin\\_Sur}, and an analytical model, \\texttt{gwEccEvNSv2}, for the eccentricity evolution up to $2M$ before merger, based on eccentricity definitions derived from the universal modulation functions. The \\texttt{gwNRHME} framework is publicly available through the \\texttt{gwModels} package, and the resulting waveform models will be released via the \\texttt{gwsurrogate} package.",
+    "arxiv_id": "2604.17868v1",
+    "published": "2026-04-20T06:28:06Z",
+    "updated": "2026-04-20T06:28:06Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE"
+    ]
+  },
+  {
+    "title": "Deterministic Trust Regions for Finite-Window Black-Hole Spectroscopy in GW250114",
+    "authors": [
+      "Ruiliang Li"
+    ],
+    "abstract": "We study finite-window black-hole spectroscopy in the loud-event regime and ask when a multimode ringdown fit supports a stable common-remnant Kerr interpretation. Starting from whitened, tapered detector-frame data, we prove a deterministic frequency-extraction theorem for a projected sampled Prony--matrix-pencil pipeline with explicit statistical, algorithmic, omitted-tail, and mismatch terms. We then construct a local inverse atlas for the Kerr $(\\ell,m,n)=(2,2,0)$ map on an event-local detector-frame remnant box for GW250114 and propagate the resulting primary uncertainty into $(2,2,1)$ and $(4,4,0)$ consistency tests. These ingredients yield a detector-frame trust criterion for individual windows. We calibrate mismatch and colored-noise radii on a GW250114-like synthetic waveform bank built from public surrogate, CCE, and numerical-relativity information, and we apply the resulting bounds to the public H1/L1 strain and public parameter-estimation products for GW250114. The accepted windows form an intermediate post-peak band: earlier windows remain sensitive to start-time drift and structured nuisance fits, whereas later windows become variance dominated. Within that band, the recovered remnant remains consistent with the public inspiral--merger--ringdown estimates and supports a common-remnant Kerr interpretation that survives the full preprocessing and robustness checks. For loud events, the relevant question is therefore which finite detector-frame windows sustain spectroscopy, not whether some multimode fit can be made in isolation.",
+    "arxiv_id": "2604.17558v1",
+    "published": "2026-04-19T17:57:50Z",
+    "updated": "2026-04-19T17:57:50Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "math-ph"
+    ]
+  },
+  {
     "title": "Boson star-black hole binaries: initial data and head-on collisions",
     "authors": [
       "Zhuan Ning"
