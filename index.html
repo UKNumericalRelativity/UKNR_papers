@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-04-28 08:28:18 UTC</div>
+            <div class="last-updated">Last updated: 2026-04-29 08:22:35 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">28 April 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2604.25582v1" target="_blank" rel="noopener">Lessons from binary dynamics of inspiralling equal-mass boson-star mergers</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Tamara Evstafyeva, Antonia Seifert, Ulrich Sperhake, Christopher J. Moore, Tamanna Jain</div>
+                <div class="paper-abstract">We explore the gravitational-wave phenomenology of equal-mass inspiralling boson-star binaries using numerical relativity simulations. In particular, we characterise the waveform differences between binary boson-star and black-hole systems across (i) the early inspiral, by matching our waveforms to post-Newtonian expressions, (ii) merger, and (iii) late ringdown, by extracting the quasi-normal mode frequencies of the remnants. We find that boson-star binaries exhibit the largest deviations from comparable binary black-hole systems during the late inspiral and merger phases. Remarkably, for a subset of these equal-mass boson-star binaries (with certain phase offsets in the scalar-field profiles) we identify the excitation of subdominant odd $m$-multipoles in the gravitational-wave emission, absent in equal-mass nonspinning black-hole binaries. Despite differences in the phenomenology of binary boson-star and black-hole signals, injections of some boson-star signals into detector noise exhibit degeneracy with current waveform approximants. Building on these results, we demonstrate how inspiral-merger-ringdown consistency tests can overcome these degeneracies.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">23 April 2026</div>
@@ -760,21 +775,6 @@
                 </div>
                 <div class="paper-authors">Lucas Timotheo Sanches, Steven Robert Brandt, Jay Kalinani, Liwei Ji, Erik Schnetter</div>
                 <div class="paper-abstract">Many HPC applications that solve differential equations rely on the Runge-Kutta family of methods for time integration. Among these methods, the fourth-order accurate RK4 scheme is especially popular. This time integration scheme requires applications to evaluate four intermediate stages to take one time step. Depending on the complexity of the problem being solved, the evaluation of these intermediate stages can be computationally expensive. In this paper we develop explicit fourth-order accurate Multistep Runge-Kutta (MSRK) methods. The advantage of such methods is that they re-use data from previous time steps, thus requiring fewer intermediate stage evaluations and potentially speeding up applications. We outline a procedure to obtain and tune the method's coefficients by adjusting their stability regions in an attempt to maximize the size that a time step can take. We validate and evaluate our new methods in the context of Numerical Relativity applications using the EinsteinToolkit. We believe, however, that these methods and results should generalize to other applications using explicit Runge-Kutta methods.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">27 February 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2603.00224v1" target="_blank" rel="noopener">Spacetime in motion: an evolving relativistic binary black hole metric for GIZMO</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Giacomo Fedrigo, Alessandro Lupi, Alessia Franchini, Matteo Bonetti</div>
-                <div class="paper-abstract">The last evolutionary stages of massive black hole binaries prior to coalescence is dominated by the emission of gravitational waves, which will be probed by the future Laser Interferometer Space Antenna. If gas is present around the two black holes, however, the associated electromagnetic emission can provide additional information about the binary properties and location before the merger event. For this reason, a proper characterisation of the electromagnetic emission during these phases is of fundamental importance, and requires a detailed description of the gas dynamics close to the event horizon of the two black holes, only achievable via numerical simulations. Within this context, we present the implementation of the Superposed Kerr-Schild dynamic metric in the relativistic scheme in the meshless code GIZMO. Our code can now simulate black hole binaries approaching merger with high computational efficiency and accuracy, taking into account relativistic effects on the gas. To validate our implementation, we perform two tests. First, we explore the case of a relativistic Bondi flow around a binary, finding very good agreement with numerical relativity simulations. Then we explore the case of an inviscid relativistic circumbinary disc, comparing our results with a similar simulation run assuming Newtonian gravity. In this second case, we find moderate differences in the mass accretion rate and in the inflow dynamics, which suggest that the presence of a non-Keplerian potential and of apsidal precession in the orbiting gas trajectories may produce stronger shocks and boost angular momentum transport in the disc. Our work highlights the importance of accounting for relativistic corrections in accretion disc simulations around black hole binaries approaching merger, even at scales much larger than those currently probed by numerical relativity simulations.</div>
             </article>
 
         </main>
