@@ -1,5 +1,41 @@
 [
   {
+    "title": "Eccentricity as a signature of hierarchical subsolar-mass mergers in collapsar disks",
+    "authors": [
+      "Jiaxi Wu",
+      "Elias R. Most",
+      "Nils L. Vu",
+      "Nils Deppe",
+      "Lawrence E. Kidder",
+      "Kyle C. Nelli",
+      "William Throwe"
+    ],
+    "abstract": "In this work, we investigate gravitational-wave signatures of a proposed subsolar-mass merger scenario resulting from fragmentation inside a collapsar accretion disk. This scenario has gained recent interest with the electromagnetic transient AT2025ulz, a possible superkilonova counterpart candidate to the sub-threshold gravitational wave event S250818k. One prediction of fragmentation is the formation of multiple smaller neutron-star fragments, some of which might merge hierarchically. Such mergers are expected not only to produce individual electromagnetic counterparts, but also, because of their repeated capture and merger dynamics, to impart kicks to the system and thereby drive orbital eccentricity. By performing numerical relativity simulations of hierarchical compact object mergers modeled as black holes in a disk-like geometry consistent with this scenario, we demonstrate the build-up of potentially large eccentricity for the final merger, of order $e \\simeq 0.6$ initially, and show that, because of the short lifetime of the system, a substantial part of this eccentricity , up to $e\\simeq 0.1$, can survive until merger in the general case. As a result, future detections of eccentricities in potential subsolar-mass gravitational-wave candidate events would be a strong indicator for a hierarchical formation scenario.",
+    "arxiv_id": "2604.26912v1",
+    "published": "2026-04-29T17:22:17Z",
+    "updated": "2026-04-29T17:22:17Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Trapping, Irregular Waveforms, and Efficient Radiation in Ultra-relativistic Black Hole Encounters",
+    "authors": [
+      "Hengrui Zhu",
+      "Frans Pretorius",
+      "James M. Stone"
+    ],
+    "abstract": "We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity. Evolving equal-mass, nonspinning black holes with initial center-of-mass Lorentz factors up to $γ\\approx 5.1$ using numerical relativity, we find that the resulting waveforms defy the standard expectation of a post-Newtonian description followed by a smooth transition to a prompt Kerr ringdown. Instead, at nonzero impact parameter, the system can exhibit prolonged, highly irregular emission and significant horizon absorption, even without coalescence. We show these phenomena are driven by transient null trapping and repeated lensing of radiation in the binary interaction region. Furthermore, our simulations indicate that over $65\\%$ of the initial ADM energy can be radiated as gravitational waves at $γ\\approx 5.1$, which is substantially larger than previously estimated by extrapolating from lower boost data.",
+    "arxiv_id": "2604.26253v1",
+    "published": "2026-04-29T03:22:25Z",
+    "updated": "2026-04-29T03:22:25Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE"
+    ]
+  },
+  {
     "title": "Lessons from binary dynamics of inspiralling equal-mass boson-star mergers",
     "authors": [
       "Tamara Evstafyeva",
