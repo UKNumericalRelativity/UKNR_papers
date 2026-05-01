@@ -146,6 +146,21 @@
     ]
   },
   {
+    "title": "Boson star-black hole binaries: initial data and head-on collisions",
+    "authors": [
+      "Zhuan Ning"
+    ],
+    "abstract": "We present a numerical-relativity study of comparable-mass boson star-black hole (BS-BH) head-on collisions, focusing on both initial-data construction and gravitational-wave (GW) phenomenology. We show that plain superposition can strongly perturb the BS core, leading to large constraint violations and unphysical radial oscillations. To remedy this problem, we introduce a one-body conformal-factor correction and find that it robustly suppresses these artifacts. Using the improved initial data, we analyze GW emission from equal- and unequal-mass BS-BH binaries and compare with matched BS-BS and BH-BH baselines. For equal masses, the BS-BH radiated energy increases with BS compactness and approaches the BH-BH limit for highly compact stars. For unequal masses, the dominant $(2,0)$ mode often remains close to the BH-BH morphology, whereas the subdominant $(3,0)$ mode provides clear discriminatory power when the BH is the heavier companion. Our results identify higher multipoles as a key observable for distinguishing mixed BS-BH mergers from pure BH binaries.",
+    "arxiv_id": "2604.15240v2",
+    "published": "2026-04-16T17:15:14Z",
+    "updated": "2026-04-30T12:27:07Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.HE"
+    ]
+  },
+  {
     "title": "Consistent Treatment of Muons in Binary Neutron Star Mergers",
     "authors": [
       "Henrique Gieg",
