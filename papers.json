@@ -1,5 +1,60 @@
 [
   {
+    "title": "Scalar emission from binary neutron stars in scalar-tensor theories with kinetic screening",
+    "authors": [
+      "Ramiro Cayuso",
+      "Adrien Kuntz",
+      "Thiago Assumpcao",
+      "Miguel Bezares",
+      "Enrico Barausse"
+    ],
+    "abstract": "We investigate the scalar emission from binary neutron stars in shift-symmetric scalar-tensor theories with kinetic screening ($K$-essence), using 3+1 numerical simulations in the decoupling limit. To construct static binary initial data in the regime where the screening radius $r_*$ greatly exceeds the orbital separation, we introduce a hyperbolization of the static field equations that bypasses the Keldysh-type breakdown affecting direct time evolutions. For equal-mass binaries, where the scalar emission is dominated by the $\\ell=m=2$ mode, kinetic screening acts non-monotonically on the scalar radiation, suppressing or enhancing the quadrupolar amplitude depending on the relative size of $r_*$ and $λ_{22}$ (with $λ_{22}$ the wavelength): for $λ_{22}\\ll r_*$ it is suppressed relative to the Fierz-Jordan-Brans-Dicke (FJBD) case, while for $λ_{22}\\gtrsim r_*$ it is amplified above FJBD. For unequal-mass binaries a scalar dipole re-emerges, growing linearly with the mass asymmetry, while the quadrupolar screening remains close to the equal-mass case down to mass ratios $\\sim 0.6$. The non-monotonic behavior of kinetic screening that we uncover has potential implications for gravitational-wave-based tests of gravity. The relativistic double pulsar, in particular, requires $r_*\\gg 10^9$~km to efficiently suppress the scalar quadrupole; for cosmologically-motivated $Λ$, $r_*\\sim 10^{11}$~km (for a solar-mass source), giving only moderate suppression.",
+    "arxiv_id": "2605.00580v1",
+    "published": "2026-05-01T11:29:25Z",
+    "updated": "2026-05-01T11:29:25Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Merger remnant and eccentricity dynamics surrogates for eccentric nonspinning black hole binaries",
+    "authors": [
+      "Adhrit Ravichandran",
+      "Peter James Nee",
+      "Keefe Mitman",
+      "Tousif Islam",
+      "Scott E. Field",
+      "Vijay Varma",
+      "Michael Boyle",
+      "Andrea Ceja",
+      "Nils Deppe",
+      "Noora Ghadiri",
+      "Lawrence E. Kidder",
+      "Prayush Kumar",
+      "Marlo Morales",
+      "Jordan Moxon",
+      "Kyle C. Nelli",
+      "Harald P. Pfeiffer",
+      "Antoni Ramos-Buades",
+      "Katie Rink",
+      "Hannes R. Rüter",
+      "Mark A Scheel",
+      "Md Arif Shaikh",
+      "Leo C. Stein",
+      "Daniel Tellez",
+      "William Throwe",
+      "Nils L. Vu"
+    ],
+    "abstract": "Accurate models of merger remnants are increasingly important for gravitational-wave science, including precision tests of gravity with ringdown, inference of black-hole populations, and modeling hierarchical mergers. For eccentric binaries, remnant mass, spin, and recoil carry nontrivial imprints of eccentricity that are both physically informative and more challenging to model, yet remain less developed than in the quasi-circular case. We present two new models trained on numerical-relativity (NR) simulations of unequal-mass, non-spinning eccentric binary black holes: NRSurE_q4NoSpin_Remnant, which predicts remnant properties, and NRSurE_q4NoSpin_Dynamics, a time-domain surrogate for the evolution of eccentricity and mean anomaly. Both models are trained on NR simulations over a three-dimensional parameter space with mass ratios $q \\leq 4$, eccentricity $e < 0.23$, and mean anomaly $\\ell \\in [0,2π)$ radians, where both $e$ and $\\ell$ defined at $t=-1000M$ relative to peak amplitude and $M$ is the total mass. We highlight some applications, including the phenomenological impact of eccentricity on remnant properties and the enhancement or suppression of recoil. We also provide error estimates for all modeled quantities, supporting reliable use in current and future gravitational-wave parameter-estimation analyses. Both models will be made available through open-source codes.",
+    "arxiv_id": "2605.00124v1",
+    "published": "2026-04-30T18:25:52Z",
+    "updated": "2026-04-30T18:25:52Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE"
+    ]
+  },
+  {
     "title": "Eccentricity as a signature of hierarchical subsolar-mass mergers in collapsar disks",
     "authors": [
       "Jiaxi Wu",
