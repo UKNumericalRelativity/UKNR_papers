@@ -1,5 +1,23 @@
 [
   {
+    "title": "Yvonne Choquet-Bruhat 1923-2025",
+    "authors": [
+      "Lydia Bieri",
+      "Jean-Pierre Bourguignon",
+      "David Garfinkle",
+      "James Isenberg"
+    ],
+    "abstract": "This is a memorial article for Yvonne Choquet-Bruhat, who was one of the great pioneers of mathematical general relativity and of partial differential equations. Starting with her 1952 result on local existence of solutions of the vacuum Einstein field equations, she obtained many results on the Einstein evolution equations, the Einstein constraint equations, and the equations of supergravity. Her methods have also been important for numerical relativity. She also wrote several textbooks and a memoir. An abridged version of this article has been submitted to AMS Notices.",
+    "arxiv_id": "2605.01956v1",
+    "published": "2026-05-03T16:40:53Z",
+    "updated": "2026-05-03T16:40:53Z",
+    "categories": [
+      "gr-qc",
+      "math-ph",
+      "math.AP"
+    ]
+  },
+  {
     "title": "Scalar emission from binary neutron stars in scalar-tensor theories with kinetic screening",
     "authors": [
       "Ramiro Cayuso",
@@ -652,24 +670,6 @@
     "categories": [
       "astro-ph.HE",
       "gr-qc"
-    ]
-  },
-  {
-    "title": "Accelerating Numerical Relativity Simulations with New Multistep Fourth-Order Runge-Kutta Methods",
-    "authors": [
-      "Lucas Timotheo Sanches",
-      "Steven Robert Brandt",
-      "Jay Kalinani",
-      "Liwei Ji",
-      "Erik Schnetter"
-    ],
-    "abstract": "Many HPC applications that solve differential equations rely on the Runge-Kutta family of methods for time integration. Among these methods, the fourth-order accurate RK4 scheme is especially popular. This time integration scheme requires applications to evaluate four intermediate stages to take one time step. Depending on the complexity of the problem being solved, the evaluation of these intermediate stages can be computationally expensive. In this paper we develop explicit fourth-order accurate Multistep Runge-Kutta (MSRK) methods. The advantage of such methods is that they re-use data from previous time steps, thus requiring fewer intermediate stage evaluations and potentially speeding up applications. We outline a procedure to obtain and tune the method's coefficients by adjusting their stability regions in an attempt to maximize the size that a time step can take. We validate and evaluate our new methods in the context of Numerical Relativity applications using the EinsteinToolkit. We believe, however, that these methods and results should generalize to other applications using explicit Runge-Kutta methods.",
-    "arxiv_id": "2603.05763v1",
-    "published": "2026-03-05T23:48:12Z",
-    "updated": "2026-03-05T23:48:12Z",
-    "categories": [
-      "gr-qc",
-      "physics.comp-ph"
     ]
   }
 ]
