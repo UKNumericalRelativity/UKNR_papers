@@ -1,5 +1,22 @@
 [
   {
+    "title": "Scalar memory from compact binary coalescences",
+    "authors": [
+      "Jann Zosso",
+      "Silvia Gasparotto",
+      "Llibert Aresté Saló",
+      "Daniela D. Doneva",
+      "Stoytcho S. Yazadjiev"
+    ],
+    "abstract": "Gravitational memory provides a distinctive low-frequency probe of gravity, but explicit merger studies beyond general relativity remain limited. In this work, we investigate memory from binary black hole mergers in Ricci-coupled scalar-Gauss-Bonnet gravity, a natural extension of scalar-Gauss-Bonnet theory that admits an additional scalar breathing polarization. Based on numerical-relativity waveforms of binary black hole coalescences, we show that the change in the scalar charge of the system across merger generates a significant scalar-memory contribution. For a GW150914-like system, this effect modifies the memory signal in a gravitational-wave detector on the same observable timescale and by an amount comparable to the pure scalar-Gauss-Bonnet correction to tensor memory. Thus, it can substantially enhance the total deviation from the general-relativity prediction over a broad range of source and detector configurations. We argue that this identifies a general mechanism: whenever a compact-binary merger changes the asymptotic charge of an additional gravitational field, and that field sources an observable extra polarization, the resulting memory can provide a leading low-frequency signature of new gravitational physics.",
+    "arxiv_id": "2605.07778v1",
+    "published": "2026-05-08T14:17:06Z",
+    "updated": "2026-05-08T14:17:06Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Black-Hole Scattering in Einstein-scalar-Gauss-Bonnet: Numerical Relativity Meets Analytics",
     "authors": [
       "Shaun Swain",
@@ -651,22 +668,6 @@
       "astro-ph.HE",
       "hep-ph",
       "hep-th"
-    ]
-  },
-  {
-    "title": "Kick matters: The impact of a new recoil model on the retention of hierarchical black-hole remnants in globular clusters",
-    "authors": [
-      "Tousif Islam",
-      "Digvijay Wadekar",
-      "Konstantinos Kritos"
-    ],
-    "abstract": "In globular clusters, hierarchical mergers are among the most promising pathways to forming massive black holes such as GW231123. A key factor determining whether a merger-remnant black hole will be retained in these environments and thus participate in subsequent hierarchical mergers is the recoil kick velocity. Analytic models for the recoil velocity are currently employed in nearly all population-synthesis frameworks. We instead use a state-of-the-art recoil-kick model gwModel_flow_prec developed from a combination of numerical-relativity and black-hole perturbation-theory data, together with data-driven techniques such as normalizing flows and the post-Newtonian structure of the kick. Employing both back-of-the-envelope estimates and detailed N-body as well as semi-analytical cluster simulations, we show that gwModel_flow_prec leads to a noticeable increase in the retention probability of hierarchical-merger remnants compared to the previously used analytic model and changes the mass and spin distribution of the black holes formed through hierarchical mergers. Additionally, we discuss the implications of our results in the context of massive binaries such as GW231123.",
-    "arxiv_id": "2603.10170v1",
-    "published": "2026-03-10T19:03:21Z",
-    "updated": "2026-03-10T19:03:21Z",
-    "categories": [
-      "astro-ph.HE",
-      "gr-qc"
     ]
   }
 ]
