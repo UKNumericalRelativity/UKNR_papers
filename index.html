@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-05-15 08:51:24 UTC</div>
+            <div class="last-updated">Last updated: 2026-05-18 10:10:03 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">15 May 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2605.16132v1" target="_blank" rel="noopener">Nucleosynthesis in the fast ejecta of a neutron star merger</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Lukas Schnabel, Stephan Rosswog, Friedrich-Karl Thielemann, Moritz Reichert</div>
+                <div class="paper-abstract">Neutron star mergers are today considered a major production site for rapid neutron capture elements. While the bulk of the matter escapes at fast, but non-relativistic velocities (${\sim} 0.2\,c$), a small amount of the dynamically ejected mass reaches mildly relativistic velocities (${\gtrsim}0.6\,c$). It has been suggested earlier, that in such ejecta parts neutrons may avoid being captured and that their decay could power an early blue precursor to the main kilonova event. Here we study in detail the nucleosynthesis in such fast ejecta with nuclear network calculations along both parametrized and numerical relativity trajectories. We find that the nucleosynthesis can be divided into three channels, in one of which a substantial amount of free neutrons survives when the main r-process has frozen out. We provide a (semi-)analytical model for surviving free neutrons which agrees very well with the network calculations. If the mass fraction of the free neutrons exceeds ${\sim} 0.05$, their $β^-$-decay dominates the nuclear heating rate between ${\sim} 100$ and ${\sim} 10^4$ seconds. This dominance leads to a pronounced kilonova precursor that should for plausible ejecta parameters be visible for ULTRASAT out to ${\sim}200\,\rm Mpc$. Since at low electron fractions free neutrons can survive even for moderate velocities, mergers with large tidal ejecta, such as asymmetric neutron star mergers or favorable neutron star black hole mergers, may produce particularly bright blue precursors to their subsequent kilonovae.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">11 May 2026</div>
@@ -805,51 +820,6 @@
                 </div>
                 <div class="paper-authors">Zeyu Zeng, Elena Kopteva</div>
                 <div class="paper-abstract">We consider a broad class of static, spherically symmetric generalized Schwarzschild-like solutions with multiple non-interacting anisotropic fluid sources and derive the coordinate transformation from Schwarzschild-like (curvature) to isotropic coordinates with conformally flat spatial slices. The isotropic form removes spatial-sector coordinate pathologies at the horizon, clarifies geometric quantities (e.g., ADM mass and curvature invariants), and enables the construction of well-posed initial data on t=const hypersurfaces, suitable for the Hamiltonian and conformal formulations of numerical relativity and for perturbation theory. The backgrounds in isotropic coordinates we develop make it straightforward to separate environmental effects from intrinsic strong-gravity signals and meet the growing interest in non-vacuum black hole phenomenology across scattering, lensing, and waveform modeling.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">16 March 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2603.15765v1" target="_blank" rel="noopener">Impact of numerical-relativity waveform calibration on parametrized post-Einsteinian tests</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Simone Mezzasoma, Carl-Johan Haster, Nicolás Yunes</div>
-                <div class="paper-abstract">Testing general relativity in the strong-field and highly dynamical regime is now possible through current gravitational-wave observations, where even a single high-quality detection can place competitive constraints on deviations from Einstein's theory. The parametrized post-Einsteinian framework provides a theory-agnostic approach to search for such deviations, but it typically assumes that systematic uncertainties in the base waveform model, particularly those arising from calibration to numerical relativity, are negligible. In this work, we investigate how calibration errors in the late-inspiral fitting coefficients of the IMRPhenomD waveform model can lead to spurious detections of departures from general relativity in parametrized tests. We use an uncertainty-aware version of IMRPhenomD, recalibrated to a set of numerical relativity surrogate waveforms and equipped with a probabilistic description of its fitting coefficients, to simulate general-relativity-consistent signals. We inject these signals into an O5 ground-based detector network and recover them with the original IMRPhenomD model augmented with a parametrized post-Einsteinian phase deformation. We find that false violations of general relativity using this model arise for network signal-to-noise ratios as low as 60. When the uncertainty-aware model is used instead, the inferred parametrized post-Einsteinian phase deformation remains consistent with zero even for signals with a signal-to-noise ratio up to 330. These results demonstrate the need to account for numerical relativity calibration uncertainty in order to perform reliable inspiral tests of general relativity. They also illustrate that explicitly incorporating numerical relativity calibration uncertainty into the waveform model preserves our ability to robustly test general relativity.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">16 March 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2603.15740v1" target="_blank" rel="noopener">Hankel low-rank matrix approximation for gravitational-wave data analysis</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Nicholas Geissler, Vladimir Strokov, Christian Kümmerle, Sergey Kushnarev, Emanuele Berti</div>
-                <div class="paper-abstract">Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">16 March 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2603.15474v1" target="_blank" rel="noopener">Direct Waves in Black-Hole Binary Mergers: Insights from the Backwards One Body Model</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Anuj Kankani, Sean T. McWilliams</div>
-                <div class="paper-abstract">The merger-ringdown radiation from a black hole binary merger is accurately modeled by a sum of linear quasinormal modes (QNMs). Recently, a non-QNM ``direct wave" component of the radiation, associated with prompt emission from a plunging perturber, has been identified. Motivated by the behavior of null geodesics perturbed from the remnant light ring, the Backwards One Body (BOB) approach has been shown to model the full merger-ringdown radiation to high accuracy, while using only a minimal number of parameters. In this work, using the Pöschl--Teller potential, we first show how the BOB amplitude evolution can be recovered from the QNM pole contributions. We then apply rational filters to isolate the non-QNM content in BOB and numerical relativity waveforms. We show that BOB naturally captures the direct wave component of the merger radiation, explaining its accuracy near the waveform peak. Finally, we use BOB to show that the direct wave frequency is largely uncorrelated with the horizon frequency, even for high spin remnants, and instead tracks the News frequency at the time of the peak News amplitude.</div>
             </article>
 
         </main>
