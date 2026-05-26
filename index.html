@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-05-25 10:13:36 UTC</div>
+            <div class="last-updated">Last updated: 2026-05-26 09:59:49 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">22 May 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2605.24145v1" target="_blank" rel="noopener">Inferring Neutron-Star Properties from Post-merger Gravitational-wave Spectra with Neural Networks</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Dimitrios Pesios, Nikolaos Stergioulas</div>
+                <div class="paper-abstract">We present a proof-of-concept study of the inverse problem of inferring neutron-star properties directly from the post-merger gravitational-wave spectrum of equal-mass binary neutron-star mergers. Using noise-free spectra from numerical-relativity catalogs, we train and compare three artificial-neural-network regression models and two multivariate linear-regression baselines to predict the stellar mass, $M$, the quadrupolar tidal deformability, $κ_2^τ$, and the slope of the mass--radius relation, $dR/dM$. Since the inverse mapping is nonlinear and cannot be obtained by analytically inverting the direct neural-network model, we construct inverse surrogates and train the networks with a two-stage procedure in which residuals from an initial pass define sample weights for a second pass, together with regularization via dropout, Gaussian-noise injection, and early stopping. We find that neural networks consistently outperform linear baselines, showing that nonlinear surrogates capture the inverse relation between post-merger spectra and source properties more effectively than algebraic inversion. The best performance is achieved by an ensemble of single-task networks, while a multi-task model gives comparable accuracy for predicting the mass--radius slope, and a mixture-of-experts architecture provides insight into spectral-region importance. We further show that the best model reproduces empirical relations between the dominant post-merger frequency and tidal deformability, and recovers equation-of-state-dependent mass--tidal-deformability trends, indicating physical consistency beyond pointwise accuracy. Although restricted to idealized noise-free spectra, the results show that neural-network surrogates provide a promising route for extracting neutron-star information from post-merger signals with future third-generation detectors.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">21 May 2026</div>
@@ -835,21 +850,6 @@
                 </div>
                 <div class="paper-authors">Parthapratim Mahapatra, Jonathan E. Thompson, Edward Fauchon-Jones, Mark Hannam</div>
                 <div class="paper-abstract">Binary black hole (BBH) mergers detected via gravitational waves are addressing key open questions in astrophysics, cosmology, and fundamental physics. Our scientific conclusions rely on extracting accurate source parameters, for which we require accurate signal modelling. It is well known that current BBH waveform models need to be improved for high-mass-ratio, strongly precessing systems, and in this paper we provide a concrete illustration of this issue, showing that the degradation in model performance is substantially more severe than might have been anticipated. We present numerical relativity (NR) simulations of precessing BBH systems with a mass ratio of 18 and a dimensionless spin of 0.8 on the larger black hole (with the smaller black hole non-spinning), covering five values of spin misalignment. We assess the accuracy of state-of-the-art waveform models in this region of parameter space by computing the standard mismatch between the models and the NR waveforms. We find that all current waveform models often exhibit significant mismatches ($\gtrsim$0.1), indicating poor performance in this regime. We also perform limited parameter estimation using a subset of state-of-the-art waveform models, injecting these NR simulations as signals into the three-detector LIGO-Virgo network. In some cases we find errors in mass measurements of over 100%, dramatically illustrating that substantial improvements are required in existing waveform models. The numerical simulations presented here will be valuable for calibrating future BBH waveform models in this region of parameter space.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">26 March 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2603.25809v1" target="_blank" rel="noopener">Binary neutron star mergers with tabulated equations of state in SPHINCS_BSSN</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Swapnil Shankar, Stephan Rosswog, Peter Diener</div>
-                <div class="paper-abstract">The dynamics and observable signatures of neutron star mergers are governed by physics under the most extreme conditions. They are particularly impacted by the high-density equation of state, which for the most sophisticated models is usually available in the form of tables. Numerical relativity codes usually evolve particularly well-behaved numerical ("conservative") variables, but at the price that the physically interesting ("primitive") variables need to be found at every computational element and at every integration sub-step by means of expensive (and not always successful) root-finding algorithms. We have recently developed the Lagrangian numerical relativity code SPHINCS_BSSN which evolves the spacetime on an adaptive mesh with well tested methods, but the fluid is evolved by means of freely moving particles. Since our evolution equations differ from those of conventional numerical relativity, we need to develop new conservative-to-primitive algorithms if we want to use tabulated equations of state. We present here three such algorithms: a 3D and a 2D Newton-Raphson method and a 1D root-finding algorithm based on Ridders' method. We find the 3D method to be very fast and robust with an average failure fraction in a full-blown neutron star merger simulation (with the DD2 equation of state) well below 1%. While we do not find obvious advantages for the 2D method, the 1D Ridders' method is slow, but essentially fail-safe. Therefore, we choose the 3D Newton-Raphson as default and fall back to the 1D Ridders' method as a safe "parachute".</div>
             </article>
 
         </main>

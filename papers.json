@@ -1,5 +1,20 @@
 [
   {
+    "title": "Inferring Neutron-Star Properties from Post-merger Gravitational-wave Spectra with Neural Networks",
+    "authors": [
+      "Dimitrios Pesios",
+      "Nikolaos Stergioulas"
+    ],
+    "abstract": "We present a proof-of-concept study of the inverse problem of inferring neutron-star properties directly from the post-merger gravitational-wave spectrum of equal-mass binary neutron-star mergers. Using noise-free spectra from numerical-relativity catalogs, we train and compare three artificial-neural-network regression models and two multivariate linear-regression baselines to predict the stellar mass, $M$, the quadrupolar tidal deformability, $κ_2^τ$, and the slope of the mass--radius relation, $dR/dM$. Since the inverse mapping is nonlinear and cannot be obtained by analytically inverting the direct neural-network model, we construct inverse surrogates and train the networks with a two-stage procedure in which residuals from an initial pass define sample weights for a second pass, together with regularization via dropout, Gaussian-noise injection, and early stopping. We find that neural networks consistently outperform linear baselines, showing that nonlinear surrogates capture the inverse relation between post-merger spectra and source properties more effectively than algebraic inversion. The best performance is achieved by an ensemble of single-task networks, while a multi-task model gives comparable accuracy for predicting the mass--radius slope, and a mixture-of-experts architecture provides insight into spectral-region importance. We further show that the best model reproduces empirical relations between the dominant post-merger frequency and tidal deformability, and recovers equation-of-state-dependent mass--tidal-deformability trends, indicating physical consistency beyond pointwise accuracy. Although restricted to idealized noise-free spectra, the results show that neural-network surrogates provide a promising route for extracting neutron-star information from post-merger signals with future third-generation detectors.",
+    "arxiv_id": "2605.24145v1",
+    "published": "2026-05-22T19:07:00Z",
+    "updated": "2026-05-22T19:07:00Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ]
+  },
+  {
     "title": "Magnetic field dynamics in isolated neutron stars with an external dipole field",
     "authors": [
       "Aurora Capobianco",
@@ -644,22 +659,6 @@
     "published": "2026-03-27T15:35:22Z",
     "updated": "2026-03-27T15:35:22Z",
     "categories": [
-      "gr-qc"
-    ]
-  },
-  {
-    "title": "Binary neutron star mergers with tabulated equations of state in SPHINCS_BSSN",
-    "authors": [
-      "Swapnil Shankar",
-      "Stephan Rosswog",
-      "Peter Diener"
-    ],
-    "abstract": "The dynamics and observable signatures of neutron star mergers are governed by physics under the most extreme conditions. They are particularly impacted by the high-density equation of state, which for the most sophisticated models is usually available in the form of tables. Numerical relativity codes usually evolve particularly well-behaved numerical (\"conservative\") variables, but at the price that the physically interesting (\"primitive\") variables need to be found at every computational element and at every integration sub-step by means of expensive (and not always successful) root-finding algorithms. We have recently developed the Lagrangian numerical relativity code SPHINCS_BSSN which evolves the spacetime on an adaptive mesh with well tested methods, but the fluid is evolved by means of freely moving particles. Since our evolution equations differ from those of conventional numerical relativity, we need to develop new conservative-to-primitive algorithms if we want to use tabulated equations of state. We present here three such algorithms: a 3D and a 2D Newton-Raphson method and a 1D root-finding algorithm based on Ridders' method. We find the 3D method to be very fast and robust with an average failure fraction in a full-blown neutron star merger simulation (with the DD2 equation of state) well below 1%. While we do not find obvious advantages for the 2D method, the 1D Ridders' method is slow, but essentially fail-safe. Therefore, we choose the 3D Newton-Raphson as default and fall back to the 1D Ridders' method as a safe \"parachute\".",
-    "arxiv_id": "2603.25809v1",
-    "published": "2026-03-26T18:14:27Z",
-    "updated": "2026-03-26T18:14:27Z",
-    "categories": [
-      "astro-ph.HE",
       "gr-qc"
     ]
   }
