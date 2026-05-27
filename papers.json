@@ -645,21 +645,5 @@
       "gr-qc",
       "astro-ph.HE"
     ]
-  },
-  {
-    "title": "The High-Mass-Ratio Challenge in Gravitational Waveform Modelling",
-    "authors": [
-      "Parthapratim Mahapatra",
-      "Jonathan E. Thompson",
-      "Edward Fauchon-Jones",
-      "Mark Hannam"
-    ],
-    "abstract": "Binary black hole (BBH) mergers detected via gravitational waves are addressing key open questions in astrophysics, cosmology, and fundamental physics. Our scientific conclusions rely on extracting accurate source parameters, for which we require accurate signal modelling. It is well known that current BBH waveform models need to be improved for high-mass-ratio, strongly precessing systems, and in this paper we provide a concrete illustration of this issue, showing that the degradation in model performance is substantially more severe than might have been anticipated. We present numerical relativity (NR) simulations of precessing BBH systems with a mass ratio of 18 and a dimensionless spin of 0.8 on the larger black hole (with the smaller black hole non-spinning), covering five values of spin misalignment. We assess the accuracy of state-of-the-art waveform models in this region of parameter space by computing the standard mismatch between the models and the NR waveforms. We find that all current waveform models often exhibit significant mismatches ($\\gtrsim$0.1), indicating poor performance in this regime. We also perform limited parameter estimation using a subset of state-of-the-art waveform models, injecting these NR simulations as signals into the three-detector LIGO-Virgo network. In some cases we find errors in mass measurements of over 100%, dramatically illustrating that substantial improvements are required in existing waveform models. The numerical simulations presented here will be valuable for calibrating future BBH waveform models in this region of parameter space.",
-    "arxiv_id": "2603.26521v1",
-    "published": "2026-03-27T15:35:22Z",
-    "updated": "2026-03-27T15:35:22Z",
-    "categories": [
-      "gr-qc"
-    ]
   }
 ]
