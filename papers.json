@@ -1,5 +1,20 @@
 [
   {
+    "title": "Implementation of multi-grid Poisson solver in numerical relativity and its application to gravitational collapse of massive star",
+    "authors": [
+      "Kenta Kiuchi",
+      "Hirotada Okawa"
+    ],
+    "abstract": "We develop a new grid-based multi-grid Poisson solver in numerical relativity. We report the performance of the multi-grid Poisson solver in the initial value problems for two-puncture black holes, a static spherical neutron star, a uniformly rotating neutron star in equilibrium, and a gravitationally collapsing massive star. As a demonstration, we conduct a numerical-relativity neutrino-radiation-transfer hydrodynamics simulation of the gravitational collapse of the $9M_\\odot$ massive star in Ref.~\\cite{Aguilera-Dena:2020mfh} up to the core bounce. During the simulation, we employ the constraint-preserving regird prescription with the newly developed multi-grid Poisson solver to improve the resolution. It shows that the baryonic mass, the Arnowit-Deser-Misner (ADM) mass, and the ADM-like angular momentum are, respectively, preserved with $O(10^{-3})\\%$ and $O(10^{-2})$--$O(10^{-1})$\\% accuracy.",
+    "arxiv_id": "2606.12542v1",
+    "published": "2026-06-10T18:00:10Z",
+    "updated": "2026-06-10T18:00:10Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Gravitational Wave Energy Emitted in the Head-On Collision of Two Black Holes",
     "authors": [
       "Nesibe Derin Sivrioglu",
