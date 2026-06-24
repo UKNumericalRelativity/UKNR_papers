@@ -1,5 +1,54 @@
 [
   {
+    "title": "The Bondi--Sachs gauge, BMS frames, and memory in black hole perturbation theory",
+    "authors": [
+      "Andrew Spiers",
+      "Adam Pound",
+      "Jordan Moxon"
+    ],
+    "abstract": "As LISA and other next-generation detectors demand increasingly accurate waveform models, there is a growing need for these models to precisely control gauge freedoms that had previously been inconsequential. One such intrinsic freedom is the choice of the asymptotic Bondi--Metzner--Sachs (BMS) frame. The need to control the BMS frame is particularly pronounced in black hole perturbation theory, where there has been little work to this end -- most glaringly in gravitational self-force calculations, which are in an unknown frame and encounter infrared, far-zone gauge singularities at second perturbative order. Here we present a framework for iteratively transforming to the Bondi--Sachs gauge and fixing the BMS frame on a Kerr background. This includes an extension of the Bondi--Sachs formalism to the multiscale expansions that underpin most self-force-based waveforms, introducing soft hair and a concept of ``forgetful gauges'' in the process. Our framework evades infrared divergences and naturally incorporates memory effects that had previously only ever been added ``after the fact'' in self-force waveforms, including the recently discovered ``memory distortion''. Our formalism could also be used for ringdown analysis, and we expect it to be vital for comparisons with numerical relativity and post-Newtonian theory.",
+    "arxiv_id": "2606.24816v1",
+    "published": "2026-06-23T17:02:02Z",
+    "updated": "2026-06-23T17:02:02Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Binary black hole scattering with generic spins",
+    "authors": [
+      "Adam Clark",
+      "Geraint Pratten",
+      "Patricia Schmidt"
+    ],
+    "abstract": "In this Letter, we confront high-order post-Minkowskian (PM) predictions for generic-spin black-hole scattering with numerical-relativity (NR) simulations for the first time, targeting improvements for eccentric and precessing waveform modelling. We extract azimuthal and polar scattering angles from NR and relate them to the PM spin-kick observable. We introduce asymptotic Euler angles for unbound motion and derive their geometric relation to the scattering angles. Notably, NR exposes a strong-field precessional turning-point structure, including a polar-angle sign change absent in the perturbative PM results.",
+    "arxiv_id": "2606.24432v1",
+    "published": "2026-06-23T11:08:25Z",
+    "updated": "2026-06-23T11:08:25Z",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ]
+  },
+  {
+    "title": "Nonlinear Stability of Kerr-Sen Black Holes in Merging Binaries",
+    "authors": [
+      "Andrew Carroll",
+      "Eric W. Hirschmann",
+      "Hyun Lim",
+      "David Neilsen",
+      "David F. Van Komen",
+      "Sebastian Vander Ploeg Fallon"
+    ],
+    "abstract": "We investigate the stability of Kerr-Sen black holes, which arise in Einstein-Maxwell-dilaton-axion theory. Within a numerical relativity framework, we perform head-on binary black hole simulations with approximate initial data across a portion of the parameter space. We find that for nontrivial electric charge, a dilaton field persists through merger and that in the presence of spin, the remnant will also retain an axion field. The persistence of these fields for long times after merger strongly suggests the stability of these black holes within this alternative gravity theory. We further test whether initially unscalarized black holes will acquire hair in the presence of a scalar background. We find that black holes immersed in such a background retain scalar hair. Furthermore, we find that even initially unscalarized Kerr-Newman black holes will scalarize and remain scalarized throughout the evolution.",
+    "arxiv_id": "2606.24215v1",
+    "published": "2026-06-23T07:00:19Z",
+    "updated": "2026-06-23T07:00:19Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Binary Black Hole Coalescence and the Dynamics of Scalar Hair in Einstein-Maxwell-Scalar Theory",
     "authors": [
       "Jean Pierre Díaz",
