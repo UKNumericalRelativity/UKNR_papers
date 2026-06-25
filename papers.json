@@ -1,5 +1,20 @@
 [
   {
+    "title": "Modeling Direct Waves in Binary Black Hole Ringdowns",
+    "authors": [
+      "Richard Dyer",
+      "Adrian Ka-Wai Chung",
+      "Christopher J. Moore"
+    ],
+    "abstract": "Direct waves, prompt signals propagating from a plunging object to the observer, exist alongside quasinormal modes in binary black hole ringdown. It has been suggested that the properties of the direct wave are related to the event horizon; this simplifies modeling the direct wave and suggests the possibility of using it as a new observational probe of the horizon geometry. This paradigm is tested by extracting direct waves from numerical-relativity waveforms, adapting techniques originally developed for studying quasinormal modes. The direct wave is identified over a range of ringdown start times, demonstrating the utility of the horizon mode model. However, the direct wave frequency is found to deviate from the horizon value, limiting its utility as a probe of the event horizon.",
+    "arxiv_id": "2606.25021v1",
+    "published": "2026-06-23T18:00:01Z",
+    "updated": "2026-06-23T18:00:01Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "The Bondi--Sachs gauge, BMS frames, and memory in black hole perturbation theory",
     "authors": [
       "Andrew Spiers",
