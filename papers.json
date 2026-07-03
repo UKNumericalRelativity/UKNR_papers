@@ -1,5 +1,19 @@
 [
   {
+    "title": "The Direct Wave is Not a Meaningful Test of Horizon Properties",
+    "authors": [
+      "Anuj Kankani",
+      "Sean T. McWilliams"
+    ],
+    "abstract": "Recently, a distinct non--quasinormal mode component of black hole binary merger radiation, named the direct wave, has been identified. The frequency and damping time of the direct wave have been associated with properties of the remnant horizon. This has led to direct-wave based analysis of GW250114, including a test of Hawking's area law. However, as we demonstrate here using numerical relativity strain data, the direct wave frequency is not correlated with the horizon frequency or surface gravity, other than an incidental crossing around $χ_f \\approx 0.7$ corresponding closely to the remnant spin of GW250114. We show that while the instantaneous frequency of the direct wave is quasi-stable, the damping time shows significant evolution and therefore a single damped sinusoid model, containing a fixed damping time, is not appropriate. We further show that an evolving frequency model based on horizon properties also does not model the direct wave component for systems with large remnant spins. We demonstrate that testing Hawking's area law with a horizon frequency based on the direct wave interpretation will lead to apparent violations of Hawking's area law when no violation actually occurs. Our results therefore indicate that the direct wave is not a reliable probe of the remnant horizon's properties.",
+    "arxiv_id": "2607.02380v1",
+    "published": "2026-07-02T16:17:52Z",
+    "updated": "2026-07-02T16:17:52Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Preheating and oscillon formation in Einstein-scalar-Gauss-Bonnet gravity",
     "authors": [
       "Areef Waeming",
@@ -603,24 +617,6 @@
     "categories": [
       "gr-qc",
       "hep-th"
-    ]
-  },
-  {
-    "title": "Yvonne Choquet-Bruhat 1923-2025",
-    "authors": [
-      "Lydia Bieri",
-      "Jean-Pierre Bourguignon",
-      "David Garfinkle",
-      "James Isenberg"
-    ],
-    "abstract": "This is a memorial article for Yvonne Choquet-Bruhat, who was one of the great pioneers of mathematical general relativity and of partial differential equations. Starting with her 1952 result on local existence of solutions of the vacuum Einstein field equations, she obtained many results on the Einstein evolution equations, the Einstein constraint equations, and the equations of supergravity. Her methods have also been important for numerical relativity. She also wrote several textbooks and a memoir. An abridged version of this article has been submitted to AMS Notices.",
-    "arxiv_id": "2605.01956v1",
-    "published": "2026-05-03T16:40:53Z",
-    "updated": "2026-05-03T16:40:53Z",
-    "categories": [
-      "gr-qc",
-      "math-ph",
-      "math.AP"
     ]
   }
 ]
