@@ -292,10 +292,40 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-07-07 09:45:20 UTC</div>
+            <div class="last-updated">Last updated: 2026-07-08 08:31:28 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">07 July 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2607.06441v1" target="_blank" rel="noopener">Starting inflation in asymptotically flat spacetimes</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Sam E. Brady, Thomas W. Baumgarte, Katy Clough</div>
+                <div class="paper-abstract">A key question in early universe cosmology is whether inflation can be successfully seeded by a generic, localised fluctuation in the inflaton field that probes the inflationary part of the potential. Past simulations have mainly considered periodic spacetimes representing either a closed universe of a specific size or a typical patch of a larger one, and as a result have needed to impose restrictive conditions on the extrinsic and intrinsic curvatures, which are arguably not generic. In this work we consider initial fluctuations in asymptotically flat spacetimes, allowing more general profiles of the intrinsic and extrinsic curvature. Our findings confirm and generalise the result of Goldwirth and Piran that a fluctuation with proper size several times the inflationary scale $(Gρ_{\rm infl})^{-1/2}$ is required for successful inflation. We also discuss inherent restrictions on the initial data, and how imposing a periodic length close to the inflationary scale may bias results.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">07 July 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2607.06002v1" target="_blank" rel="noopener">Solving Hamiltonian Constraint Equation with Physics-Informed Neural Networks</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Yu-Chen Zhou, Hao Ma, Zhoujian Cao, Tailin Wu, Hong-Bo Jin, Xuefeng Feng, Shuanglin Huang and 2 others</div>
+                <div class="paper-abstract">Numerical relativity (NR), solving Einstein equation numerically, plays an important role in source modelling for gravitational wave astronomy. Traditional methods for NR including finite difference method, spectral method and finite element method have been well developed. But newly developed neural network methods for partial differential equations (PDE) have not been well studied yet for NR. We present a Physics-Informed Neural Network (PINN) method to solve the Hamiltonian constraint equation for binary black hole (BBH) initial data in NR. This equation is a highly non-linear elliptic PDE, posing significant challenges for conventional PINN approaches. To overcome these difficulties, we introduce a set of new techniques. We show that our PINN together with these techniques can successfully solve the Hamiltonian constraint equation for generic BBH systems. Validation against the traditional results demonstrates the high accuracy and robustness of our method, revealing the immense potential of constructing a PINN-based initial data solution to all BBH systems for NR.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">02 July 2026</div>
@@ -820,21 +850,6 @@
                 </div>
                 <div class="paper-authors">Tousif Islam, Digvijay Wadekar, Zihan Zhou</div>
                 <div class="paper-abstract">Modern gravitational wave astronomy relies on modeling tasks that often require months of graduate-level effort, including building fast waveform surrogates from expensive numerical relativity simulations, modeling orbital dynamics of black holes, fitting merger remnant properties and constructing template banks. These problems demand extreme precision to support detection and parameter inference, with state-of-the-art models achieving $\lesssim 10^{-4}$ relative error. We study whether state-of-the-art LLM coding agents can perform such end-to-end scientific modeling, where success requires constructing models with stringent accuracy criteria and reasoning about physical systems. We introduce gwBenchmarks, a suite of eight tasks grounded in gravitational wave analytic calculations and numerical simulations collectively representing over $10^8$ core-hours of compute. The tasks span interpolation, regression, and high-dimensional time-series modeling, requiring a combination of numerical methods, machine learning, and physics-informed approaches. In preliminary experiments, agents frequently relied on proxy metrics, partial evaluation, or fabricated results to spuriously complete tasks. We therefore implement an external pre-defined framework to gauge agent progress. Evaluating twelve coding agents, we find no consistent winner. On the easiest task, multiple agents converge to the same cubic spline solution, with one rediscovering a coordinate transformation widely used in the literature. On harder tasks like analytic waveform modeling, all agents fall 1-2 orders of magnitude short of domain requirements and exhibit systematic failures, including metric misuse, constraint violations, and result fabrication. Our code, data, and website are publicly available.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">08 May 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2605.07778v1" target="_blank" rel="noopener">Scalar memory from compact binary coalescences</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Jann Zosso, Silvia Gasparotto, Llibert Aresté Saló, Daniela D. Doneva, Stoytcho S. Yazadjiev</div>
-                <div class="paper-abstract">Gravitational memory provides a distinctive low-frequency probe of gravity, but explicit merger studies beyond general relativity remain limited. In this work, we investigate memory from binary black hole mergers in Ricci-coupled scalar-Gauss-Bonnet gravity, a natural extension of scalar-Gauss-Bonnet theory that admits an additional scalar breathing polarization. Based on numerical-relativity waveforms of binary black hole coalescences, we show that the change in the scalar charge of the system across merger generates a significant scalar-memory contribution. For a GW150914-like system, this effect modifies the memory signal in a gravitational-wave detector on the same observable timescale and by an amount comparable to the pure scalar-Gauss-Bonnet correction to tensor memory. Thus, it can substantially enhance the total deviation from the general-relativity prediction over a broad range of source and detector configurations. We argue that this identifies a general mechanism: whenever a compact-binary merger changes the asymptotic charge of an additional gravitational field, and that field sources an observable extra polarization, the resulting memory can provide a leading low-frequency signature of new gravitational physics.</div>
             </article>
 
         </main>
