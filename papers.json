@@ -1,5 +1,19 @@
 [
   {
+    "title": "Head-on Collisions of Boson Stars with Bowen-York Type Initial Data",
+    "authors": [
+      "Jake Doherty",
+      "Pablo Laguna"
+    ],
+    "abstract": "We present a numerical relativity study of head-on collisions involving boson stars using initial data inspired by the Bowen-York initial data used to model black hole binaries with punctures. The initial data method preserves the simplicity of the Bowen-York approach, thus allowing incorporating information from the early, post-Newtonian inspiral phase in binary coalescences. We test the method on a single boson star with linear momentum. We present results from head-on collisions of boson stars as well as encounters of boson stars with black holes. In general, the results are consistent with previous studies, demonstrating the effectiveness of the initial data method. In particular, we show that boson star head-on collisions emit more energy in gravitational waves than the equivalent black hole binaries. On the other hand, head-on collisions of a boson star with a black hole radiate less than their black hole binary counterparts.",
+    "arxiv_id": "2607.09494v1",
+    "published": "2026-07-10T15:08:30Z",
+    "updated": "2026-07-10T15:08:30Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "SACRA-K: A Performance-Portable Numerical Relativity Code with Kokkos",
     "authors": [
       "Ming-Zhe Han",
@@ -653,24 +667,6 @@
     "updated": "2026-05-15T16:15:03Z",
     "categories": [
       "astro-ph.HE"
-    ]
-  },
-  {
-    "title": "gwBenchmarks: Stress-Testing LLM Agents on High-Precision Gravitational Wave Astronomy",
-    "authors": [
-      "Tousif Islam",
-      "Digvijay Wadekar",
-      "Zihan Zhou"
-    ],
-    "abstract": "Modern gravitational wave astronomy relies on modeling tasks that often require months of graduate-level effort, including building fast waveform surrogates from expensive numerical relativity simulations, modeling orbital dynamics of black holes, fitting merger remnant properties and constructing template banks. These problems demand extreme precision to support detection and parameter inference, with state-of-the-art models achieving $\\lesssim 10^{-4}$ relative error. We study whether state-of-the-art LLM coding agents can perform such end-to-end scientific modeling, where success requires constructing models with stringent accuracy criteria and reasoning about physical systems. We introduce gwBenchmarks, a suite of eight tasks grounded in gravitational wave analytic calculations and numerical simulations collectively representing over $10^8$ core-hours of compute. The tasks span interpolation, regression, and high-dimensional time-series modeling, requiring a combination of numerical methods, machine learning, and physics-informed approaches. In preliminary experiments, agents frequently relied on proxy metrics, partial evaluation, or fabricated results to spuriously complete tasks. We therefore implement an external pre-defined framework to gauge agent progress. Evaluating twelve coding agents, we find no consistent winner. On the easiest task, multiple agents converge to the same cubic spline solution, with one rediscovering a coordinate transformation widely used in the literature. On harder tasks like analytic waveform modeling, all agents fall 1-2 orders of magnitude short of domain requirements and exhibit systematic failures, including metric misuse, constraint violations, and result fabrication. Our code, data, and website are publicly available.",
-    "arxiv_id": "2605.11269v1",
-    "published": "2026-05-11T21:47:22Z",
-    "updated": "2026-05-11T21:47:22Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "astro-ph.IM",
-      "cs.AI"
     ]
   }
 ]
