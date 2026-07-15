@@ -710,21 +710,5 @@
     "categories": [
       "gr-qc"
     ]
-  },
-  {
-    "title": "Nucleosynthesis in the fast ejecta of a neutron star merger",
-    "authors": [
-      "Lukas Schnabel",
-      "Stephan Rosswog",
-      "Friedrich-Karl Thielemann",
-      "Moritz Reichert"
-    ],
-    "abstract": "Neutron star mergers are today considered a major production site for rapid neutron capture elements. While the bulk of the matter escapes at fast, but non-relativistic velocities (${\\sim} 0.2\\,c$), a small amount of the dynamically ejected mass reaches mildly relativistic velocities (${\\gtrsim}0.6\\,c$). It has been suggested earlier, that in such ejecta parts neutrons may avoid being captured and that their decay could power an early blue precursor to the main kilonova event. Here we study in detail the nucleosynthesis in such fast ejecta with nuclear network calculations along both parametrized and numerical relativity trajectories. We find that the nucleosynthesis can be divided into three channels, in one of which a substantial amount of free neutrons survives when the main r-process has frozen out. We provide a (semi-)analytical model for surviving free neutrons which agrees very well with the network calculations. If the mass fraction of the free neutrons exceeds ${\\sim} 0.05$, their $β^-$-decay dominates the nuclear heating rate between ${\\sim} 100$ and ${\\sim} 10^4$ seconds. This dominance leads to a pronounced kilonova precursor that should for plausible ejecta parameters be visible for ULTRASAT out to ${\\sim}200\\,\\rm Mpc$. Since at low electron fractions free neutrons can survive even for moderate velocities, mergers with large tidal ejecta, such as asymmetric neutron star mergers or favorable neutron star black hole mergers, may produce particularly bright blue precursors to their subsequent kilonovae.",
-    "arxiv_id": "2605.16132v1",
-    "published": "2026-05-15T16:15:03Z",
-    "updated": "2026-05-15T16:15:03Z",
-    "categories": [
-      "astro-ph.HE"
-    ]
   }
 ]
