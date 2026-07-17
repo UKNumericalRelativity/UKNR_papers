@@ -1,5 +1,19 @@
 [
   {
+    "title": "SPH methods in the modelling of compact objects",
+    "authors": [
+      "Stephan Rosswog"
+    ],
+    "abstract": "We review the current status of compact object simulations that are based on the Smoothed Particle Hydrodynamics (SPH) method. The first section of this review is dedicated to SPH as a numerical method for Newtonian, ideal gas dynamics and it should be fairly self-contained. It begins with the basics of the method, but also describes recent advances including various meshless derivatives or methods for treating shocks. A separate chapter summarizes general relativistic SPH, including its special relativistic limit, and it explains in some detail the recent development of full numerical relativity in SPH where matter is evolved together with a dynamical spacetime. The remainder of the review has an astrophysical focus, here we discuss the status of the simulations of white dwarf--white dwarf, neutron star--neutron star and neutron star--black hole systems. For each type of system the emphasis is on gravitational-wave-driven mergers, but we also briefly summarize dynamical collisions that can occur in locations with large stellar densities.",
+    "arxiv_id": "2607.14828v1",
+    "published": "2026-07-16T10:46:59Z",
+    "updated": "2026-07-16T10:46:59Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Higher-derivative gravitational effective field theories are generically weakly hyperbolic",
     "authors": [
       "Farid Thaalba",
