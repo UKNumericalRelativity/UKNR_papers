@@ -498,50 +498,5 @@
       "gr-qc",
       "astro-ph.HE"
     ]
-  },
-  {
-    "title": "Implementation of multi-grid Poisson solver in numerical relativity and its application to gravitational collapse of massive star",
-    "authors": [
-      "Kenta Kiuchi",
-      "Hirotada Okawa"
-    ],
-    "abstract": "We develop a new grid-based multi-grid Poisson solver in numerical relativity. We report the performance of the multi-grid Poisson solver in the initial value problems for two-puncture black holes, a static spherical neutron star, a uniformly rotating neutron star in equilibrium, and a gravitationally collapsing massive star. As a demonstration, we conduct a numerical-relativity neutrino-radiation-transfer hydrodynamics simulation of the gravitational collapse of the $9M_\\odot$ massive star in Ref.~\\cite{Aguilera-Dena:2020mfh} up to the core bounce. During the simulation, we employ the constraint-preserving regird prescription with the newly developed multi-grid Poisson solver to improve the resolution. It shows that the baryonic mass, the Arnowit-Deser-Misner (ADM) mass, and the ADM-like angular momentum are, respectively, preserved with $O(10^{-3})\\%$ and $O(10^{-2})$--$O(10^{-1})$\\% accuracy.",
-    "arxiv_id": "2606.12542v1",
-    "published": "2026-06-10T18:00:10Z",
-    "updated": "2026-06-10T18:00:10Z",
-    "categories": [
-      "astro-ph.HE",
-      "gr-qc"
-    ]
-  },
-  {
-    "title": "Gravitational Wave Energy Emitted in the Head-On Collision of Two Black Holes",
-    "authors": [
-      "Nesibe Derin Sivrioglu",
-      "Robert R. Caldwell"
-    ],
-    "abstract": "What is the spectrum of gravitational radiation produced by the head-on collision of two equal-mass black holes? The emission is dominated by low frequency bremsstrahlung, producing a flat energy spectrum. But where does the spectrum turn over? We propose that the lowest quasinormal mode of the final black hole marks the end of the low-frequency domain. The result is an analytic model of the total emitted energy as a function of the black hole velocity in the center of mass frame. With no free parameters, the model predicts that 13.8% of the total initial energy is emitted in gravitational radiation, in good agreement with numerical relativity. This result also enables calculation of the nonlinear contribution to the memory, a persistent distortion of the spacetime after passage of the gravitational wave burst. Advances in numerical relativity simulations will enable tests of our model for increasingly relativistic speeds, providing insight into this extreme collision.",
-    "arxiv_id": "2606.10175v1",
-    "published": "2026-06-08T21:08:02Z",
-    "updated": "2026-06-08T21:08:02Z",
-    "categories": [
-      "gr-qc"
-    ]
-  },
-  {
-    "title": "The Fifth RIT Catalog of Binary Black Hole Simulations: Multiple-Resolution Studies of Eccentric Orbits",
-    "authors": [
-      "Giuseppe Ficarra",
-      "James Healy",
-      "Carlos O. Lousto"
-    ],
-    "abstract": "This fifth release of the RIT public catalog of numerical relativity binary black hole waveforms http://ccrg.rit.edu/~RITCatalog introduces an additional 248 configurations, prioritizing 197 newly simulated eccentric orbits. This update brings the catalog to a total of 2129 cases. All waveforms are corrected for center-of-mass drift and extrapolated to future null infinity. To rigorously estimate waveform errors, we conduct multiple-resolution convergence studies on 10 eccentric simulations (up to 33 orbits to merger) using three global resolutions increasing by factors of 1.2, plus a comprehensive six-resolution study for a single 18-orbit configuration. We evaluate waveform accuracy by computing mismatches against theoretical infinite-resolution extrapolations. Additionally, we analyze the convergence properties of key physical observables: merger times, number of orbits, final masses, final spins, recoil velocities, and the peak amplitude, frequency, and luminosity of the gravitational radiation.",
-    "arxiv_id": "2606.10104v1",
-    "published": "2026-06-08T19:31:32Z",
-    "updated": "2026-06-08T19:31:32Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE"
-    ]
   }
 ]
