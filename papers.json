@@ -1,5 +1,50 @@
 [
   {
+    "title": "Recoiling Black Holes I. Burst of Observables",
+    "authors": [
+      "Erwan Hochart",
+      "Simon Portegies Zwart"
+    ],
+    "abstract": "We aim to investigate the tidal disruption and gravitational wave events shortly after a massive black hole binary merges in the galactic centre and whose remnant black hole is ejected from the galaxy. Using computational methods, black holes of mass $M_{\\bullet}=10^{5}$ M$_\\odot$ and $4\\times10^{5}$ M$_\\odot$ embedded in a nuclear star cluster are kicked at velocities of $v_k=300$ and $600$ km s$^{-1}$. Systems are integrated for $0.1$ Myr using a $4$th-order Hermite scheme. The kick instantaneously repopulates the loss cone, producing a strong burst of tidal disruption events and gravitational wave mergers. The anisotropy in the apsidal orientation of bound stars prolongs this burst phase. Rates increase for lower $v_k$, larger $M_{\\bullet}$ and for steeper nuclear star cluster density profiles at moment of merger. Assuming binary black holes scour a Bahcall-Wolf density profile during coalescence, ejected remnants with mass between $10^{5}\\leq M_{\\bullet}$ [M$_\\odot] \\leq 4\\times10^{5}$ generate observable offset events at a forecasted rate of $\\dot{N}\\lesssim290$ yr$^{-1}$ up to redshift $z=3$. If, at the moment of merger, the milliparsec scales of the nuclear star cluster are described by a shallow density profile ($γ=1$), this decreases to $\\dot{N}\\lesssim30$ yr$^{-1}$. The strong dependence on the initial density profile and recoil kick makes observables powerful probes of the nuclear star cluster post-massive black hole binary coalescence, and provides test for numerical relativity.",
+    "arxiv_id": "2608.09662v1",
+    "published": "2026-08-10T14:39:23Z",
+    "updated": "2026-08-10T14:39:23Z",
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.GA"
+    ]
+  },
+  {
+    "title": "Conformal-Mapping Method for Horizon Multipoles in Numerical Relativity: Implementation, Kerr Validation, and Applications Beyond Axisymmetry",
+    "authors": [
+      "Yeong-Bok Bae",
+      "Young-Hwan Hyun",
+      "Gungwon Kang"
+    ],
+    "abstract": "We present a numerical method that constructs geometrically defined coordinates on black-hole horizons, from which the multipole moments are computed without assuming axisymmetry. This method, which we denote the conformal-mapping method (CMM), provides a numerical realization of the conformal construction proposed by Ashtekar et al. in 2022, combining discrete Ricci flow, spectral embedding onto the unit sphere, and Möbius gauge fixing by the vanishing-area-dipole condition. We first test the CMM against analytic Kerr benchmarks, and then apply it to an equal-mass, non-spinning binary black-hole merger. We also compare it with an approximate-symmetry-based method. The CMM allows the multipole moments to be expressed in a fixed reference frame, whereas the symmetry-adapted frame can reorient abruptly when the preferred approximate axis changes. In a frame aligned with the orbital angular momentum, the amplitude of the quadrupole mode grows during inspiral and decays after merger, displaying a qualitative ringdown behavior. These results show that the CMM is a useful tool for studying horizon geometry in dynamical situations where no stable symmetry axis is available.",
+    "arxiv_id": "2608.07985v1",
+    "published": "2026-08-08T07:39:57Z",
+    "updated": "2026-08-08T07:39:57Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Celephais: efficient spectral initial data code for precessing compact binaries",
+    "authors": [
+      "Hao-Jui Kuan"
+    ],
+    "abstract": "Large numerical-relativity surveys require compact-binary initial data that are both spectrally accurate and inexpensive to construct, including for systems with unequal masses and misaligned spins. We present \\celephais, a compact-object initial-data code built on the \\texttt{Kadath} spectral library, that constructs binary-neutron-star and black-hole--neutron-star initial data without imposing equatorial symmetry. The method exploits the sparse structure of the globally coupled multi-domain Jacobian and the approximate parity separation of fields. The assembled matrix is factored with \\texttt{MUMPS} and reused as a refreshed right preconditioner in a Jacobian-free Newton--Krylov iteration, thereby avoiding dense storage. An adaptive $hp$--refinement scheme then concentrates resolution where the spectral tails are not yet resolved. For a mass-ratio-$20$ black-hole--neutron-star benchmark, the adaptive schemes recover the uniform-grid constraint accuracy with about three times fewer unknowns. We also extend the post-Newtonian force-balance estimate to arbitrary spin orientations and use it to initialise eccentricity reduction. Validation comprises binding-energy comparisons with post-Newtonian sequences, a precessing binary-neutron-star eccentricity-reduction test, and a full evolution whose waveform-reconstructed precession axis follows a post-Newtonian simple-precession model. These results establish an efficient route to spectrally resolved binary-neutron-star and black-hole--neutron-star initial data with arbitrary spin orientations.",
+    "arxiv_id": "2608.07653v1",
+    "published": "2026-08-07T18:00:00Z",
+    "updated": "2026-08-07T18:00:00Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ]
+  },
+  {
     "title": "Unified remnant models for aligned-spin, precessing, and eccentric binary black hole mergers",
     "authors": [
       "Tousif Islam",
