@@ -1,5 +1,22 @@
 [
   {
+    "title": "3D Binary Neutron Star Merger Ejecta Evolution up to Seconds Timescale: Dynamics, Element Distribution, and Light Curves",
+    "authors": [
+      "Luis Felipe Longo Micchi",
+      "Fabio Magistrelli",
+      "Maximilian Jacobi",
+      "Sebastiano Bernuzzi"
+    ],
+    "abstract": "We present long-term, three-dimensional simulations of ejecta from four binary neutron star mergers to second-long time-scales. Numerical-relativity data serve as boundary conditions for a general-relativistic hydrodynamics evolution incorporating an equation of state valid outside nuclear statistical equilibrium and an effective nuclear-heating prescription based on reaction-network calculations. We investigate the ejecta's dynamical and geometrical properties, the impact of nuclear heating, the formation and spatial distribution of elements, and compute multi-angle kilonova light curves. % Nuclear heating significantly affects ejecta dynamics, delaying homologous expansion beyond second time-scales and reshapes the spatial distribution of heavy nuclei. This effect is largest for asymmetric binaries with long-lived remnants; extending the evolution from ${\\sim}150$~ms to ${\\sim}1$~s widens the angular polar region containing 90\\% of the heavy-element mass (\\eg, $Z=56$, $Z=79$) from $|θ|\\lesssim15^{o}$ to $|θ|\\lesssim30^{o}$. Our nucleosynthesis results confirm that the $^{56}$Ni$\\rightarrow^{56}$Co$\\rightarrow^{56}$Fe decay chain dominates the heating at $\\sim$100 days, with cobalt decay producing gamma-ray lines at 846.77 and 1238.288~keV. % Comparing kilonova ray-by-ray light curves obtained from multi-angle 3D profiles and averaged 2D profiles, we find the latter approach broadly robust, although 2D light curves should be treated as upper limits. Increasing dimensionality generally lowers the bolometric luminosity, with binary asymmetry strengthening the viewing-angle dependence. For observers aligned with a lanthanide curtain's densest region, 3D emission can match its 2D counterpart in brightness. We conclude that increased dimensionality alone is unlikely to reconcile current theoretical models with AT2017gfo observations.",
+    "arxiv_id": "2608.10100v1",
+    "published": "2026-08-10T18:09:49Z",
+    "updated": "2026-08-10T18:09:49Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Recoiling Black Holes I. Burst of Observables",
     "authors": [
       "Erwan Hochart",
@@ -38,6 +55,21 @@
     "arxiv_id": "2608.07653v1",
     "published": "2026-08-07T18:00:00Z",
     "updated": "2026-08-07T18:00:00Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ]
+  },
+  {
+    "title": "A fast, differentiable neural-network surrogate for precessing binary black-hole waveforms",
+    "authors": [
+      "Beka Modrekiladze"
+    ],
+    "abstract": "Gravitational-wave parameter estimation requires millions of waveform evaluations per event, a cost that constrains real-time inference and population studies. We present a fast, fully differentiable neural-network surrogate for the precessing numerical-relativity model \\NRSur{}, spanning its full intrinsic parameter space $λ=(q,\\,\\boldsymbolχ_1,\\,\\boldsymbolχ_2)$ together with the reference orbital frequency $ω_0$. Rather than a single polarization at a fixed orientation, the surrogate predicts the \\emph{inertial-frame spherical-harmonic modes} $h_{\\ell m}$ ($\\ell\\leq 4$), so that both polarizations $h_+,h_\\times$ at an arbitrary orientation $(ι,\\varphi,ψ)$ are reconstructed from one network evaluation through an analytic, differentiable mode-to-strain projection. Trained on $6\\times10^5$ waveforms, it attains a fixed-orientation match of mean $0.975$ (median $0.988$) and an orientation-averaged match of mean $0.940$ (median $0.975$) for $q\\in[1,4]$, $|\\boldsymbolχ_{1,2}|\\leq 0.8$, while keeping the overall strain amplitude physical (median ratio $0.98$). It generates a waveform in $\\SI{12}{ms}$ (single) and ${\\sim}3.5\\times10^4$ per second in batches on a single GPU. Because the mode-to-strain projection is analytic, the surrogate is differentiable in both intrinsic and extrinsic parameters, yielding a full 13-dimensional Fisher matrix (validated against finite differences) and gradient-based (HMC/NUTS) parameter estimation.",
+    "arxiv_id": "2608.09978v1",
+    "published": "2026-08-03T18:38:10Z",
+    "updated": "2026-08-03T18:38:10Z",
     "categories": [
       "gr-qc",
       "astro-ph.HE",
@@ -525,23 +557,6 @@
     "updated": "2026-06-16T19:40:21Z",
     "categories": [
       "astro-ph.CO"
-    ]
-  },
-  {
-    "title": "Eccentricity in Disguise? Insights from GW231123 and Numerically Simulated Binary Black Hole Merger Signals",
-    "authors": [
-      "Koustav Chandra",
-      "Johann Fernandes",
-      "Akshita Mittal",
-      "Gregorio Carullo"
-    ],
-    "abstract": "GW231123 is a gravitational-wave signal originating from the merger of a black hole binary with total mass $\\sim 250 M_{\\odot}$, the largest ever detected by the LIGO-Virgo-Kagra Collaboration. Remarkably, under standard priors, the system features among the fastest-spinning binary components confidently measured in binary mergers, $ χ_{1,2} \\gtrsim 0.7$ at $90\\%$ one-dimensional credibility, according to the most accurate model employed. As typical binary mergers result in remnants with $χ\\sim 0.7$, such spin values are challenging to obtain even from previous (hierarchical) mergers. These inferred properties rely on waveform models lacking eccentric corrections in the merger-ringdown stage. Here, we show that binaries retaining significant eccentricity up to merger can be misinterpreted as near-extremally spinning when non-circular corrections are neglected. Binary-agnostic ringdown analysis instead provides unbiased estimates of the remnant properties, provided that a robust estimate of the signal peak can be obtained. We re-analyse GW231123 using available eccentric numerical-relativity catalogues, finding that although eccentric templates can provide a good fit to the data, quasi-spherical templates are still favoured. Ringdown analyses confirm a secondary likelihood peak correlated with large eccentricity values, but improved eccentric models will be required to assess the reliability of this interpretation. Finally, analysing GW231123 under population-informed parametric priors confirms the exceptional nature of this event within the current black hole binary population.",
-    "arxiv_id": "2606.15150v1",
-    "published": "2026-06-13T06:37:06Z",
-    "updated": "2026-06-13T06:37:06Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE"
     ]
   }
 ]

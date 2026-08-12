@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-08-11 07:09:52 UTC</div>
+            <div class="last-updated">Last updated: 2026-08-12 07:26:26 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">10 August 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2608.10100v1" target="_blank" rel="noopener">3D Binary Neutron Star Merger Ejecta Evolution up to Seconds Timescale: Dynamics, Element Distribution, and Light Curves</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Luis Felipe Longo Micchi, Fabio Magistrelli, Maximilian Jacobi, Sebastiano Bernuzzi</div>
+                <div class="paper-abstract">We present long-term, three-dimensional simulations of ejecta from four binary neutron star mergers to second-long time-scales. Numerical-relativity data serve as boundary conditions for a general-relativistic hydrodynamics evolution incorporating an equation of state valid outside nuclear statistical equilibrium and an effective nuclear-heating prescription based on reaction-network calculations. We investigate the ejecta's dynamical and geometrical properties, the impact of nuclear heating, the formation and spatial distribution of elements, and compute multi-angle kilonova light curves. % Nuclear heating significantly affects ejecta dynamics, delaying homologous expansion beyond second time-scales and reshapes the spatial distribution of heavy nuclei. This effect is largest for asymmetric binaries with long-lived remnants; extending the evolution from ${\sim}150$~ms to ${\sim}1$~s widens the angular polar region containing 90% of the heavy-element mass (\eg, $Z=56$, $Z=79$) from $|θ|\lesssim15^{o}$ to $|θ|\lesssim30^{o}$. Our nucleosynthesis results confirm that the $^{56}$Ni$\rightarrow^{56}$Co$\rightarrow^{56}$Fe decay chain dominates the heating at $\sim$100 days, with cobalt decay producing gamma-ray lines at 846.77 and 1238.288~keV. % Comparing kilonova ray-by-ray light curves obtained from multi-angle 3D profiles and averaged 2D profiles, we find the latter approach broadly robust, although 2D light curves should be treated as upper limits. Increasing dimensionality generally lowers the bolometric luminosity, with binary asymmetry strengthening the viewing-angle dependence. For observers aligned with a lanthanide curtain's densest region, 3D emission can match its 2D counterpart in brightness. We conclude that increased dimensionality alone is unlikely to reconcile current theoretical models with AT2017gfo observations.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">10 August 2026</div>
@@ -340,6 +355,21 @@
                 </div>
                 <div class="paper-authors">Hao-Jui Kuan</div>
                 <div class="paper-abstract">Large numerical-relativity surveys require compact-binary initial data that are both spectrally accurate and inexpensive to construct, including for systems with unequal masses and misaligned spins. We present ȩlephais, a compact-object initial-data code built on the <code>Kadath</code> spectral library, that constructs binary-neutron-star and black-hole--neutron-star initial data without imposing equatorial symmetry. The method exploits the sparse structure of the globally coupled multi-domain Jacobian and the approximate parity separation of fields. The assembled matrix is factored with <code>MUMPS</code> and reused as a refreshed right preconditioner in a Jacobian-free Newton--Krylov iteration, thereby avoiding dense storage. An adaptive $hp$--refinement scheme then concentrates resolution where the spectral tails are not yet resolved. For a mass-ratio-$20$ black-hole--neutron-star benchmark, the adaptive schemes recover the uniform-grid constraint accuracy with about three times fewer unknowns. We also extend the post-Newtonian force-balance estimate to arbitrary spin orientations and use it to initialise eccentricity reduction. Validation comprises binding-energy comparisons with post-Newtonian sequences, a precessing binary-neutron-star eccentricity-reduction test, and a full evolution whose waveform-reconstructed precession axis follows a post-Newtonian simple-precession model. These results establish an efficient route to spectrally resolved binary-neutron-star and black-hole--neutron-star initial data with arbitrary spin orientations.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">03 August 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2608.09978v1" target="_blank" rel="noopener">A fast, differentiable neural-network surrogate for precessing binary black-hole waveforms</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Beka Modrekiladze</div>
+                <div class="paper-abstract">Gravitational-wave parameter estimation requires millions of waveform evaluations per event, a cost that constrains real-time inference and population studies. We present a fast, fully differentiable neural-network surrogate for the precessing numerical-relativity model \NRSur{}, spanning its full intrinsic parameter space $λ=(q,\,\boldsymbolχ_1,\,\boldsymbolχ_2)$ together with the reference orbital frequency $ω_0$. Rather than a single polarization at a fixed orientation, the surrogate predicts the <em>inertial-frame spherical-harmonic modes</em> $h_{\ell m}$ ($\ell\leq 4$), so that both polarizations $h_+,h_\times$ at an arbitrary orientation $(ι,ǎrphi,ψ)$ are reconstructed from one network evaluation through an analytic, differentiable mode-to-strain projection. Trained on $6\times10^5$ waveforms, it attains a fixed-orientation match of mean $0.975$ (median $0.988$) and an orientation-averaged match of mean $0.940$ (median $0.975$) for $q\in[1,4]$, $|\boldsymbolχ_{1,2}|\leq 0.8$, while keeping the overall strain amplitude physical (median ratio $0.98$). It generates a waveform in $\SI{12}{ms}$ (single) and ${\sim}3.5\times10^4$ per second in batches on a single GPU. Because the mode-to-strain projection is analytic, the surrogate is differentiable in both intrinsic and extrinsic parameters, yielding a full 13-dimensional Fisher matrix (validated against finite differences) and gradient-based (HMC/NUTS) parameter estimation.</div>
             </article>
 
             <article class="paper">
@@ -775,21 +805,6 @@
                 </div>
                 <div class="paper-authors">Andrew Nguyen, Chris Blake, Hayley J. Macpherson</div>
                 <div class="paper-abstract">Our interpretation of current cosmological observations rests on the assumptions of homogeneity and isotropy, leading to uniform background curvature and expansion characterised by the Friedmann-Lemaître-Robertson-Walker (FLRW) spacetime metric. However, the large-scale structure of the Universe is non-uniform in detail, inducing inhomogeneous curvature and scale factor variations. In this paper, we use numerical cosmological simulations generated in full General Relativity to study the impact of inhomogeneous spacetime on the magnitude fluctuations of distant objects, focusing on their use as a probe of the growth rate of cosmic structure. We quantify the distortions in the magnitude correlation spectrum as a function of angular scale and redshift, and use these distortions to infer the systematic offset in the growth rate measurement. We find that at $z \lesssim 0.2$, the systematic offset in growth rate measurements between the full numerical relativity and FLRW treatments is sub-dominant to the statistical error of current datasets, confirming that FLRW modelling is adequate for current low-redshift peculiar velocity experiments. Future datasets extending to higher redshift may require theoretical models that additionally incorporate the contributions of gravitational lensing and inhomogeneous curvature.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">13 June 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2606.15150v1" target="_blank" rel="noopener">Eccentricity in Disguise? Insights from GW231123 and Numerically Simulated Binary Black Hole Merger Signals</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Koustav Chandra, Johann Fernandes, Akshita Mittal, Gregorio Carullo</div>
-                <div class="paper-abstract">GW231123 is a gravitational-wave signal originating from the merger of a black hole binary with total mass $\sim 250 M_{\odot}$, the largest ever detected by the LIGO-Virgo-Kagra Collaboration. Remarkably, under standard priors, the system features among the fastest-spinning binary components confidently measured in binary mergers, $ χ_{1,2} \gtrsim 0.7$ at $90%$ one-dimensional credibility, according to the most accurate model employed. As typical binary mergers result in remnants with $χ\sim 0.7$, such spin values are challenging to obtain even from previous (hierarchical) mergers. These inferred properties rely on waveform models lacking eccentric corrections in the merger-ringdown stage. Here, we show that binaries retaining significant eccentricity up to merger can be misinterpreted as near-extremally spinning when non-circular corrections are neglected. Binary-agnostic ringdown analysis instead provides unbiased estimates of the remnant properties, provided that a robust estimate of the signal peak can be obtained. We re-analyse GW231123 using available eccentric numerical-relativity catalogues, finding that although eccentric templates can provide a good fit to the data, quasi-spherical templates are still favoured. Ringdown analyses confirm a secondary likelihood peak correlated with large eccentricity values, but improved eccentric models will be required to assess the reliability of this interpretation. Finally, analysing GW231123 under population-informed parametric priors confirms the exceptional nature of this event within the current black hole binary population.</div>
             </article>
 
         </main>
