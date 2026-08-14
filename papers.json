@@ -1,5 +1,23 @@
 [
   {
+    "title": "Long-term 3+1 simulations of primordial black hole formation during radiation domination",
+    "authors": [
+      "Zhuan Ning",
+      "Rong-Gen Cai",
+      "Shao-Jiang Wang",
+      "Chul-Moon Yoo"
+    ],
+    "abstract": "We develop an efficient three-dimensional numerical-relativity framework for primordial black-hole (PBH) formation from superhorizon curvature perturbations in a radiation-dominated Universe. We implement flux-conservative relativistic hydrodynamics in the adaptive-mesh-refinement code \\textsc{GRChombo} and introduce a cosmologically scaled Gamma-driver that allows the cosmic-time step to grow in proportion to the scale factor. For a representative long-term simulation, the scaled driver preserves the apparent-horizon mass evolution and constraint behavior while reducing the number of coarse-level advances by a factor of approximately $94$ relative to the standard driver. We also construct a conformal-time version of the moving-puncture gauge as an independent check. Applying the framework to a spherical Gaussian curvature profile, we find a collapse threshold $0.79578 < μ_c < 0.79580$ and a critical exponent $γ\\simeq 0.3559$, consistent with previous spherically symmetric results. We further fit the late-time PBH mass growth to the Zel'dovich--Novikov accretion law, demonstrating that the code can follow both near-critical collapse and long-term post-formation evolution in three dimensions. The framework provides a foundation for future studies of PBH formation beyond spherical symmetry.",
+    "arxiv_id": "2608.13206v1",
+    "published": "2026-08-13T13:08:52Z",
+    "updated": "2026-08-13T13:08:52Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "hep-ph"
+    ]
+  },
+  {
     "title": "Finding black hole spins efficiently during a numerical binary evolution",
     "authors": [
       "Himanshu Chaudhary",
