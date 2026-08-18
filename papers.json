@@ -580,19 +580,5 @@
       "gr-qc",
       "hep-th"
     ]
-  },
-  {
-    "title": "Solving Einstein Field Equations on a Digital Quantum Computer",
-    "authors": [
-      "Clelia Altomonte",
-      "Malcolm Fairbairn"
-    ],
-    "abstract": "In this work, we show how simulations performed on classical computers such as those of Numerical Relativity can be tackled by quantum algorithms for solving systems of partial differential equations. We develop a proof-of-principle quantum algorithm for solving Einstein Field Equations in the Wahlquist-Estabrook-Buchman-Bardeen(WEBB) tetrad Numerical Relativity formalism [1], and test it by evolving the Schwarzschild Black Hole spacetime in the WEBB Numerical Relativity formalism [2], perturbing it to obtain gravitational Quasinormal Modes [3]. We program the algorithm components for a gate-based, digital quantum computer using the Qiskit software [4] and run it on classical simulators and physical IBM quantum computers through the UKRI National Quantum Computing Centre (NQCC) Quantum Access program and quantify the computational resources and runtime.",
-    "arxiv_id": "2606.20975v1",
-    "published": "2026-06-18T22:44:08Z",
-    "updated": "2026-06-18T22:44:08Z",
-    "categories": [
-      "gr-qc"
-    ]
   }
 ]
