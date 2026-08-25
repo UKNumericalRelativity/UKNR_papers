@@ -1,5 +1,77 @@
 [
   {
+    "title": "Black holes from a Higgs-like field in the radiation era",
+    "authors": [
+      "Ethan Milligan",
+      "Luis E. Padilla",
+      "David J. Mulryne"
+    ],
+    "abstract": "Light spectator fields during inflation can acquire superhorizon fluctuations that cross a potential barrier between positive and negative regions of their potential. Motivated by the Standard Model Higgs instability, in this work we study the subsequent evolution of patches where this occurs in the radiation era after inflation ends for a Higgs-like spectator field. We utilise fully nonlinear, spherically symmetric numerical relativity. Across the black hole forming configurations in our investigation we find a robust two-stage evolution. First, the central negative potential region reverses its expansion, becomes kinetic dominated, and forms a primordial black hole that hides the runaway core. The positive potential barrier that survives outside this first horizon then determines one of two late-time branches. In the subcritical branch the original apparent horizon grows smoothly and engulfs the remaining scalar structure. In the supercritical branch, however, the potential energy of the barrier dominates the local evolution. The result is a transient wormhole throat, a bifurcating trapping horizon, and an inflating child universe branch. In both branches the parent radiation dominated universe is ultimately left with an ordinary primordial black hole whose subsequent growth is governed by radiation accretion.",
+    "arxiv_id": "2608.23367v1",
+    "published": "2026-08-24T15:16:50Z",
+    "updated": "2026-08-24T15:16:50Z",
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Complex frequency evolution of direct waves from binary black hole mergers",
+    "authors": [
+      "Ling Sun",
+      "Sizheng Ma",
+      "Patrick P. Chen",
+      "Andrew Laeuger",
+      "Neil Lu",
+      "Yanbei Chen"
+    ],
+    "abstract": "While no signal originating at a black hole's event horizon can reach future null infinity, information about the horizon and its immediate vicinity can be encoded in asymptotic properties of waves emitted by matter or field perturbations falling toward a growing/forming horizon. Within a response-filtered framework, \"direct wave\" denotes source-sensitive plunge and remnant-formation information revealed by filtering the black-hole response. Unlike a stationary damped sinusoid with a fixed complex frequency, the direct wave follows the evolving source and has an evolving instantaneous complex frequency tied at late times to the remnant horizon angular velocity $Ω_H$ and surface gravity $κ_H$. Using rational filters, we remove quasinormal modes from numerical-relativity waveforms to study this evolution. Before numerical contamination, trajectories depend on remnant spin: the real frequency evolves toward $2Ω_H$ from above for lower spins ($χ_f\\lesssim0.7$) and from below for higher spins ($χ_f\\gtrsim0.7$), while the instantaneous decay rate increases toward $\\sim2κ_H$ and, in some high-spin cases, beyond it. As in particle-plunge results, the horizon-controlled value is approached only at late times, as frame dragging controls near-horizon motion. For $χ_f\\sim0.7$ remnants of non-precessing, comparable-mass binaries, the early-time real frequency is close to $2Ω_H$ because the binary orbital frequency transitions smoothly to the remnant horizon frequency. Finite-time deviations therefore carry information about merger/collapse dynamics rather than undermining the horizon connection. Full direct-wave evolution requires numerical-relativity calibration. We further show that approximate pole-zero pairing in the Kerr response motivates a spin-dependent minimal filter set that suppresses quasinormal-mode features while revealing source-trajectory information.",
+    "arxiv_id": "2608.23209v1",
+    "published": "2026-08-24T12:57:51Z",
+    "updated": "2026-08-24T12:57:51Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "hep-ph"
+    ]
+  },
+  {
+    "title": "Primordial Asymmetries, Primordial Equation of State & Primordial Black Holes",
+    "authors": [
+      "Maël Gonin",
+      "Julien Froustey",
+      "Albert Escrivà",
+      "Alberto Magaraggia",
+      "Günther Hasinger",
+      "Florian Kühnel"
+    ],
+    "abstract": "We study the thermal history of the primordial Universe in presence of non-zero lepton and baryon asymmetries. Considering different scenarios, we determine the equation of state (EoS) of the Universe from T = 10 GeV down to T = 1 keV, spanning the QCD transition, hadron gas phase and neutrino decoupling epochs. Using a combination of numerical codes, we track the cosmic trajectories of chemical potentials associated with the baryonic, leptonic and electric charges, and follow the evolution of lepton asymmetries including through the era where neutrino oscillations take place. Combining peak theory with numerical-relativity simulations of the collapse threshold, we show the EoS-induced modifications to the primordial black hole (PBH) mass spectrum. We determine the associated Gravitational Wave (GW) signal, showing how lepton asymmetries and a particular spectral index of curvature perturbations can be hinted at by current ground interferometer-based GW observations. Finally, we discuss constraints and positive evidence for PBHs.",
+    "arxiv_id": "2608.22240v1",
+    "published": "2026-08-23T06:38:00Z",
+    "updated": "2026-08-23T06:38:00Z",
+    "categories": [
+      "astro-ph.CO"
+    ]
+  },
+  {
+    "title": "The imprint of individual neutron star spins on ejecta, $r$-process nucleosynthesis, and kilonovae in binary neutron star mergers",
+    "authors": [
+      "Beyhan Karakas",
+      "Rahime Matur",
+      "David Radice",
+      "Roland Haas",
+      "Maximilian Ruffert"
+    ],
+    "abstract": "To leading order, the gravitational-wave (GW) signal from binary neutron stars depends on the individual spins, $χ_1$ and $χ_2$, only through the effective spin parameter $χ_{\\rm eff}$. We present the first systematic investigation of individual-spin effects on ejecta, $r$-process nucleosynthesis, and kilonova emission, including comparisons at fixed total mass, mass ratio and $χ_{\\rm eff}$. We use numerical relativity ejecta from three total mass regimes with the finite-temperature, composition-dependent SFHo equation of state and neutrino emission and absorption. For $M_{\\rm tot}=2.55\\,M_\\odot$ at fixed $χ_{\\rm eff}=0$, individual spins change the dynamical ejecta mass by a factor of ${\\sim}45$, while the absolute $A\\geq140$ yield spans more than two orders of magnitude and the lanthanide to light $r$-process mass ratio increases from ${\\sim}2$ to ${\\sim}70$. Prompt-collapse $4.10\\,M_\\odot$ models show heavy-element yield differences exceeding four orders of magnitude at $χ_{\\rm eff}=0$. The kilonova retains the individual-spin imprint, with peak brightness differences reaching ${\\sim}0.9$ mag. At $40\\,{\\rm Mpc}$, all three fixed $χ_{\\rm eff}=0$ pairs remain above adopted depths at common epochs for all viewing angles, with same-epoch colour differences reaching ${\\sim}1.5$ mag. The colour imprint persists when the simulation-derived secular ejecta are replaced by the same parametric disc outflow, indicating that disc mass differences are not the primary driver and that dynamical ejecta make an important contribution. Neutrino absorption systematically brightens the kilonova and shifts peak-associated colours blueward. These EM signatures can break the degeneracy between individual spins in the GW signal.",
+    "arxiv_id": "2608.22058v1",
+    "published": "2026-08-22T17:56:13Z",
+    "updated": "2026-08-22T17:56:13Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Spin-Inversion Degeneracies in Restricted Inspiral Waveforms for LISA",
     "authors": [
       "Kata Karácsonyi",
@@ -483,20 +555,6 @@
     "updated": "2026-06-29T17:59:01Z",
     "categories": [
       "astro-ph.CO",
-      "gr-qc"
-    ]
-  },
-  {
-    "title": "Constraint damping on subextremal Kerr spacetimes",
-    "authors": [
-      "Peter Hintz"
-    ],
-    "abstract": "In the context of hyperbolic formulations of Einstein's field equations obtained via gauge fixing, constraint damping is a desirable feature that ensures that violations of the gauge condition and thus of the constraint equations are suppressed in evolution. Besides its utility in numerical relativity, it has played a key role in several (linear and nonlinear) stability proofs of spacetimes as solutions of the Einstein equations. In this paper, we show that an enhanced form of constraint damping can be implemented for the linearization of the Einstein equations around any subextremal Kerr black hole metric. The results proved here are a key ingredient in the author's proof of the nonlinear stability of the subextremal Kerr family.",
-    "arxiv_id": "2606.27658v1",
-    "published": "2026-06-26T02:29:31Z",
-    "updated": "2026-06-26T02:29:31Z",
-    "categories": [
-      "math.AP",
       "gr-qc"
     ]
   }
