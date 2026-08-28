@@ -1,5 +1,19 @@
 [
   {
+    "title": "ANRe-M1: a GPU-accelerated numerical relativity code with multi-energy M1 neutrino transport",
+    "authors": [
+      "Takami Kuroda",
+      "Masaru Shibata"
+    ],
+    "abstract": "We present ANRe-M1 (Accelerated Numerical Relativity code with multi-energy M1 neutrino transport), a performance-portable, GPU-accelerated code for multidimensional core-collapse supernova simulations in full general relativity. ANRe-M1 builds on our original CPU-based Fortran framework and is implemented in C++ using Kokkos. It retains the underlying general-relativistic neutrino-radiation-hydrodynamics algorithms while redesigning the data layout, parallel decomposition, and memory-access patterns for accelerator-resident execution. The spacetime sector employs the BSSN--Z4c formulation and is coupled to relativistic hydrodynamics and energy-dependent M1 neutrino transport. We validate the implementation through a suite of hydrodynamic, radiation-transport, and dynamical-spacetime tests, together with comparisons to results from an earlier code-comparison study. We further demonstrate its applicability with a representative three-dimensional stellar-collapse computation including multi-energy neutrino transport. For the benchmark and computing systems considered here, ANRe-M1 runs approximately an order of magnitude faster on a cluster of AMD MI300A accelerated processing units than the Fortran version on a CPU cluster. When the allocation is increased from 2 to 128 MI300A APUs, the aggregate throughput rises by a factor of 39.7, corresponding to a weak-scaling efficiency of 62 per cent relative to the two-APU case. These results establish ANRe-M1 as an efficient and portable framework for long-term, multidimensional supernova simulations on current and forthcoming accelerator-based supercomputers.",
+    "arxiv_id": "2608.26681v1",
+    "published": "2026-08-27T06:36:37Z",
+    "updated": "2026-08-27T06:36:37Z",
+    "categories": [
+      "astro-ph.HE"
+    ]
+  },
+  {
     "title": "Anti-Ultralocality and Plateau Models of Inflation",
     "authors": [
       "Joshua Shterenberg",
@@ -570,24 +584,6 @@
       "gr-qc",
       "astro-ph.HE",
       "hep-th"
-    ]
-  },
-  {
-    "title": "Primordial Black Holes in a Radiation-Dominated Universe",
-    "authors": [
-      "Thomas W. Baumgarte",
-      "Katy Clough",
-      "Mary Gerhardinger",
-      "John T. Giblin",
-      "Amanda Miller"
-    ],
-    "abstract": "Primordial fluctuations frozen out during inflation re-enter the cosmological horizon and can collapse, leading to the formation of primordial black holes. We perform simulations of the direct collapse of over-dense regions re-entering the horizon during a radiation-dominated epoch, using full 3+1 general relativistic simulations with the BSSN formalism. Building on previous studies, we impose periodic boundary conditions and allow the matter content of the Universe to self-consistently drive its dynamics. We analyze the evolution of over-densities in both the collapse and dispersal regimes and find a threshold, $0.77<δ_c<0.83$, above which over-densities collapse and form primordial black holes. Our findings are consistent with previous analytic predictions as well as numerical studies that use different formalisms and computational approaches, and hence provide independent validation of those results.",
-    "arxiv_id": "2606.30641v1",
-    "published": "2026-06-29T17:59:01Z",
-    "updated": "2026-06-29T17:59:01Z",
-    "categories": [
-      "astro-ph.CO",
-      "gr-qc"
     ]
   }
 ]
