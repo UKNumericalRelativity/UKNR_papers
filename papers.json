@@ -550,40 +550,5 @@
     "categories": [
       "gr-qc"
     ]
-  },
-  {
-    "title": "Preheating and oscillon formation in Einstein-scalar-Gauss-Bonnet gravity",
-    "authors": [
-      "Areef Waeming",
-      "Josu C. Aurrekoetxea",
-      "Katy Clough",
-      "Pau Figueras",
-      "Áron D. Kovács"
-    ],
-    "abstract": "Non-perturbative processes in the early universe may create overdense structures in scalar fields like the inflaton, called oscillons. In this work, we explore whether the leading order higher derivative contributions to the scalar-tensor theory change the formation and growth of these structures, and investigate the limits in which the effective field theory (EFT) description breaks down. We find that whilst the properties of the oscillons are not significantly modified, and black holes do not generically form, for large couplings the period of formation can result in the evolution leaving the regime of validity of the EFT, at which point predictivity is lost and the next order terms in the EFT should become relevant. If the oscillons survive their formation, they tend to be stable and the EFT corrections remain bounded. The EFT breakdown is triggered by large curvature terms in the metric in the densest regions of the oscillon, meaning that approximations of such modified theories that neglect the local backreaction and non-linear dynamics of the fields may miss important effects.",
-    "arxiv_id": "2607.01177v1",
-    "published": "2026-07-01T17:08:22Z",
-    "updated": "2026-07-01T17:08:22Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.CO",
-      "hep-th"
-    ]
-  },
-  {
-    "title": "Scalarization and descalarization in hyperbolic encounters of black holes",
-    "authors": [
-      "Frederick C. L. Pardoe",
-      "Helvi Witek"
-    ],
-    "abstract": "We use numerical relativity to study the scalar field evolution sourced by hyperbolic encounters of black holes in quadratic scalar Gauss-Bonnet gravity. In this theory, single black holes are known to acquire a scalar hair through scalarization for certain values of their mass and spin. We work in the decoupling limit and evolve the scalar field on top of a background metric. Seeding binary black holes with an initial scalar field, we find that configurations which initially cannot sustain a scalar hair temporarily scalarize during an encounter and thereby exhibit dynamical scalarization. This is possible for both positive and negative couplings between the scalar field and curvature in black hole binaries with zero and non-zero initial spins, respectively. Furthermore, we find that the change in the spin magnitude of black holes during certain hyperbolic encounters can lead to permanent spin-induced scalarization (or descalarization), which we refer to as spin-up (de)scalarization.",
-    "arxiv_id": "2606.30865v1",
-    "published": "2026-06-29T19:54:35Z",
-    "updated": "2026-06-29T19:54:35Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "hep-th"
-    ]
   }
 ]
