@@ -1,5 +1,43 @@
 [
   {
+    "title": "Enabling gravitational-wave astronomy with spin-precessing black holes on generic orbits",
+    "authors": [
+      "Aldo Gamboa",
+      "Lorenzo Pompili",
+      "Alessandra Buonanno",
+      "Luca Sebastiani",
+      "Raffi Enficiaud",
+      "Michael Boyle",
+      "Lawrence E. Kidder",
+      "Harald P. Pfeiffer",
+      "Antoni Ramos-Buades",
+      "Mark A. Scheel"
+    ],
+    "abstract": "Binary black holes (BBHs) formed in dense stellar environments or in hierarchical triples can coalesce on eccentric orbits and carry spins of arbitrary orientation, leaving distinctive imprints on their gravitational-wave (GW) emission. We present SEOBNRv6EPHM: the first generic-orbit, spin-precessing model in the effective-one-body SEOBNR family, whose waveforms have underpinned LIGO-Virgo GW analyses since 2011. The model describes the dynamics and multipolar GW signal of generic BBHs, covering the inspiral-merger-ringdown of coalescing binaries and extending to dynamical captures and scattering encounters. We perform the first systematic accuracy assessment of a generic-orbit model against numerical relativity (NR) waveforms of spin-precessing BBHs, using 1437 quasi-circular (QC) and 87 eccentric simulations: median waveform mismatches remain below $1 \\%$, matching the accuracy of the QC model SEOBNRv5PHM, and improving on the state-of-the-art generic-orbit model TEOBResumS-Dalí by a median factor of $ 4 $. The model also reproduces the non-perturbative phenomenology observed in NR simulations of generic-spin BBH scattering. It is $\\sim 2 - 3$ times faster than SEOBNRv5PHM in the QC limit, and up to an order of magnitude faster than TEOBResumS-Dalí, bringing eccentric inference to the cost of current QC analyses. As a proof of principle, we analyze eleven GW events and focus on GW200129, strengthening its evidence for eccentricity $-$ a result supported by injection-recovery studies with synthetic NR signals of eccentric, spin-precessing BBHs. SEOBNRv6EPHM thus enables, for the first time, accurate and efficient GW analyses that jointly account for eccentricity and spin precession.",
+    "arxiv_id": "2609.01568v1",
+    "published": "2026-09-01T17:34:56Z",
+    "updated": "2026-09-01T17:34:56Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Gravitational waves from core collapse of rotating very-massive stars: 3D numerical relativity computation",
+    "authors": [
+      "Alan Tsz-Lok Lam",
+      "Masaru Shibata",
+      "Sho Fujibayashi"
+    ],
+    "abstract": "We numerically study the collapse of rotating, very-massive stellar cores with masses of $\\approx 200$, $300$, $500$, and $1100M_\\odot$ into black holes using both axisymmetric and three-dimensional (3D) numerical relativity. Our results indicate that when the dimensionless spin of the resulting black hole exceeds 0.8, a massive disk consistently forms around it. These massive, compact disks, carrying more than about 10\\% of the black hole's mass, are prone to non-axisymmetric deformations that trigger gravitational-wave bursts with frequencies around 10-50 Hz. Such waves could be detected by the Einstein Telescope and Cosmic Explorer, even from sources a few Gpc away. We also summarize the gravitational-wave signals from axisymmetric collapse, which tend to have lower amplitudes and higher frequencies than those caused by non-axisymmetric instabilities.",
+    "arxiv_id": "2609.00200v1",
+    "published": "2026-08-31T18:15:43Z",
+    "updated": "2026-08-31T18:15:43Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE"
+    ]
+  },
+  {
     "title": "ANRe-M1: a GPU-accelerated numerical relativity code with multi-energy M1 neutrino transport",
     "authors": [
       "Takami Kuroda",
