@@ -1,5 +1,21 @@
 [
   {
+    "title": "From the Test-Mass Limit to Binary Black-Hole Waveforms in Higher-Derivative Gravity",
+    "authors": [
+      "Chaoyi Yang",
+      "Neev Khera",
+      "Dongjun Li",
+      "Huan Yang"
+    ],
+    "abstract": "Many higher-derivative theories predict stronger deviations from General Relativity for lower-mass black holes, while their nonlinear field equations often prevent reliable simulations of the full binary evolution. Here we develop a route from controlled black hole perturbation theory based on the modified Teukolsky formalism to comparable-mass waveforms, using parity-even cubic gravity as a representative example. We find that the tidal response of the secondary black hole enters at the same perturbative order as the direct higher-curvature correction and is therefore essential for a consistent leading-order waveform. The resulting strong-field fluxes and conservative dynamics produce an accumulated inspiral dephasing that grows toward merger. Embedding this test-mass information into an effective-one-body model, we construct inspiral-merger-ringdown waveforms for comparable-mass binaries and find coupling-dependent dephasing and waveform-peak shifts. Our results demonstrate how strong-field test-mass calculations can anchor waveform models for higher-derivative gravity when theory-specific numerical-relativity simulations are unavailable.",
+    "arxiv_id": "2609.11726v1",
+    "published": "2026-09-10T15:42:38Z",
+    "updated": "2026-09-10T15:42:38Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms",
     "authors": [
       "Vaishak Prasad"
