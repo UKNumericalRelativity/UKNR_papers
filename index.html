@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-09-15 11:19:43 UTC</div>
+            <div class="last-updated">Last updated: 2026-09-16 11:01:30 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">13 September 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2609.14218v1" target="_blank" rel="noopener">Simulation of PBH formation in a matter-dominated universe</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Chul-Moon Yoo, Albert Escrivà, Tomohiro Harada, Kazunori Kohri</div>
+                <div class="paper-abstract">We investigate primordial black hole (PBH) formation during an early matter-dominated era using fully nonlinear numerical relativity. The initial condition is set by a functional form of the curvature perturbation including ellipticity, which makes the configuration triaxial. Two kinds of matter descriptions are considered: dust fluid and collisionless particles. In the dust fluid description, numerical computation crashes associated with the appearance of a singularity at which the fluid density diverges, unless the singularity is hidden well inside the apparent horizon. We found that, for the dust fluid description, to observe the horizon formation before calculations crash, the initial amplitude must be larger than the previous analytic estimation by a factor of 2. On the other hand, with the particle system description, calculations do not crash, and we may observe black hole formation after subsequent evolution of the system. Then the threshold of black hole formation is significantly smaller than the previous analytic estimation by an order of magnitude.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">10 September 2026</div>
@@ -421,6 +436,21 @@
                 <div class="paper-date">02 September 2026</div>
                 <div class="paper-title">
                     <a href="https://arxiv.org/abs/2609.03025v1" target="_blank" rel="noopener">DANSur_HM: Modularly incorporating higher modes in a deep learning based gravitational-wave surrogate</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Osvaldo Gramaxo Freitas, Anastasios Theodoropoulos, Nino Villanueva, José A. Font, Antonio Onofre, Alejandro Torres-Forné, José D. Martin-Guerrero</div>
+                <div class="paper-abstract">Numerical relativity (NR) simulations provide the most faithful representation of the gravitational waves (GWs) emitted by binary black hole (BBH) systems during merger. In the context of GW astronomy, tasks such as parameter estimation can require vast numbers of waveform evaluations per second across the entire parameter space. Since performing full NR simulations for each evaluation is not computationally feasible, interpolating methods for existing NR waveforms, known as surrogate models, have been developed with marked success. In this paper, we build on our previous work to introduce methods to train a fast surrogate model based on neural networks in order to generate BBH merger waveforms, including the fundamental (2,2) mode, as well as the (3,3), (2,1), (4,4), (3,2), (4,3) and (5,5) higher-order modes. Applying a pretraining step on approximant data before fine-tuning on NR data allows us to smooth out the parameter space, and making use of the parallelization ability of GPUs to project the NR waveforms in the inclination-phase $(ι, φ)$ sphere during training allows the fitting of all the explored modes simultaneously. The developed surrogate model, \text{DANSur_HM}, achieves average mismatches of the order of $10^{-4}$, with the worst mismatch at $2.5\times10^{-3}$, and achieves throughput above $6\times10^5$ waveforms/second on an NVIDIA V100 GPU. Parameter estimation tests confirm the usefulness of the inclusion of higher modes.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">02 September 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2609.03025v2" target="_blank" rel="noopener">DANSur_HM: Modularly incorporating higher modes in a deep learning based gravitational-wave surrogate</a>
                 </div>
                 <div class="abstract-section">
                     <div class="abstract-toggle">
