@@ -1,5 +1,38 @@
 [
   {
+    "title": "Evolution and disruption of circular orbits during dynamic black hole scalarization",
+    "authors": [
+      "Yu-Peng Zhang",
+      "Shao-Wen Wei",
+      "Yu-Xiao Liu"
+    ],
+    "abstract": "Dynamical black hole scalarization describes the process by which a ``no-hair\" black hole transitions to a scalarized hairy state. This transition significantly alters the spacetime geometry, including the structure of stable circular orbits of the test particles, which are critical for astrophysical observations and tests of gravity. In this work, we employ numerical relativity simulations to model the time-dependent evolution of a vacuum black hole undergoing scalarization. By evolving timelike geodesic equations within the dynamically changing spacetime background, we investigate how the scalarization process impacts initially stable circular orbits. Our results reveal that the growth of the scalar hair destroys the circular nature of these orbits, forcing them to either become eccentric or plunge into the black hole. This orbital destabilization arises from the rapid change of spacetime curvature induced by the scalar field. Our findings provide novel insights into the interplay between scalar fields and black hole dynamics, with significant implications for gravitational-wave signatures, accretion disk stability, and observational tests of extended theories of gravity.",
+    "arxiv_id": "2609.27539v1",
+    "published": "2026-09-23T08:30:41Z",
+    "updated": "2026-09-23T08:30:41Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "PANGU I: A Parthenon-Based Framework for Fixed-Spacetime GRMHD",
+    "authors": [
+      "Yuehang Li",
+      "Fan Zhou",
+      "Mingyang Luan",
+      "Minyong Guo",
+      "Bin Chen"
+    ],
+    "abstract": "Existing general-relativistic magnetohydrodynamics (GRMHD) codes offer complementary capabilities, but these capabilities remain distributed across different frameworks. To unify them, we introduce PANGU--Parthenon-Based Astrophysics for Numerical Relativity and GRMHD in a Unified Framework--a modular computational framework that integrates a shared solver across physical regimes, flexible spacetime geometry, and extensible computational infrastructure within a single architecture. In the first paper of this series, we present and validate the fixed-spacetime GRMHD component of PANGU. The shared solver combines finite-volume Godunov methods with constrained transport on uniform and block-structured, statically refined meshes, and covers hydrodynamics and magnetohydrodynamics in Newtonian, special-relativistic, and general-relativistic regimes. PANGU provides a flexible geometry interface supporting coordinate selection and either on-the-fly or precomputed evaluation of prescribed stationary spacetimes, demonstrated here in Kerr spacetime with Cartesian Kerr-Schild and modified Kerr-Schild coordinates; additional components can be incorporated without restructuring the core solver. Verification covers all three regimes on uniform and statically refined meshes: smooth Newtonian and special-relativistic problems approach second order against their analytic solutions, with deliberately matched double-precision trajectories agreeing with AthenaK to roundoff; in fixed-spacetime GRMHD, the stationary analytic solutions are preserved to second order, and the turbulent accretion reproduces the same flow and flux scales as BHAC. Together, these results establish the fixed-spacetime matter-sector foundation for the broader PANGU framework. Numerical-relativity and coupled dynamical-spacetime GRMHD capabilities will be presented in subsequent work.",
+    "arxiv_id": "2609.27515v1",
+    "published": "2026-09-23T08:12:42Z",
+    "updated": "2026-09-23T08:12:42Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Quadratic Gravitational-Wave Scattering by Kerr Black Holes",
     "authors": [
       "Lennox S. Keeble",
