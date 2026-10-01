@@ -1,5 +1,24 @@
 [
   {
+    "title": "Towards solving General Relativity with Physics-Informed Neural Networks",
+    "authors": [
+      "Juan A. Carretero",
+      "Jorge F. Urbán",
+      "Fernando Abalos",
+      "Joan Massó",
+      "Oscar A. Reula",
+      "Jose A. Pons",
+      "Carlos Palenzuela"
+    ],
+    "abstract": "Physics-Informed Neural Networks (PINNs) are a machine-learning framework for approximating solutions to systems of partial differential equations by constraining neural networks to satisfy the underlying physical laws. The resulting continuous representation does not require a predefined computational mesh and can be evaluated at arbitrary points within the training domain. In this work, we investigate the application of PINNs to Einstein's equations of General Relativity. We discuss the mathematical formulation, network architectures, loss functions, and training strategies used to obtain accurate spacetime solutions, and demonstrate the approach through a series of standard benchmarks from Numerical Relativity. We then extend the method to a more astrophysical setting by considering the dynamical evolution of an isolated solitonic boson star. Our simulations show that a PINN operating directly in three-dimensional Cartesian coordinates can reproduce the equilibrium structure of a highly compact boson star and recover its characteristic radial oscillation frequencies. These results establish PINNs as a viable complementary framework for solving coupled matter-Einstein equations and exploring alternative formulations in numerical relativity.",
+    "arxiv_id": "2609.38331v1",
+    "published": "2026-09-29T18:01:03Z",
+    "updated": "2026-09-29T18:01:03Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Learning Inspiral-Merger-Ringdown Waveforms from a Post-Newtonian Baseline",
     "authors": [
       "Arghya Chattopadhyay",
@@ -660,22 +679,6 @@
       "gr-qc",
       "astro-ph.HE",
       "astro-ph.IM"
-    ]
-  },
-  {
-    "title": "Unified remnant models for aligned-spin, precessing, and eccentric binary black hole mergers",
-    "authors": [
-      "Tousif Islam",
-      "Digvijay Wadekar",
-      "Gaurav Khanna"
-    ],
-    "abstract": "Using approximately $5000$ numerical-relativity (NR) simulations spanning mass ratios up to $q=128$ and $1200$ black-hole-perturbation-theory (BHPT) simulations extending to $q=1000$, we present fully analytic models for the remnant properties of quasi-circular binary black hole mergers. The models gwModelRemS (for final mass, final spin, peak luminosity, and recoil kick) and gwModelRemP (for final mass, final spin, and peak luminosity) describe nonprecessing and precessing binaries, respectively. Our approach combines analytic insights from post-Newtonian theory and point-particle limits with a data-driven fitting framework which also includes validation-guided AI-agent-assisted optimization. The resulting fits outperform existing analytic models and achieve accuracies comparable to data-driven models within their domains of validity. We also construct gwModelRemP\\_flow, a normalizing-flow model for recoil kicks from precessing binaries, marginalized over the in-plane spin orientations. This model additionally utilizes an enlarged low-fidelity training set, beyond the available NR and BHPT simulations, constructed through a waveform-based data-augmentation procedure. We also include simple eccentric extensions through leading-order dependence on eccentricity and orbital anomaly. The models span the equal-mass to extreme-mass-ratio regimes and are publicly available through the gwModels package for applications in gravitational-wave astronomy, astrophysical population studies, and cosmology.",
-    "arxiv_id": "2608.00934v1",
-    "published": "2026-08-02T02:19:55Z",
-    "updated": "2026-08-02T02:19:55Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE"
     ]
   }
 ]

@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-09-30 12:05:54 UTC</div>
+            <div class="last-updated">Last updated: 2026-10-01 12:39:56 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">29 September 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2609.38331v1" target="_blank" rel="noopener">Towards solving General Relativity with Physics-Informed Neural Networks</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Juan A. Carretero, Jorge F. Urbán, Fernando Abalos, Joan Massó, Oscar A. Reula, Jose A. Pons, Carlos Palenzuela</div>
+                <div class="paper-abstract">Physics-Informed Neural Networks (PINNs) are a machine-learning framework for approximating solutions to systems of partial differential equations by constraining neural networks to satisfy the underlying physical laws. The resulting continuous representation does not require a predefined computational mesh and can be evaluated at arbitrary points within the training domain. In this work, we investigate the application of PINNs to Einstein's equations of General Relativity. We discuss the mathematical formulation, network architectures, loss functions, and training strategies used to obtain accurate spacetime solutions, and demonstrate the approach through a series of standard benchmarks from Numerical Relativity. We then extend the method to a more astrophysical setting by considering the dynamical evolution of an isolated solitonic boson star. Our simulations show that a PINN operating directly in three-dimensional Cartesian coordinates can reproduce the equilibrium structure of a highly compact boson star and recover its characteristic radial oscillation frequencies. These results establish PINNs as a viable complementary framework for solving coupled matter-Einstein equations and exploring alternative formulations in numerical relativity.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">24 September 2026</div>
@@ -895,21 +910,6 @@
                 </div>
                 <div class="paper-authors">Beka Modrekiladze</div>
                 <div class="paper-abstract">Gravitational-wave parameter estimation requires millions of waveform evaluations per event, a cost that constrains real-time inference and population studies. We present a fast, fully differentiable neural-network surrogate for the precessing numerical-relativity model \NRSur{}, spanning its full intrinsic parameter space $λ=(q,\,\boldsymbolχ_1,\,\boldsymbolχ_2)$ together with the reference orbital frequency $ω_0$. Rather than a single polarization at a fixed orientation, the surrogate predicts the <em>inertial-frame spherical-harmonic modes</em> $h_{\ell m}$ ($\ell\leq 4$), so that both polarizations $h_+,h_\times$ at an arbitrary orientation $(ι,ǎrphi,ψ)$ are reconstructed from one network evaluation through an analytic, differentiable mode-to-strain projection. Trained on $6\times10^5$ waveforms, it attains a fixed-orientation match of mean $0.975$ (median $0.988$) and an orientation-averaged match of mean $0.940$ (median $0.975$) for $q\in[1,4]$, $|\boldsymbolχ_{1,2}|\leq 0.8$, while keeping the overall strain amplitude physical (median ratio $0.98$). It generates a waveform in $\SI{12}{ms}$ (single) and ${\sim}3.5\times10^4$ per second in batches on a single GPU. Because the mode-to-strain projection is analytic, the surrogate is differentiable in both intrinsic and extrinsic parameters, yielding a full 13-dimensional Fisher matrix (validated against finite differences) and gradient-based (HMC/NUTS) parameter estimation.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">02 August 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2608.00934v1" target="_blank" rel="noopener">Unified remnant models for aligned-spin, precessing, and eccentric binary black hole mergers</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Tousif Islam, Digvijay Wadekar, Gaurav Khanna</div>
-                <div class="paper-abstract">Using approximately $5000$ numerical-relativity (NR) simulations spanning mass ratios up to $q=128$ and $1200$ black-hole-perturbation-theory (BHPT) simulations extending to $q=1000$, we present fully analytic models for the remnant properties of quasi-circular binary black hole mergers. The models gwModelRemS (for final mass, final spin, peak luminosity, and recoil kick) and gwModelRemP (for final mass, final spin, and peak luminosity) describe nonprecessing and precessing binaries, respectively. Our approach combines analytic insights from post-Newtonian theory and point-particle limits with a data-driven fitting framework which also includes validation-guided AI-agent-assisted optimization. The resulting fits outperform existing analytic models and achieve accuracies comparable to data-driven models within their domains of validity. We also construct gwModelRemP_flow, a normalizing-flow model for recoil kicks from precessing binaries, marginalized over the in-plane spin orientations. This model additionally utilizes an enlarged low-fidelity training set, beyond the available NR and BHPT simulations, constructed through a waveform-based data-augmentation procedure. We also include simple eccentric extensions through leading-order dependence on eccentricity and orbital anomaly. The models span the equal-mass to extreme-mass-ratio regimes and are publicly available through the gwModels package for applications in gravitational-wave astronomy, astrophysical population studies, and cosmology.</div>
             </article>
 
         </main>
