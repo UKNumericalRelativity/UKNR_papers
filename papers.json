@@ -1,5 +1,21 @@
 [
   {
+    "title": "Locating critical solutions in numerical relativity using automatic differentiation",
+    "authors": [
+      "David Bambague",
+      "Miguel Bezares",
+      "Katy Clough",
+      "Steven Tobias"
+    ],
+    "abstract": "Numerical relativity is a term used to describe the solution of the full non-linear Einstein Equations as an initial value problem using numerical methods. Individual simulations are computationally expensive and in many applications the high complexity of the parameter space and non-linear sensitivity of the solutions makes locating particular outcomes of interest challenging. In this work, we demonstrate how auto-differentiation can efficiently find dynamical solutions of interest, using the classic problem of scalar critical collapse as a proof of principle. We locate a line of critical solutions in a 2D parameter space using 35 runs, compared to the 270 runs required to locate 10 critical points using bisection, and directly calculate the unstable mode, confirming its universality along the line. The method is straightforwardly extendable to higher-dimensional parameter spaces, offering a promising method to efficiently target more complex solutions in strong dynamical gravity regimes.",
+    "arxiv_id": "2610.01964v1",
+    "published": "2026-10-01T16:18:09Z",
+    "updated": "2026-10-01T16:18:09Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Towards solving General Relativity with Physics-Informed Neural Networks",
     "authors": [
       "Juan A. Carretero",
