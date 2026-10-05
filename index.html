@@ -292,7 +292,7 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-10-02 12:03:37 UTC</div>
+            <div class="last-updated">Last updated: 2026-10-05 13:54:45 UTC</div>
         </div>
         
         <main>
@@ -910,21 +910,6 @@
                 </div>
                 <div class="paper-authors">Hao-Jui Kuan</div>
                 <div class="paper-abstract">Large numerical-relativity surveys require compact-binary initial data that are both spectrally accurate and inexpensive to construct, including for systems with unequal masses and misaligned spins. We present ȩlephais, a compact-object initial-data code built on the <code>Kadath</code> spectral library, that constructs binary-neutron-star and black-hole--neutron-star initial data without imposing equatorial symmetry. The method exploits the sparse structure of the globally coupled multi-domain Jacobian and the approximate parity separation of fields. The assembled matrix is factored with <code>MUMPS</code> and reused as a refreshed right preconditioner in a Jacobian-free Newton--Krylov iteration, thereby avoiding dense storage. An adaptive $hp$--refinement scheme then concentrates resolution where the spectral tails are not yet resolved. For a mass-ratio-$20$ black-hole--neutron-star benchmark, the adaptive schemes recover the uniform-grid constraint accuracy with about three times fewer unknowns. We also extend the post-Newtonian force-balance estimate to arbitrary spin orientations and use it to initialise eccentricity reduction. Validation comprises binding-energy comparisons with post-Newtonian sequences, a precessing binary-neutron-star eccentricity-reduction test, and a full evolution whose waveform-reconstructed precession axis follows a post-Newtonian simple-precession model. These results establish an efficient route to spectrally resolved binary-neutron-star and black-hole--neutron-star initial data with arbitrary spin orientations.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">03 August 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2608.09978v1" target="_blank" rel="noopener">A fast, differentiable neural-network surrogate for precessing binary black-hole waveforms</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Beka Modrekiladze</div>
-                <div class="paper-abstract">Gravitational-wave parameter estimation requires millions of waveform evaluations per event, a cost that constrains real-time inference and population studies. We present a fast, fully differentiable neural-network surrogate for the precessing numerical-relativity model \NRSur{}, spanning its full intrinsic parameter space $λ=(q,\,\boldsymbolχ_1,\,\boldsymbolχ_2)$ together with the reference orbital frequency $ω_0$. Rather than a single polarization at a fixed orientation, the surrogate predicts the <em>inertial-frame spherical-harmonic modes</em> $h_{\ell m}$ ($\ell\leq 4$), so that both polarizations $h_+,h_\times$ at an arbitrary orientation $(ι,ǎrphi,ψ)$ are reconstructed from one network evaluation through an analytic, differentiable mode-to-strain projection. Trained on $6\times10^5$ waveforms, it attains a fixed-orientation match of mean $0.975$ (median $0.988$) and an orientation-averaged match of mean $0.940$ (median $0.975$) for $q\in[1,4]$, $|\boldsymbolχ_{1,2}|\leq 0.8$, while keeping the overall strain amplitude physical (median ratio $0.98$). It generates a waveform in $\SI{12}{ms}$ (single) and ${\sim}3.5\times10^4$ per second in batches on a single GPU. Because the mode-to-strain projection is analytic, the surrogate is differentiable in both intrinsic and extrinsic parameters, yielding a full 13-dimensional Fisher matrix (validated against finite differences) and gradient-based (HMC/NUTS) parameter estimation.</div>
             </article>
 
         </main>

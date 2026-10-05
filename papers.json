@@ -681,20 +681,5 @@
       "astro-ph.HE",
       "astro-ph.IM"
     ]
-  },
-  {
-    "title": "A fast, differentiable neural-network surrogate for precessing binary black-hole waveforms",
-    "authors": [
-      "Beka Modrekiladze"
-    ],
-    "abstract": "Gravitational-wave parameter estimation requires millions of waveform evaluations per event, a cost that constrains real-time inference and population studies. We present a fast, fully differentiable neural-network surrogate for the precessing numerical-relativity model \\NRSur{}, spanning its full intrinsic parameter space $λ=(q,\\,\\boldsymbolχ_1,\\,\\boldsymbolχ_2)$ together with the reference orbital frequency $ω_0$. Rather than a single polarization at a fixed orientation, the surrogate predicts the \\emph{inertial-frame spherical-harmonic modes} $h_{\\ell m}$ ($\\ell\\leq 4$), so that both polarizations $h_+,h_\\times$ at an arbitrary orientation $(ι,\\varphi,ψ)$ are reconstructed from one network evaluation through an analytic, differentiable mode-to-strain projection. Trained on $6\\times10^5$ waveforms, it attains a fixed-orientation match of mean $0.975$ (median $0.988$) and an orientation-averaged match of mean $0.940$ (median $0.975$) for $q\\in[1,4]$, $|\\boldsymbolχ_{1,2}|\\leq 0.8$, while keeping the overall strain amplitude physical (median ratio $0.98$). It generates a waveform in $\\SI{12}{ms}$ (single) and ${\\sim}3.5\\times10^4$ per second in batches on a single GPU. Because the mode-to-strain projection is analytic, the surrogate is differentiable in both intrinsic and extrinsic parameters, yielding a full 13-dimensional Fisher matrix (validated against finite differences) and gradient-based (HMC/NUTS) parameter estimation.",
-    "arxiv_id": "2608.09978v1",
-    "published": "2026-08-03T18:38:10Z",
-    "updated": "2026-08-03T18:38:10Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "astro-ph.IM"
-    ]
   }
 ]
