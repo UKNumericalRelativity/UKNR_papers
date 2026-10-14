@@ -1,5 +1,35 @@
 [
   {
+    "title": "Large mass-ratio ($3< q \\leq 10$) inspiral-merger-ringdown model for eccentric binary black holes",
+    "authors": [
+      "Pratul Manna",
+      "Tamal RoyChowdhury",
+      "Chandra Kant Mishra"
+    ],
+    "abstract": "We present $\\texttt{EccHybIMR22}$, a fully analytical $\\textbf{Ecc}$entric-$\\textbf{Hyb}$rid-$\\textbf{I}$nspiral-$\\textbf{M}$erger-$\\textbf{R}$ingdown model for the quadrupole ($\\ell$=$2$, $|m|$=$2$ or simply the $\\textbf{22}$) mode. The model is obtained by smoothly attaching an eccentric-inspiral to a quasi-circular-merger-ringdown prescription and is trained on eccentric numerical relativity (NR) simulations with mass ratios $q\\leq 10$. In particular, we focus on obtaining a model that is sensitive to large mass ratios ($q>3$). Leveraging the recent expansion of SXS catalog of NR simulations, we construct a set of 91 hybrids (obtained by combining waveforms from post-Newtonian (PN) theory with NR simulations) with a target low total mass limit ($M_{\\rm low}$) of $20M_{\\odot}$ at an averaged 22 mode frequency of 20Hz, inaccessible with existing NR simulations alone. Employing a little less than a third of these hybrids as targets, we construct $\\texttt{EccHybIMR22}$ and recover $65\\%$ of the hybrids from the remaining set with mismatches smaller than $\\sim3\\%$ for a total mass of $40M_\\odot$ (chosen arbitrarily) and orbital eccentricity $e_{\\rm 20Hz}\\lesssim0.33$ ($e_{\\rm 20Hz}\\lesssim 0.12$) for mass ratios $q\\leq3$ ($q>3$). Furthermore, when tested against 175 SXS simulations, the model is able to recover nearly $80\\%$ of the simulations with similar mismatches for systems with $0\\lesssim e^{\\rm NR}_{\\rm 20Hz}\\lesssim 0.3$.",
+    "arxiv_id": "2610.16958v1",
+    "published": "2026-10-12T15:26:07Z",
+    "updated": "2026-10-12T15:26:07Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Scalar wave dark matter imprints on binary black hole mergers: dependence on field mass and density",
+    "authors": [
+      "Yu-Peng Zhang",
+      "Shao-Wen Wei",
+      "Yu-Xiao Liu"
+    ],
+    "abstract": "Dark matter environments can modify binary black hole mergers and imprint their gravitational-wave signals. We perform numerical-relativity simulations of nonspinning binary black holes immersed in complex scalar-field clouds, considering mass ratios $q=1,2,3,$ and $4$ and varying both the dimensionless scalar-field mass $\\hat m_Φ=m_ΦM_0$ and initial amplitude $Π_0$, which controls the density. Our initial data keep the scalar energy-density profile and binary geometry unchanged when varying $\\hat m_Φ$ at fixed $Π_0$, allowing the dynamical effect of the field mass to be isolated. We find that the scalar environment generally accelerates the merger and significantly modifies the gravitational-wave signal. For unequal-mass binaries, differential scalar-field accretion changes the horizon-mass ratio during inspiral, weakly at low density but substantially at high density, thereby increasing the binary asymmetry before merger. Dense scalar environments suppress the energy and angular momentum carried by gravitational waves. Lighter scalar fields propagate more efficiently to large radii, whereas heavier fields remain more localized and show stronger inward energy transport. Scalar angular-momentum transport is more complex, showing nonmonotonic behavior and even direction reversal near the binary. For unequal-mass systems, gravitational and scalar radiation both carry net linear momentum, and their relative orientation determines whether the recoil is enhanced or suppressed. The largest kick is $2063.6~{\\rm km,s^{-1}}$ for $q=2$, $\\hat m_Φ=0$, and $Π_0=0.0100$, compared with $137.8~{\\rm km,s^{-1}}$ in vacuum. These results show that the scalar-field mass and density jointly control the binary asymmetry, dynamics, radiative channels, and momentum balance.",
+    "arxiv_id": "2610.15053v1",
+    "published": "2026-10-10T16:44:40Z",
+    "updated": "2026-10-10T16:44:40Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Relativistic dynamical friction in Kerr-Schild coordinates",
     "authors": [
       "Zipeng Wang",
