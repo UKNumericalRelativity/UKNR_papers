@@ -1,5 +1,19 @@
 [
   {
+    "title": "Cubic Quasinormal Modes in the Black-Hole Ringdown",
+    "authors": [
+      "Neev Khera",
+      "Huan Yang"
+    ],
+    "abstract": "We formulate and numerically solve the nonlinear Teukolsky equations through third order, obtaining a first-principles calculation of cubic quasinormal-mode amplitudes for Kerr black holes. Our approach combines lower-order metric reconstruction in split light-cone gauges with a hyperboloidal, compactified formulation solved on complex radial contours. Spin-dependent complex coupling coefficients fix the cubic amplitudes from products of their linear parent amplitudes. We apply these predictions to a nonprecessing numerical-relativity waveform, including cubic products of the $(2,2)$ fundamental mode, its first overtone, and their conjugates. The predicted cubic terms improve agreement over selected early-ringdown fitting windows and shift inferred linear-overtone amplitudes without adding fitting parameters. $3M$ after the peak of $|h_{22}|$, the summed cubic contribution reaches approximately $38\\%$ of the total $h_{22}$ signal; $M$ is the initial total mass. These results identify an appreciable cubic response in early ringdown.",
+    "arxiv_id": "2610.20547v1",
+    "published": "2026-10-14T17:37:46Z",
+    "updated": "2026-10-14T17:37:46Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Large mass-ratio ($3< q \\leq 10$) inspiral-merger-ringdown model for eccentric binary black holes",
     "authors": [
       "Pratul Manna",
