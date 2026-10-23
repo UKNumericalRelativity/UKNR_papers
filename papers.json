@@ -1,5 +1,44 @@
 [
   {
+    "title": "Gravitational waves from highly charged binary black holes in Einstein-Maxwell-dilaton theory",
+    "authors": [
+      "Ryoto Tomie",
+      "Kai Togashi",
+      "Kitaro Taniguchi",
+      "Ryotaro Kase"
+    ],
+    "abstract": "We perform fully nonlinear numerical-relativity simulations of electrically charged binary black hole mergers in Einstein-Maxwell-dilaton (EMD) theory, varying the magnitude and relative sign of the input charges and the dilaton coupling $a$. In the weak-charge sequence, the dominant gravitational waveforms remain close to the neutral vacuum baseline of general relativity and are visually indistinguishable across the sampled couplings, consistent with earlier EMD simulations. For the highly charged binaries with equal-magnitude opposite charges, however, the dominant gravitational strain exhibits visible differences between the EMD cases with $a\\neq0$ and the charged Einstein-Maxwell reference at $a=0$. At $a=1$, the coordinate-time interval from the same separation to the waveform-based merger is approximately $62\\%$ shorter than for the neutral binary. In this high-charge sequence at fixed input charges, increasing $a$ strengthens the scalar dressing while leaving the individual dilaton-weighted horizon charges nearly unchanged. Within the same sequence, increasing $a$ across the sampled values decreases the dipolar electromagnetic-flux peak, increases the scalar-flux peak, and modestly lengthens the merger interval. The sampled like-charged binaries have corresponding merger intervals approximately $15\\%$-$20\\%$ longer than the neutral baseline and emit predominantly quadrupolar electromagnetic radiation. At $a=1$ and $a=\\sqrt{3}$, the like-charged mergers leave charged remnants with scalar fields consistent with secondary dilaton hair. The opposite-charge remnants instead approach neutral black holes without stationary scalar hair.",
+    "arxiv_id": "2610.31177v1",
+    "published": "2026-10-22T12:30:24Z",
+    "updated": "2026-10-22T12:30:24Z",
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ]
+  },
+  {
+    "title": "Accurate initial data for Cauchy-characteristic evolution",
+    "authors": [
+      "Guido Da Re",
+      "Keefe Mitman",
+      "Leo C. Stein",
+      "Nils Deppe",
+      "Himanshu Chaudhary",
+      "Dongze Sun",
+      "Michael Boyle",
+      "Kyle C. Nelli",
+      "Mark A. Scheel",
+      "Saul A. Teukolsky"
+    ],
+    "abstract": "Accurate gravitational-wave (GW) templates from numerical-relativity (NR) simulations are essential for GW science. These templates are typically computed at finite radii and extrapolated to future null infinity $\\mathscr{I}^{+}$, the asymptotic boundary of spacetime. However, this procedure is known to not accurately capture momentum fluxes and memory effects, limiting the accuracy of waveform models and data analyses that rely on them. Cauchy-characteristic evolution (CCE) instead integrates Einstein's equations along outgoing null hypersurfaces from a Cauchy simulation's finite-radius worldtube to $\\mathscr{I}^{+}$. Its accuracy, though, has been limited by initial data that produce long-lived spurious transients, which contaminate several cycles of the waveform emitted by the binary coalescence. We identify incorrect initial angular coordinates as the source of these transients. We construct initial data that matches the Cauchy worldtube data through second order in the radial derivatives and solve for the angular coordinates consistent with the resulting radial profile. These improvements remove the unphysical transient: a $10\\%$ modulation of a binary black hole's $(2,2)$ mode amplitude lasting over $1000\\,M$ disappears, and the late-time tail of a head-on black hole collision is recovered. The construction is independent of the Cauchy formulation and allows archived simulations to be reprocessed with CCE, paving the way for improved GW catalogs.",
+    "arxiv_id": "2610.30268v1",
+    "published": "2026-10-21T18:00:08Z",
+    "updated": "2026-10-21T18:00:08Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "The shape of nonlinearity in binary-black-hole dynamics",
     "authors": [
       "Tousif Islam"
