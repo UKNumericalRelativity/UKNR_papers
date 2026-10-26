@@ -1,5 +1,20 @@
 [
   {
+    "title": "Stochastic dynamics of cosmological inflation in general relativity",
+    "authors": [
+      "Yoann L. Launay"
+    ],
+    "abstract": "The theory of Inflation, supplemented by fluctuations of the quantum vacuum, is the leading paradigm to explain the correlations of inhomogeneities at very large distances in the Universe. Particle physics methods fail when strong non-linearity and non-perturbativity are involved, leaving a whole landscape of untestable scenarios of inflation. Starobinsky's stochastic inflation can in principle treat inflationary inhomogeneities nonlinearly and classically as the Hubble radius becomes smaller than their wavelengths, but it was never formulated in full general relativity, which motivates this thesis. Using the Keldysh formalism of nonequilibrium quantum field theory, we first develop a validity criterion for the use of classical computations, and thus simulations, to probe inflationary interactions, finding analytically that the bispectrum can be extracted from slightly sub-Hubble scales in quasi-de Sitter spacetimes. We then provide the first analytical solutions to the constraints for inhomogeneous initial conditions of numerical relativity simulations of inflation, and use them to explore its nonperturbative regime. Our main contribution is to obtain stochastic equations for the full set of inflaton equations in general relativity: this description incorporates the full nonlinear and backreacting evolution, is small-gauge-invariant, and is free of historical assumptions such as the gradient-free separate universe approximation. We implement these equations in the BSSN formulation of numerical relativity, demonstrating their correctness in slow-roll and ultra slow-roll scenarios via the satisfaction of the constraints, with a first look at eternal inflation. Finally, we extend our coarse-graining methods beyond General Relativity and single-field inflation, offering a phenomenological framework with the ambition of serving as a numerical particle collider for the early universe.",
+    "arxiv_id": "2610.32592v1",
+    "published": "2026-10-23T13:17:00Z",
+    "updated": "2026-10-23T13:17:00Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "hep-th"
+    ]
+  },
+  {
     "title": "Gravitational waves from highly charged binary black holes in Einstein-Maxwell-dilaton theory",
     "authors": [
       "Ryoto Tomie",
@@ -714,106 +729,6 @@
     "categories": [
       "gr-qc",
       "astro-ph.HE"
-    ]
-  },
-  {
-    "title": "ANRe-M1: a GPU-accelerated numerical relativity code with multi-energy M1 neutrino transport",
-    "authors": [
-      "Takami Kuroda",
-      "Masaru Shibata"
-    ],
-    "abstract": "We present ANRe-M1 (Accelerated Numerical Relativity code with multi-energy M1 neutrino transport), a performance-portable, GPU-accelerated code for multidimensional core-collapse supernova simulations in full general relativity. ANRe-M1 builds on our original CPU-based Fortran framework and is implemented in C++ using Kokkos. It retains the underlying general-relativistic neutrino-radiation-hydrodynamics algorithms while redesigning the data layout, parallel decomposition, and memory-access patterns for accelerator-resident execution. The spacetime sector employs the BSSN--Z4c formulation and is coupled to relativistic hydrodynamics and energy-dependent M1 neutrino transport. We validate the implementation through a suite of hydrodynamic, radiation-transport, and dynamical-spacetime tests, together with comparisons to results from an earlier code-comparison study. We further demonstrate its applicability with a representative three-dimensional stellar-collapse computation including multi-energy neutrino transport. For the benchmark and computing systems considered here, ANRe-M1 runs approximately an order of magnitude faster on a cluster of AMD MI300A accelerated processing units than the Fortran version on a CPU cluster. When the allocation is increased from 2 to 128 MI300A APUs, the aggregate throughput rises by a factor of 39.7, corresponding to a weak-scaling efficiency of 62 per cent relative to the two-APU case. These results establish ANRe-M1 as an efficient and portable framework for long-term, multidimensional supernova simulations on current and forthcoming accelerator-based supercomputers.",
-    "arxiv_id": "2608.26681v1",
-    "published": "2026-08-27T06:36:37Z",
-    "updated": "2026-08-27T06:36:37Z",
-    "categories": [
-      "astro-ph.HE"
-    ]
-  },
-  {
-    "title": "Anti-Ultralocality and Plateau Models of Inflation",
-    "authors": [
-      "Joshua Shterenberg",
-      "David Garfinkle",
-      "Anna I. Rosenzweig",
-      "David Shlivko",
-      "Paul J. Steinhardt"
-    ],
-    "abstract": "Anti-ultralocality refers to the growth of spatial gradient terms relative to velocity terms in the coupled Einstein--scalar field equations. It is a characteristic feature of decelerated expansion before the onset of inflation. Previous numerical relativity studies have shown that anti-ultralocality prevents the onset of inflation in models with power-law inflaton potentials. In this paper, we show that models with plateau-shaped inflaton potentials, which are considered to be the simplest way to generate a tensor-to-scalar ratio below current observational upper limits, are especially vulnerable to anti-ultralocality effects. The reasons are the flatness of the plateau and the energy density gap of $\\sim 10$ orders of magnitude between the Planck density and the plateau potential energy. To study the problem, we develop a protocol for assessing the viability of inflationary models in general, and we apply it to a plateau potential using a previously validated numerical relativity code. We find that, starting from generic initial conditions, the growth of gradient terms in the Einstein equations relative to non-gradient terms either prevents inflation from lasting for enough $e$-folds or triggers a phase of quantum runaway. We show that the fine-tuning of initial conditions necessary to avoid these issues becomes more severe as the energy scale of inflation is made smaller, disfavoring common approaches for reducing the tensor-to-scalar ratio.",
-    "arxiv_id": "2608.24997v1",
-    "published": "2026-08-25T18:00:02Z",
-    "updated": "2026-08-25T18:00:02Z",
-    "categories": [
-      "gr-qc",
-      "hep-th"
-    ]
-  },
-  {
-    "title": "Anti-Ultralocality and Plateau Models of Inflation",
-    "authors": [
-      "Joshua Shterenberg",
-      "David Garfinkle",
-      "Anna I. Rosenzweig",
-      "David Shlivko",
-      "Paul J. Steinhardt"
-    ],
-    "abstract": "Anti-ultralocality refers to the growth of spatial gradient terms relative to velocity terms in the coupled Einstein--scalar field equations. It is a characteristic feature of decelerated expansion before the onset of inflation. Previous numerical relativity studies have shown that anti-ultralocality prevents the onset of inflation in models with power-law inflaton potentials. In this paper, we show that models with plateau-shaped inflaton potentials, which are considered to be the simplest way to generate a tensor-to-scalar ratio below current observational upper limits, are especially vulnerable to anti-ultralocality effects. The reasons are the flatness of the plateau and the energy density gap of $\\sim 10$ orders of magnitude between the Planck density and the plateau potential energy. To study the problem, we develop a protocol for assessing the viability of inflationary models in general, and we apply it to a plateau potential using a previously validated numerical relativity code. We find that, starting from generic initial conditions, the growth of gradient terms in the Einstein equations relative to non-gradient terms either prevents inflation from lasting for enough $e$-folds or triggers a phase of quantum runaway. We show that the fine-tuning of initial conditions necessary to avoid these issues becomes more severe as the energy scale of inflation is made smaller, disfavoring common approaches for reducing the tensor-to-scalar ratio.",
-    "arxiv_id": "2608.24997v2",
-    "published": "2026-08-25T18:00:02Z",
-    "updated": "2026-09-02T17:14:31Z",
-    "categories": [
-      "gr-qc",
-      "hep-th"
-    ]
-  },
-  {
-    "title": "The Bondi Dipole in Full Numerical Relativity: a Self-Accelerating Positive-Negative Mass Binary",
-    "authors": [
-      "Nikita M. Shirokov"
-    ],
-    "abstract": "Bondi showed in 1957 that bodies of opposite active gravitational mass self-accelerate: the negative chases the positive it repels, and the pair runs off together. We evolve this \"Bondi dipole\" in $3+1$ numerical relativity: two complex scalars share identical Klein-Gordon dynamics; only the phantom enters Einstein's equations with a minus sign -- inertial and passive masses positive, active mass negative. Across a matrix of thirty-four evolutions -- runaway pairs, controls, and parameter scans -- a mass-matched pair released at rest accelerates as a unit. The midpoint moves $3.00\\pm0.01$ by $t=200$ with the separation held to 1%, and reaches a speed of $0.056c$ by $t=400$ with the acceleration steady to 2%; the total signed momentum holds at zero to $\\lesssim 1$%. The force is gravity on both of its axes: $a\\propto d^{-2.03\\pm0.01}$ over $d=8$ to $20$, $a\\propto M^{0.97\\pm0.06}$ over a factor $2.5$ in mass, and $a\\,d^2/\\bar{M}=1$ within 2.4% on the equal-mass ladder. Swapping the sectors inverts the acceleration to two parts in $10^5$; gauge, solver-depth and mesh variations move the drift by $\\lesssim 0.01$% and box doubling by 4%; same-sign control pairs hold their centroids to $\\lesssim 8\\times10^{-4}$ even while merging. The runaway carries no detectable gravitational radiation: the signed dipole cannot radiate, the quadrupole's $\\ddot{Q}$ is constant, and the measured $\\ell=2$ amplitude falls as $r^{-4.8}$ -- near zone, not flux. The phantom star is, to our knowledge, the first asymptotically flat body of negative ADM mass evolved in numerical relativity; alone it survives to $t=1000$, slowly relaxing outward.",
-    "arxiv_id": "2608.24577v1",
-    "published": "2026-08-25T14:04:41Z",
-    "updated": "2026-08-25T14:04:41Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE"
-    ]
-  },
-  {
-    "title": "Black holes from a Higgs-like field in the radiation era",
-    "authors": [
-      "Ethan Milligan",
-      "Luis E. Padilla",
-      "David J. Mulryne"
-    ],
-    "abstract": "Light spectator fields during inflation can acquire superhorizon fluctuations that cross a potential barrier between positive and negative regions of their potential. Motivated by the Standard Model Higgs instability, in this work we study the subsequent evolution of patches where this occurs in the radiation era after inflation ends for a Higgs-like spectator field. We utilise fully nonlinear, spherically symmetric numerical relativity. Across the black hole forming configurations in our investigation we find a robust two-stage evolution. First, the central negative potential region reverses its expansion, becomes kinetic dominated, and forms a primordial black hole that hides the runaway core. The positive potential barrier that survives outside this first horizon then determines one of two late-time branches. In the subcritical branch the original apparent horizon grows smoothly and engulfs the remaining scalar structure. In the supercritical branch, however, the potential energy of the barrier dominates the local evolution. The result is a transient wormhole throat, a bifurcating trapping horizon, and an inflating child universe branch. In both branches the parent radiation dominated universe is ultimately left with an ordinary primordial black hole whose subsequent growth is governed by radiation accretion.",
-    "arxiv_id": "2608.23367v1",
-    "published": "2026-08-24T15:16:50Z",
-    "updated": "2026-08-24T15:16:50Z",
-    "categories": [
-      "astro-ph.CO",
-      "gr-qc"
-    ]
-  },
-  {
-    "title": "Complex frequency evolution of direct waves from binary black hole mergers",
-    "authors": [
-      "Ling Sun",
-      "Sizheng Ma",
-      "Patrick P. Chen",
-      "Andrew Laeuger",
-      "Neil Lu",
-      "Yanbei Chen"
-    ],
-    "abstract": "While no signal originating at a black hole's event horizon can reach future null infinity, information about the horizon and its immediate vicinity can be encoded in asymptotic properties of waves emitted by matter or field perturbations falling toward a growing/forming horizon. Within a response-filtered framework, \"direct wave\" denotes source-sensitive plunge and remnant-formation information revealed by filtering the black-hole response. Unlike a stationary damped sinusoid with a fixed complex frequency, the direct wave follows the evolving source and has an evolving instantaneous complex frequency tied at late times to the remnant horizon angular velocity $Ω_H$ and surface gravity $κ_H$. Using rational filters, we remove quasinormal modes from numerical-relativity waveforms to study this evolution. Before numerical contamination, trajectories depend on remnant spin: the real frequency evolves toward $2Ω_H$ from above for lower spins ($χ_f\\lesssim0.7$) and from below for higher spins ($χ_f\\gtrsim0.7$), while the instantaneous decay rate increases toward $\\sim2κ_H$ and, in some high-spin cases, beyond it. As in particle-plunge results, the horizon-controlled value is approached only at late times, as frame dragging controls near-horizon motion. For $χ_f\\sim0.7$ remnants of non-precessing, comparable-mass binaries, the early-time real frequency is close to $2Ω_H$ because the binary orbital frequency transitions smoothly to the remnant horizon frequency. Finite-time deviations therefore carry information about merger/collapse dynamics rather than undermining the horizon connection. Full direct-wave evolution requires numerical-relativity calibration. We further show that approximate pole-zero pairing in the Kerr response motivates a spin-dependent minimal filter set that suppresses quasinormal-mode features while revealing source-trajectory information.",
-    "arxiv_id": "2608.23209v1",
-    "published": "2026-08-24T12:57:51Z",
-    "updated": "2026-08-24T12:57:51Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "hep-ph"
     ]
   }
 ]
