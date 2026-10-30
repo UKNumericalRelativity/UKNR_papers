@@ -1,5 +1,76 @@
 [
   {
+    "title": "Disentangling Spin-induced Precession vs. Eccentricity in GW190521 and GW231123",
+    "authors": [
+      "Patricia McMillin",
+      "Giuseppe Ficarra",
+      "Carlos O. Lousto",
+      "Richard O'Shaughnessy"
+    ],
+    "abstract": "We use the more than 2000 full numerical-relativity simulations included in the fifth release of the RIT binary-black-hole waveform catalog to perform Bayesian parameter estimation, via the rapid iterative fitting algorithm (RIFT), for the gravitational-wave events GW190521 and GW231123. We revisit GW190521, which has previously been identified as potentially possessing large eccentricity upon entering the detector band at $20~\\mathrm{Hz}$, and confirm this finding: the highest likelihood is obtained from waveforms that are simultaneously eccentric and spin-precessing, yielding $e_{20} =0.207_{-0.147}^{+0.192}$ and $χ_{1,\\perp}=0.717_{-0.406}^{+0.194}$. Applying the same simulation pool to GW231123, we likewise find a preference for spin precession where at 20 Hz $χ_{1,\\perp}=0.678_{-0.462}^{+0.218}$, but in this case with negligible eccentricity at both $10~\\mathrm{Hz}$ and $20~\\mathrm{Hz}$, with $e_{10}=0.097_{-0.073}^{+0.124}$ and $e_{20}=0.056_{-0.045}^{+0.059}$. For comparison, both events are also analyzed using exclusively non-precessing (eccentric and quasi-circular) simulations, which yield lower likelihoods in each case. These results indicate that our approach is capable of discriminating between the effects of eccentricity and spin precession in current gravitational-wave signals. The singled out top peak likelihood NR simulations give estimates of the recoil velocities of the merged final holes of 3965km/s for GW190521, and of 2059km/s for GW231123.",
+    "arxiv_id": "2610.40077v1",
+    "published": "2026-10-29T13:53:20Z",
+    "updated": "2026-10-29T13:53:20Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "Tidal disruption or plunge: the role of neutron star internal structure in black hole-neutron star mergers",
+    "authors": [
+      "Yatharth Chaurasiya",
+      "Ritam Mallick"
+    ],
+    "abstract": "The outcome of black hole--neutron star (BHNS) mergers is studied using a general-relativistic mass-shedding condition in the Kerr spacetime, which determines the tidal-disruption radius from the mass ratio, the black hole (BH) spin, the neutron star (NS) compactness, and the ratio of central to average density, $η=\\frac{ρ_{c}}{\\barρ}$. Comparing this radius with the innermost stable circular orbit, we map the boundary between tidal disruption and plunge for two relativistic mean-field equations of state (EOSs) and for an ensemble of about $10^4$ agnostic EOSs spanning the current uncertainty in the NS radius. We find that the disruption threshold is set mainly by the compactness, but NSs with the same compactness and different $η$ can have different outcomes. Using the tidal disruption radius, we construct a remnant-mass model calibrated against 70 numerical-relativity simulations, which reproduces the remnant mass with an accuracy comparable to existing fits. Applying the disruption criterion and the remnant model to GW200105, GW200115, and the candidate BHNS event GW230529, we find that GW200105 and GW200115 are consistent with a direct plunge. GW230529 lies close to the disruption threshold and may have undergone marginal disruption, leaving only a low-mass remnant.",
+    "arxiv_id": "2610.39862v1",
+    "published": "2026-10-29T11:39:51Z",
+    "updated": "2026-10-29T11:39:51Z",
+    "categories": [
+      "astro-ph.HE"
+    ]
+  },
+  {
+    "title": "Considering Numerical Relativity Surrogate Models for AGN Channel Merger Dynamics",
+    "authors": [
+      "Shawn Ray",
+      "Keefe Mitman",
+      "Vera Delfavero",
+      "Emily McPike",
+      "Jake Postiglione",
+      "Harrison E. Cook",
+      "Kaila Nathaniel",
+      "Nicolas Posner",
+      "Barry McKernan",
+      "K. E. Saavik Ford",
+      "Richard O'Shaughnessy"
+    ],
+    "abstract": "Binary black hole mergers (BBH) are currently observed by the gravitational-wave detectors LIGO, Virgo, and KAGRA (LVK). A fraction of these mergers are likely to originate in active galactic nuclei (AGN), but the details of the dynamical processes driving AGN channel mergers remain poorly understood. Monte Carlo For AGN Channel Testing and Simulation (McFACTS) is an open-source, public software used to simulate AGN channel BBH formation and evolution with configurable options for exploring various AGN and Nuclear Star Cluster (NSC) parameter options. Within McFACTS, BBH mergers evolve through gas drag and dynamical interactions, ignoring relativistic effects which can influence merger remnant properties. Here we demonstrate in McFACTS the effect of handing off inspiralling BBH to a numerical relativity (NR) surrogate model, which more accurately predicts the masses, spins, and kick velocities of merger remnants. Compared to a simple analytic approach to calculating merger and remnant properties the NR surrogate model is significantly more accurate at predicting remnant spins, which improve $χ_{eff}$ and $χ_{p}$ calculations, and recoil kicks, parameters especially important for higher generation BBH mergers. Our findings show the NR surrogate significantly changes distributions of remnant spins and kick velocities, as well as showing that alternative methods should be used cautiously in future studies. We also outline some simple models which are computationally efficient and can reproduce much of the NR surrogate model results.",
+    "arxiv_id": "2610.37895v1",
+    "published": "2026-10-27T19:34:35Z",
+    "updated": "2026-10-27T19:34:35Z",
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ]
+  },
+  {
+    "title": "The MARTINI platform II. Tracing r-process nucleosynthesis in neutron star mergers with long-lived remnants",
+    "authors": [
+      "Eleonora Loffredo",
+      "Diego Vescovi",
+      "Albino Perego",
+      "Federico Maria Guercilena",
+      "Sergio Cristallo"
+    ],
+    "abstract": "Binary neutron star (BNS) mergers are among the primary sites of the rapid neutron-capture (r-)process. In mergers with long-lived remnants, sustained neutrino irradiation raises the electron fraction of the disc wind ejecta, modifying the resulting nucleosynthesis pattern. Yields from numerical-relativity simulations with accurate neutrino transport are needed to quantify the contribution of BNS mergers to the Galactic production of heavy elements and to interpret kilonova spectra. We present and publicly release tracer trajectories and nucleosynthesis yields for eight BNS mergers forming long-lived neutron star remnants, obtained from general-relativistic simulations with M1 neutrino transport, spanning two equations of state (DD2 and SFHo), and a range of total masses and mass ratios. Passive tracer particles following the dynamical and wind ejecta were post-processed with the nuclear reaction network WinNet up to 1 Gyr. The yields and tracer trajectories are available on the MARTINI platform. At 1 day, the production of light and first-peak elements (He, Ni, Sr, and Y) is similar across models and is primarily enhanced by the neutrino-irradiated disc wind. The yields of heavy nuclei vary by more than one order of magnitude, with unequal-mass binaries producing the largest amounts owing to their more neutron-rich ejecta. Our He yields, particularly in the wind, exceed those of recent studies based on an M0 neutrino scheme, consistent with the stronger neutrino irradiation resulting from an M1 scheme. At 1 Gyr, all models reproduce the second and third solar r-process peaks, but differ in the first peak, the lanthanide region, the mass range between the first and second peaks, and the trans-lead region, reflecting the electron fraction distribution of the ejecta and the dynamical and wind contributions. Two equal-mass models provide a close match to the solar pattern.",
+    "arxiv_id": "2610.37893v1",
+    "published": "2026-10-27T19:34:11Z",
+    "updated": "2026-10-27T19:34:11Z",
+    "categories": [
+      "astro-ph.HE"
+    ]
+  },
+  {
     "title": "Stochastic dynamics of cosmological inflation in general relativity",
     "authors": [
       "Yoann L. Launay"
