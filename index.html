@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-11-02 14:59:58 UTC</div>
+            <div class="last-updated">Last updated: 2026-11-03 13:47:28 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">02 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.03564v1" target="_blank" rel="noopener">Surrogate model of gravitational waveforms for quasi-circular, spin-aligned, asymmetric-mass black hole binaries based on the hybridization of WaSABI-C inspirals with numerical relativity waveforms</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">H. L. Iglesias, D. M. Shoemaker</div>
+                <div class="paper-abstract">With the incorporation of aligned-spin dynamics into self-force waveform models, such as the WaSABI-C inspiral model, and with the release of the SXS collaboration's third public catalog of NR simulations, the gravitational waveform modeling community has made significant advances in the modeling of spinning, asymmetric-mass black hole binaries. In light of these developments, we present WaSABINRHybSur2dq15, the first surrogate model to incorporate information from self-force theory, post-Newtonian theory, and numerical relativity. The model is trained on 65 hybrid waveforms for quasi-circular, spin-aligned, asymmetric-mass black hole binaries with mass ratios spanning 1:1.25 to 1:20 and aligned-spins for the primary black hole ranging -0.5 to 0.5. The hybrid waveforms are generated from a set of WaSABI-C inspirals and NR waveforms from the third SXS public catalog. The model covers the parameter domain $1.25 \leq q \leq 15$ and $|χ_{1z}| \leq 0.5$, and includes the $(2,2),\, (2,1),\, (3,3),\, (4,4),$ and $(5,5)$ spin-weighted spherical harmonic modes. The model also spans the entire LIGO-Virgo-KAGRA (LVK) frequency band (with $f_{\text{low}}=20$ Hz) for total masses $M \gtrsim 111.5\,M_{\odot}$. We find that the WaSABINRHybSur2dq15 model faithfully reproduces the hybrid waveforms with mismatches less than $10^{-3}$ for total masses in the range $80\,M_{\odot} \leq M \leq 300\,M_{\odot}$.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">29 October 2026</div>
@@ -895,21 +910,6 @@
                 </div>
                 <div class="paper-authors">Abolhassan Mohammadi,  Yogesh, Cristian Joana, Hongwei Tan, Ying-li Zhang</div>
                 <div class="paper-abstract">We study the formation of primordial black holes (PBHs) from large primordial perturbations that re-enter the horizon during an epoch with equation of state ${\rm w}\geq1/3$. We consider a log-normal curvature power spectrum of finite width $Δ$ and determine the collapse amplitude by numerical-relativity simulations of a self-gravitating perfect fluid. Threshold scans are performed for five values of $\rm w$ and five spectral widths, and the resulting numerical thresholds are used in the PBH abundance and scalar-induced gravitational-wave (SIGW) calculations. For comparison, we also evaluate the semi-analytical $q$-function prescription. It reproduces the numerical trend close to radiation domination and for nearly monochromatic profiles, but it is not a reliable threshold estimator for generic finite-width profiles in stiffer backgrounds. We show how collapse thresholds increase with both $Δ$ and $\rm w$, changing the curvature amplitude required for PBHs to constitute all of the dark matter and, consequently, the normalization of the accompanying SIGW signal.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">03 September 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2609.04340v1" target="_blank" rel="noopener">Waveform models for the gravitational-wave memory effect: III. Phenomenological frequency-domain model for nonspinning binaries</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Arwa Elhashash, David A. Nichols</div>
-                <div class="paper-abstract">We present a phenomenological frequency-domain model for the gravitational-wave (GW) memory signal from nonspinning binary-black-hole mergers on quasicircular orbits. We develop separate amplitude and phase models for the dominant $(l,m)=(2,0)$ spherical-harmonic mode of the GW memory signal. The amplitude and phase models are built from superpositions of elementary and transcendental functions, which can be evaluated efficiently. Both portions of the model are calibrated against a numerical-relativity surrogate model over mass ratios from one to eight. Their accuracy is assessed by computing their mismatch with the numerical-relativity models using the Advanced LIGO sensitivity curve from the fourth observing run. The mismatches are of the order $10^{-4}n̆icode{x2013}10^{-3}$ over the parameter space of total mass covered by LIGO. The resulting frequency-domain model is a more computationally efficient waveform model for the GW memory signal than a related time-domain model earlier produced by the authors. An open-access implementation of both the time-domain and frequency-domain models is provided in the Python package GWMemoryModel, which can be used for relevant analyses of nonspinning binary black holes.</div>
             </article>
 
         </main>
