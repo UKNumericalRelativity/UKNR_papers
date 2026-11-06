@@ -1,5 +1,18 @@
 [
   {
+    "title": "A Transformer model for precessing binary black-hole merger waveforms calibrated to numerical relativity",
+    "authors": [
+      "Jameson Dong"
+    ],
+    "abstract": "We present a Transformer model for merger-centered gravitational waveforms from precessing binary black holes. Given the mass ratio and two three-dimensional spin vectors, the network predicts quintic B-spline coefficients for all 21 signed spin-weighted spherical-harmonic strain modes through $\\ell=4$ on $[-1100,80]M$ ($M$ being the total binary mass), enforcing binary-exchange and equatorial-reflection equivariance and yielding $C^4$ waveforms in time with exact automatic differentiation. The model is pretrained on numerical-relativity (NR) waveforms from the SXS and RIT catalogues together with synthetic NRSur7dq4, SEOBNRv5PHM, and perturbative waveforms, and fine-tuned on SXS strain data. On 176 held-out SXS waveforms (165 physical systems), it achieves a mean balanced root-mean-square strain error of $0.023$ and a mean detector mismatch at $120\\,M_\\odot$ of $0.059\\%$.",
+    "arxiv_id": "2611.07223v1",
+    "published": "2026-11-04T23:24:31Z",
+    "updated": "2026-11-04T23:24:31Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Spacetime Evolution Induced by a Massive Cosmic String in Numerical Relativity",
     "authors": [
       "Yoshihiro Kishimoto",
@@ -714,40 +727,6 @@
     "updated": "2026-09-07T18:34:35Z",
     "categories": [
       "gr-qc"
-    ]
-  },
-  {
-    "title": "Primordial Black Hole Abundances and Scalar Induced Gravitational Waves from Finite-Width Power Spectra in a Stiff Thermal History",
-    "authors": [
-      "Abolhassan Mohammadi",
-      " Yogesh",
-      "Cristian Joana",
-      "Hongwei Tan",
-      "Ying-li Zhang"
-    ],
-    "abstract": "We study the formation of primordial black holes (PBHs) from large primordial perturbations that re-enter the horizon during an epoch with equation of state ${\\rm w}\\geq1/3$. We consider a log-normal curvature power spectrum of finite width $Δ$ and determine the collapse amplitude by numerical-relativity simulations of a self-gravitating perfect fluid. Threshold scans are performed for five values of $\\rm w$ and five spectral widths, and the resulting numerical thresholds are used in the PBH abundance and scalar-induced gravitational-wave (SIGW) calculations. For comparison, we also evaluate the semi-analytical $q$-function prescription. It reproduces the numerical trend close to radiation domination and for nearly monochromatic profiles, but it is not a reliable threshold estimator for generic finite-width profiles in stiffer backgrounds. We show how collapse thresholds increase with both $Δ$ and $\\rm w$, changing the curvature amplitude required for PBHs to constitute all of the dark matter and, consequently, the normalization of the accompanying SIGW signal.",
-    "arxiv_id": "2609.07043v1",
-    "published": "2026-09-07T04:56:55Z",
-    "updated": "2026-09-07T04:56:55Z",
-    "categories": [
-      "astro-ph.CO"
-    ]
-  },
-  {
-    "title": "Primordial Black Hole Abundances and Scalar Induced Gravitational Waves from Finite-Width Power Spectra in a Stiff Thermal History",
-    "authors": [
-      "Abolhassan Mohammadi",
-      " Yogesh",
-      "Cristian Joana",
-      "Hongwei Tan",
-      "Ying-li Zhang"
-    ],
-    "abstract": "We study the formation of primordial black holes (PBHs) from large primordial perturbations that re-enter the horizon during an epoch with equation of state ${\\rm w}\\geq1/3$. We consider a log-normal curvature power spectrum of finite width $Δ$ and determine the collapse amplitude by numerical-relativity simulations of a self-gravitating perfect fluid. Threshold scans are performed for five values of $\\rm w$ and five spectral widths, and the resulting numerical thresholds are used in the PBH abundance and scalar-induced gravitational-wave (SIGW) calculations. For comparison, we also evaluate the semi-analytical $q$-function prescription. It reproduces the numerical trend close to radiation domination and for nearly monochromatic profiles, but it is not a reliable threshold estimator for generic finite-width profiles in stiffer backgrounds. We show how collapse thresholds increase with both $Δ$ and $\\rm w$, changing the curvature amplitude required for PBHs to constitute all of the dark matter and, consequently, the normalization of the accompanying SIGW signal.",
-    "arxiv_id": "2609.07043v2",
-    "published": "2026-09-07T04:56:55Z",
-    "updated": "2026-09-22T05:40:17Z",
-    "categories": [
-      "astro-ph.CO"
     ]
   }
 ]

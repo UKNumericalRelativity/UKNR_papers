@@ -292,10 +292,25 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-11-05 14:12:20 UTC</div>
+            <div class="last-updated">Last updated: 2026-11-06 13:53:30 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">04 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.07223v1" target="_blank" rel="noopener">A Transformer model for precessing binary black-hole merger waveforms calibrated to numerical relativity</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Jameson Dong</div>
+                <div class="paper-abstract">We present a Transformer model for merger-centered gravitational waveforms from precessing binary black holes. Given the mass ratio and two three-dimensional spin vectors, the network predicts quintic B-spline coefficients for all 21 signed spin-weighted spherical-harmonic strain modes through $\ell=4$ on $[-1100,80]M$ ($M$ being the total binary mass), enforcing binary-exchange and equatorial-reflection equivariance and yielding $C^4$ waveforms in time with exact automatic differentiation. The model is pretrained on numerical-relativity (NR) waveforms from the SXS and RIT catalogues together with synthetic NRSur7dq4, SEOBNRv5PHM, and perturbative waveforms, and fine-tuned on SXS strain data. On 176 held-out SXS waveforms (165 physical systems), it achieves a mean balanced root-mean-square strain error of $0.023$ and a mean detector mismatch at $120\,M_\odot$ of $0.059%$.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">04 November 2026</div>
@@ -940,36 +955,6 @@
                 </div>
                 <div class="paper-authors">Abhishek Ravishankar, Vijay Varma, Scott E. Field, Keefe Mitman, Nils Deppe, Leo C. Stein, Michael Boyle, Mark A. Scheel</div>
                 <div class="paper-abstract">Numerical relativity simulations provide the most accurate waveforms for binary black hole coalescences, but are prohibitively expensive for direct use in gravitational-wave data analysis. Surrogate models overcome this cost, and NRSur7dq4 is commonly used in parameter estimation for this reason. However, there is evidence in the literature that NRSur7dq4's accuracy could be improved in the merger-ringdown portion of the waveform, which is particularly important for the analysis of high-mass binary black hole events. Motivated by these observations, we construct NRSur7dq4v2, a multi-domain extension of NRSur7dq4 in which overlapping temporal subdomains allow tighter, independent error control over the inspiral and merger-ringdown portions of the waveform before they are smoothly combined. To assess the new model's performance in the merger-ringdown regime, we infer the mass and spin of the remnant black hole from quasi-normal fits to the ringdown portion of the surrogate waveform. We find that NRSur7dq4v2 produces significantly improved remnant mass and spin estimates, with gains of roughly factors of $3$ to $10$ over NRSur7dq4. Compared to NRSur7dq4, NRSur7dq4v2 also includes modes up to $\ell=5$, includes more accurate modeling of certain subdominant modes, and introduces a runtime model-complexity feature that gives users direct control over the tradeoff between evaluation cost and accuracy. Finally, alongside the model development, we have optimized the gwsurrogate package to achieve a fourfold speedup for precessing surrogates. The resulting precessing surrogates called through gwsurrogate are now slightly faster than their LALSimulation counterparts.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">07 September 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2609.07043v1" target="_blank" rel="noopener">Primordial Black Hole Abundances and Scalar Induced Gravitational Waves from Finite-Width Power Spectra in a Stiff Thermal History</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Abolhassan Mohammadi,  Yogesh, Cristian Joana, Hongwei Tan, Ying-li Zhang</div>
-                <div class="paper-abstract">We study the formation of primordial black holes (PBHs) from large primordial perturbations that re-enter the horizon during an epoch with equation of state ${\rm w}\geq1/3$. We consider a log-normal curvature power spectrum of finite width $Δ$ and determine the collapse amplitude by numerical-relativity simulations of a self-gravitating perfect fluid. Threshold scans are performed for five values of $\rm w$ and five spectral widths, and the resulting numerical thresholds are used in the PBH abundance and scalar-induced gravitational-wave (SIGW) calculations. For comparison, we also evaluate the semi-analytical $q$-function prescription. It reproduces the numerical trend close to radiation domination and for nearly monochromatic profiles, but it is not a reliable threshold estimator for generic finite-width profiles in stiffer backgrounds. We show how collapse thresholds increase with both $Δ$ and $\rm w$, changing the curvature amplitude required for PBHs to constitute all of the dark matter and, consequently, the normalization of the accompanying SIGW signal.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">07 September 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2609.07043v2" target="_blank" rel="noopener">Primordial Black Hole Abundances and Scalar Induced Gravitational Waves from Finite-Width Power Spectra in a Stiff Thermal History</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Abolhassan Mohammadi,  Yogesh, Cristian Joana, Hongwei Tan, Ying-li Zhang</div>
-                <div class="paper-abstract">We study the formation of primordial black holes (PBHs) from large primordial perturbations that re-enter the horizon during an epoch with equation of state ${\rm w}\geq1/3$. We consider a log-normal curvature power spectrum of finite width $Δ$ and determine the collapse amplitude by numerical-relativity simulations of a self-gravitating perfect fluid. Threshold scans are performed for five values of $\rm w$ and five spectral widths, and the resulting numerical thresholds are used in the PBH abundance and scalar-induced gravitational-wave (SIGW) calculations. For comparison, we also evaluate the semi-analytical $q$-function prescription. It reproduces the numerical trend close to radiation domination and for nearly monochromatic profiles, but it is not a reliable threshold estimator for generic finite-width profiles in stiffer backgrounds. We show how collapse thresholds increase with both $Δ$ and $\rm w$, changing the curvature amplitude required for PBHs to constitute all of the dark matter and, consequently, the normalization of the accompanying SIGW signal.</div>
             </article>
 
         </main>
