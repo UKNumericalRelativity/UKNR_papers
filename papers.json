@@ -693,40 +693,5 @@
     "categories": [
       "gr-qc"
     ]
-  },
-  {
-    "title": "NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms",
-    "authors": [
-      "Vaishak Prasad"
-    ],
-    "abstract": "We present NRHJSur3dq8, a family of numerical-relativity (NR) surrogates for non-eccentric aligned-spin binary-black-hole waveforms inspired by an action-angle parameterization. The model provides both the dynamics: the Hamiltonian values, azimuthal action $J_φ(Φ)$, the orbital clock $τ(Φ)$ as functions of its phasing, and the radiative pieces: the waveforms, their near-analytic derivatives, and modeling errors associated with each. The surrogated variables are conditioned into pieces that vary slowly on the radiation-reaction timescale, represented on shared $hp$-adaptive Chebyshev elements, and regressed across the intrinsic parameters with a Gaussian-process model. A time-parameterized merger-ringdown set of elements is attached where the adiabatic description breaks down. Leave-one-out validation of the central NRHJSur3dq8_AA flavor against NR reaches a $(2,2)$ unweighted mismatch of $1.3^{+32}_{-1.2}\\times10^{-6}$ and an all-mode mismatch of $2.3^{+59}_{-2.2}\\times10^{-6}$ over the full inspiral-merger-ringdown span. Sky-averaged and SNR-weighted over $32$ orientations per simulation, the released model's full-IMR in-sample mismatch against the NR simulations used for training is $8.9\\times10^{-7}$ to $2.8\\times10^{-5}$ across total masses $40$-$120\\,M_\\odot$. Waveforms are hybridized using post-Newtonian waveforms. Beyond accuracy, NRHJSur3dq8 provides two capabilities uncommon in NR surrogates: nearly analytic derivatives of the strain with respect to the physical parameters, and a calibrated Gaussian-process predictive uncertainty of the model. A full non-hybridized inspiral-merger-ringdown waveform evaluates in $12$ ms on a single CPU call. Batched evaluation amortizes this to $0.39$ ms per waveform at a batch of $4096$, measured at a starting frequency of $20$ Hz.",
-    "arxiv_id": "2609.09088v1",
-    "published": "2026-09-08T17:34:19Z",
-    "updated": "2026-09-08T17:34:19Z",
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "astro-ph.IM"
-    ]
-  },
-  {
-    "title": "NRSur7dq4v2: A multi-domain precessing surrogate model with improved accuracy",
-    "authors": [
-      "Abhishek Ravishankar",
-      "Vijay Varma",
-      "Scott E. Field",
-      "Keefe Mitman",
-      "Nils Deppe",
-      "Leo C. Stein",
-      "Michael Boyle",
-      "Mark A. Scheel"
-    ],
-    "abstract": "Numerical relativity simulations provide the most accurate waveforms for binary black hole coalescences, but are prohibitively expensive for direct use in gravitational-wave data analysis. Surrogate models overcome this cost, and NRSur7dq4 is commonly used in parameter estimation for this reason. However, there is evidence in the literature that NRSur7dq4's accuracy could be improved in the merger-ringdown portion of the waveform, which is particularly important for the analysis of high-mass binary black hole events. Motivated by these observations, we construct NRSur7dq4v2, a multi-domain extension of NRSur7dq4 in which overlapping temporal subdomains allow tighter, independent error control over the inspiral and merger-ringdown portions of the waveform before they are smoothly combined. To assess the new model's performance in the merger-ringdown regime, we infer the mass and spin of the remnant black hole from quasi-normal fits to the ringdown portion of the surrogate waveform. We find that NRSur7dq4v2 produces significantly improved remnant mass and spin estimates, with gains of roughly factors of $3$ to $10$ over NRSur7dq4. Compared to NRSur7dq4, NRSur7dq4v2 also includes modes up to $\\ell=5$, includes more accurate modeling of certain subdominant modes, and introduces a runtime model-complexity feature that gives users direct control over the tradeoff between evaluation cost and accuracy. Finally, alongside the model development, we have optimized the gwsurrogate package to achieve a fourfold speedup for precessing surrogates. The resulting precessing surrogates called through gwsurrogate are now slightly faster than their LALSimulation counterparts.",
-    "arxiv_id": "2609.07873v1",
-    "published": "2026-09-07T18:34:35Z",
-    "updated": "2026-09-07T18:34:35Z",
-    "categories": [
-      "gr-qc"
-    ]
   }
 ]
