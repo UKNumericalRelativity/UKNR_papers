@@ -292,10 +292,55 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-11-09 15:29:55 UTC</div>
+            <div class="last-updated">Last updated: 2026-11-10 14:29:37 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">09 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.12857v1" target="_blank" rel="noopener">Mapping of Spacetimes with Neural Networks</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Estuti Shukla, David Radice, Rossella Gamba, Sebastiano Bernuzzi</div>
+                <div class="paper-abstract">Gauge freedom in numerical relativity complicates the interpretation of simulation coordinates and the comparison of different descriptions of the same spacetime. We present a data-driven neural network method for learning coordinate maps from numerical metric data to a prescribed target gauge. The network is trained by matching the transformed source metric to the target metric, without assuming a functional form for the coordinate transformation. We first validate the method on analytical Schwarzschild and Kerr geometries, recovering known transformations up to the isometries of the target spacetime. We then apply it to numerical black hole evolutions in moving-puncture coordinates. For a non-spinning black hole, the learned map relates the time-dependent numerical metric to a stationary Schwarzschild metric in ingoing Eddington-Finkelstein coordinates. For a spinning puncture, the method provides an approximate identification with a Kerr background despite departures from Kerr in the numerical spacetime. We use this identification to construct curvature perturbations and evolve them with the Teukolsky equation, obtaining waveforms that closely match those extracted from the full nonlinear simulation. These results demonstrate that learned coordinate maps can relate numerical spacetimes to analytical backgrounds, with potential applications to cross-code validation and black hole perturbation theory.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">09 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.12831v1" target="_blank" rel="noopener">Numerical-Relativity Particle-in-Cell Simulations: Self-Gravitating Collisionless Matter in Dynamical Spacetimes</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Jiaxi Wu, Elias R. Most</div>
+                <div class="paper-abstract">Gravitational collapse and instability, black-hole dynamics in systems with large scale separations, and questions surrounding extremal black hole formation require full nonlinear studies using accurate and adapted numerical tools. To this end, we present a new algorithm to study collisionless relativistic systems using a fully kinetic description of matter coupled to the evolving spacetime. In detail, we present a numerical-relativity particle-in-cell (NRPIC) framework for solving the Einstein--Vlasov system in three spatial dimensions. Implemented on top of the performance-portable <code>AthenaK</code> code, the method couples particle dynamics to Z4c spacetime evolution in moving puncture gauge through conservative stress-energy deposition on adaptively refined meshes. Our implementation makes use of advances in the computational modeling of relativistic plasmas using modern PIC models, now made available to general-relativistic gravity via an equivalent electrodynamic formulation. We introduce a Boris-type particle pusher that exploits the electrodynamic (Lorentz force) form of the geodesic force. We validate the coupled evolution against spherical dust collapse, follow prolate collapse through collisionless caustics into black-hole formation, and investigate the stability and nonlinear migration of relativistic clusters. Highlighting its potential to study gravitational instability in NR, we simulate the collapse of two overdensities within a common collisionless envelope, following black-hole formation, binary inspiral and merger, and subsequent mass accretion onto the remnant.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">08 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.11449v1" target="_blank" rel="noopener">Pushing the accuracy of the quasi-circular baseline for the SEOBNR family of models</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Cheng Foo, Alessandra Buonanno, Héctor Estellés, Lorenzo Pompili</div>
+                <div class="paper-abstract">Gravitational-wave observations have opened a new era of astronomy, with accurate modeling of binary black hole signals becoming increasingly important for source characterization and astrophysical inference as detector sensitivities improve. We present SEOBNRv5iHM, an updated quasi-circular, aligned-spin inspiral-merger-ringdown gravitational-waveform model with higher-order modes, constructed within the effective-one-body formalism and building upon SEOBNRv5HM. The improvements mainly concern the late inspiral and the merger-ringdown: we remove the non-quasi-circular corrections used in previous models and instead introduce a phenomenological intermediate region between the inspiral and the ringdown, which allows the ringdown attachment time to be chosen independently for each mode, including at the peak of the mode's amplitude. The model is calibrated and validated against 591 quasi-circular aligned-spin waveforms from the third Simulating eXtreme Spacetimes catalog. For the $(2,2)$ mode, when considering the maximum unfaithfulness against numerical relativity over a total mass range of 10-300$M_\odot$, SEOBNRv5iHM achieves a median of $4.25\times10^{-5}$, a factor of 4.5 below SEOBNRv5HM, and a factor of 3-8 below other semi-analytical models, with $84%$ of cases below $10^{-4}$. For $M\ge150 M_\odot$, the median drops to $9.7\times10^{-6}$, comparable to the numerical-relativity surrogate NRHybSur3dq8. For polarization mismatches at inclination $π/3$, with modes up to $\ell_\mathrm{max} = 5$, the median maximum unfaithfulness is $4.2\times10^{-4}$, a factor of 2.6 below SEOBNRv5HM, 1.9 below IMRPhenomTHM, and 6-11 below the other semi-analytical models. Since spin-precessing and eccentric models are built on top of the quasi-circular, aligned-spin baseline, these improvements will make future SEOBNR models more accurate, reducing waveform systematics in upcoming analyses.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">04 November 2026</div>
@@ -310,6 +355,21 @@
                 </div>
                 <div class="paper-authors">Jameson Dong</div>
                 <div class="paper-abstract">We present a Transformer model for merger-centered gravitational waveforms from precessing binary black holes. Given the mass ratio and two three-dimensional spin vectors, the network predicts quintic B-spline coefficients for all 21 signed spin-weighted spherical-harmonic strain modes through $\ell=4$ on $[-1100,80]M$ ($M$ being the total binary mass), enforcing binary-exchange and equatorial-reflection equivariance and yielding $C^4$ waveforms in time with exact automatic differentiation. The model is pretrained on numerical-relativity (NR) waveforms from the SXS and RIT catalogues together with synthetic NRSur7dq4, SEOBNRv5PHM, and perturbative waveforms, and fine-tuned on SXS strain data. On 176 held-out SXS waveforms (165 physical systems), it achieves a mean balanced root-mean-square strain error of $0.023$ and a mean detector mismatch at $120\,M_\odot$ of $0.059%$.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">04 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.07223v2" target="_blank" rel="noopener">A High Precision Transformer model for precessing binary black-hole merger waveforms calibrated to numerical relativity</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Jameson Dong</div>
+                <div class="paper-abstract">We present a Transformer model for merger-centered gravitational waveforms from precessing binary black holes. Given the mass ratio and two three-dimensional spin vectors, the network predicts quintic B-spline coefficients for all 21 signed spin-weighted spherical-harmonic strain modes through $\ell=4$ on $[-1100,80]M$ ($M$ being the total binary mass), enforcing binary-exchange and equatorial-reflection equivariance and yielding $C^4$ waveforms in time with automatic differentiation. The model is pretrained on numerical-relativity (NR) waveforms from the SXS and RIT catalogues together with synthetic NRSur7dq4, SEOBNRv5PHM, and perturbative waveforms, and fine-tuned on SXS strain data. On 109 SXS evaluation waveforms (106 physical systems), it achieves a mean balanced root-mean-square strain error of 0.0279 and a mean finite-window detector mismatch at $120\,M_\odot$ of 0.1190%.</div>
             </article>
 
             <article class="paper">
@@ -910,21 +970,6 @@
                 </div>
                 <div class="paper-authors">Chul-Moon Yoo, Albert Escrivà, Tomohiro Harada, Kazunori Kohri</div>
                 <div class="paper-abstract">We investigate primordial black hole (PBH) formation during an early matter-dominated era using fully nonlinear numerical relativity. The initial condition is set by a functional form of the curvature perturbation including ellipticity, which makes the configuration triaxial. Two kinds of matter descriptions are considered: dust fluid and collisionless particles. In the dust fluid description, numerical computation crashes associated with the appearance of a singularity at which the fluid density diverges, unless the singularity is hidden well inside the apparent horizon. We found that, for the dust fluid description, to observe the horizon formation before calculations crash, the initial amplitude must be larger than the previous analytic estimation by a factor of 2. On the other hand, with the particle system description, calculations do not crash, and we may observe black hole formation after subsequent evolution of the system. Then the threshold of black hole formation is significantly smaller than the previous analytic estimation by an order of magnitude.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">10 September 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2609.11726v1" target="_blank" rel="noopener">From the Test-Mass Limit to Binary Black-Hole Waveforms in Higher-Derivative Gravity</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Chaoyi Yang, Neev Khera, Dongjun Li, Huan Yang</div>
-                <div class="paper-abstract">Many higher-derivative theories predict stronger deviations from General Relativity for lower-mass black holes, while their nonlinear field equations often prevent reliable simulations of the full binary evolution. Here we develop a route from controlled black hole perturbation theory based on the modified Teukolsky formalism to comparable-mass waveforms, using parity-even cubic gravity as a representative example. We find that the tidal response of the secondary black hole enters at the same perturbative order as the direct higher-curvature correction and is therefore essential for a consistent leading-order waveform. The resulting strong-field fluxes and conservative dynamics produce an accumulated inspiral dephasing that grows toward merger. Embedding this test-mass information into an effective-one-body model, we construct inspiral-merger-ringdown waveforms for comparable-mass binaries and find coupling-dependent dephasing and waveform-peak shifts. Our results demonstrate how strong-field test-mass calculations can anchor waveform models for higher-derivative gravity when theory-specific numerical-relativity simulations are unavailable.</div>
             </article>
 
         </main>
