@@ -292,10 +292,40 @@
     <div class="container">
         <div class="header">
             <h1>Numerical Relativity Papers</h1>
-            <div class="last-updated">Last updated: 2026-11-13 14:09:13 UTC</div>
+            <div class="last-updated">Last updated: 2026-11-16 15:08:00 UTC</div>
         </div>
         
         <main>
+
+            <article class="paper">
+                <div class="paper-date">13 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.18146v1" target="_blank" rel="noopener">Suprathermal bulk viscosity in binary neutron star mergers</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Pranjal Tambe, Debarati Chatterjee</div>
+                <div class="paper-abstract">Numerical relativity simulations of binary neutron star mergers and core-collapse supernovae indicate that the neutron star matter can be driven far from equilibrium due to large amplitude density oscillations, with frequency in the kHz range. Urca processes in neutron star matter try to restore the system towards equilibrium providing strong bulk viscous damping of these density oscillations. Standard bulk viscosity calculations typically assume small amplitude density oscillations, such that the deviation from chemical equilibrium $μ_Δ$ is less than the temperature $T$. In this work we compute the complete amplitude dependent bulk viscosity, taking into account, for the first time, thermal blurring effects and collisional broadening of in-medium nucleons. Our results show that the non-linear effects in bulk viscosity start to become important when the oscillation amplitude is about $10$ percent of the background density. In this regime the bulk viscosity can increase by three to five orders of magnitude. These results have important consequences for simulations of binary neutron star mergers as well as their multi-messenger observations.</div>
+            </article>
+
+            <article class="paper">
+                <div class="paper-date">10 November 2026</div>
+                <div class="paper-title">
+                    <a href="https://arxiv.org/abs/2611.14647v1" target="_blank" rel="noopener">Binary black holes with non-orthogonal reference metrics</a>
+                </div>
+                <div class="abstract-section">
+                    <div class="abstract-toggle">
+                        <span class="arrow">▶</span>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="paper-authors">Nishita Jadoo, Zachariah B. Etienne</div>
+                <div class="paper-abstract">To our knowledge, numerical relativity (NR) simulations in the covariant moving-puncture formalism have only been performed with orthogonal reference metrics. Here, we demonstrate a new general non-orthogonal reference 3-metric implementation. We first validate this reference metric implementation by numerically evolving the exact Kasner initial data with a fisheye-style reference 3-metric, demonstrating numerical results that converge to the exact solution with increasing grid resolution. Next, we validate our approach by evolving binary black holes (BBHs) in the moving-puncture formulation, from inspiral through merger and ringdown. Even with a large deformation in the reference geometry, introduced to allow a large change in grid refinement to enable the simulation to span the relevant length scales, from high resolutions near the BHs to low resolutions in the wave zone, no pathologies are observed. Smooth waveforms for up to $\ell=8$ are extracted on a grid without mesh refinement boundaries. We demonstrate the flexibility of tuning structured grids through the reference metric by employing spheroidal modifications of the spherical fisheye map to reduce the number of grid points in the $z$ direction when the orbit is in the $xy$-plane. These results support the use of smoothly derefined structured grids for BBH evolutions.</div>
+            </article>
 
             <article class="paper">
                 <div class="paper-date">09 November 2026</div>
@@ -925,36 +955,6 @@
                 </div>
                 <div class="paper-authors">Daniel del-Corral, Paolo Gondolo, K. Sravan Kumar, João Marto</div>
                 <div class="paper-abstract">The dominant lattice approach to post-inflationary preheating and oscillon formation evolves an inhomogeneous inflaton field on a spatially homogeneous Friedmann-Lemaître-Robertson-Walker background, whose expansion is sourced by a volume-averaged energy density, while metric perturbations are neglected. We examine the consistency of this approximation with General Relativity. Using the linearized Einstein constraints, we show that the suppression of the Bardeen potential, characteristic of slow-roll inflation, disappears during preheating: once the first slow-roll parameter becomes of order unity, the metric and inflaton fluctuations enter at the same perturbative order. We further show that the scalar-field equation evolved in the fixed-FLRW prescription omits leading-order contributions generated by metric fluctuations. We then derive the proper-volume average of the ADM Hamiltonian constraint and show that it does not reduce to the Friedmann equation used in lattice simulations: the exact averaged constraint contains additional contributions from the spatial curvature, the variance of the local expansion, the shear, and metric corrections to the local energy density. Finally, we illustrate numerically, for Starobinsky and $α$-attractor models, that the metric contribution becomes comparable to the scalar-field contribution during the amplification stage. These results directly affect the standard lattice description of oscillon formation and motivate numerical relativity as a consistent framework for the nonlinear preheating problem.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">17 September 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2609.19922v1" target="_blank" rel="noopener">Investigating the influence of the full-kinematics treatment for charged-current processes in binary neutron star mergers</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">Ramon Jaeger, Henrique Gieg, Tim Dietrich</div>
-                <div class="paper-abstract">Weak interactions are fundamental in the merger of binary neutron stars (BNS). They provide cooling, change the composition of matter outflows, and can lead to significant secular outflows through neutrino-driven winds. Hence, the inclusion of neutrino transport has become standard in numerical-relativity simulations of mergers involving neutron stars. In more detail, the interactions of neutrinos with matter in a truncated two-moments scheme (M1) are described through interaction rates, calculated from a set of standard interactions. Among those are charged-current reactions, for which the elastic approximation is commonly assumed. More sophisticated alternatives are provided by, e.g., the publicly available NuLib library, or rates computed within a full kinematics approach. In this work, we compare merger simulations of a BNS systems employing each of these three prescriptions for the computation of charged-current weak rates, included in the M1 equations with an implicit-explicit time integrator. We find that the elastic approximation slightly overestimates the dynamical ejecta mass, while underestimating the amount of high electron fraction material therein. Additionally, it overestimates the neutrino luminosities at early times. The effects of full kinematics in comparison to the NuLib rates appear negligible within the uncertainties of the simulation data. Similarly, the post-merger gravitational-wave spectra for the three prescriptions were found to be indistinguishable within the numerical uncertainties. Nucleosynthetic yields, computed with a nuclear network, are broadly consistent, except in the atomic mass range $A\in[90,125]$ where the elastic approximation shows larger abundances. Finally, the different interaction rates seem to affect the remnant disk properties, hinting at the importance of more accurate interaction rates for simulations spanning secular timescales.</div>
-            </article>
-
-            <article class="paper">
-                <div class="paper-date">16 September 2026</div>
-                <div class="paper-title">
-                    <a href="https://arxiv.org/abs/2609.19462v1" target="_blank" rel="noopener">On Stochastic Memory Backgrounds In LISA</a>
-                </div>
-                <div class="abstract-section">
-                    <div class="abstract-toggle">
-                        <span class="arrow">▶</span>
-                        <span>Abstract</span>
-                    </div>
-                </div>
-                <div class="paper-authors">James Buda, Andrew Laeuger, Yanbei Chen</div>
-                <div class="paper-abstract">Gravitational-wave (GW) memory is a permanent change in spacetime geometry induced by a burst of gravitational waves. It is theoretically interesting for its connection to asymptotic symmetries, but has not yet been observed. The upcoming Laser Interferometer Space Antenna (LISA) is predicted to detect memory directly in loud events from supermassive black hole (SMBH) mergers. We assess the prospects for the cumulative effect of memory contributions as a stochastic GW memory background (SGWMB). Using two SMBH population models, we recover previously obtained single-event SNR forecasts and compute the power spectrum of the unresolved background, using numerical-relativity waveforms for modeling the memory signal during each event. We find the predicted spectrum is significantly smaller than ones found by modeling the memory waveform with a Heaviside function, with expected SNRs of order $O(0.1-10)$. We further find that our models favor a highly non-Gaussian ("popcorn") spectrum, demonstrating that the background may not appear as the union of continuous, overlapping signals, but rather as a collection of intermittent bursts. In both measures, we demonstrate that any current prediction of the spectrum is heavily dependent on the choice of population model. We interpret these findings in the light of the future LISA mission and emphasize their importance for properly handling memory within the LISA global fit.</div>
             </article>
 
         </main>
