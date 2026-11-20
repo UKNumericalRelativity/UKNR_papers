@@ -1,5 +1,34 @@
 [
   {
+    "title": "Which black hole modes ring freely? Horizon regularity, the forced ringdown transient, and GW250114",
+    "authors": [
+      "Jahed Abedi",
+      "Niayesh Afshordi"
+    ],
+    "abstract": "The quasinormal modes (QNMs) of a black hole are defined by keeping only ingoing waves at the horizon. We ask what horizon regularity requires of the outgoing waves this condition discards. For a scalar-like perturbation, bounded first derivatives in a frame regular at the future horizon rule out outgoing waves that decay more slowly than the surface gravity $κ$, and smoothness singles out a ladder of frequencies, $ω=mΩ_{\\rm H}-ijκ$ with $j=1,2,\\dots$ and $Ω_{\\rm H}$ the horizon angular velocity. We call these the horizon modes. For Schwarzschild black holes and the dominant $\\ell=m=2$ Kerr modes, only the fundamental QNM decays more slowly than $κ$. These local statements leave the QNM spectrum unchanged but matter for merger ringdowns, because a source falling through the horizon drives the exterior at the horizon frequencies. Each QNM then has a driven and a free part, and the free part takes over only once the driving decays faster than the mode. The fundamental mode separates from the driving early. The overtones stay driven until the source is hidden behind the potential barrier, so overtone amplitudes fitted near the signal peak are in general not those of free oscillations. In GW250114, a ringdown model of the fundamental mode plus the first horizon mode, $ω=2Ω_{\\rm H}-iκ$, is preferred over the fundamental mode plus its first overtone, with Bayes factors between 2 and 30, for start times from $2M_f$ before to $8M_f$ after coalescence. The horizon-mode fit returns a remnant that is heavier and spins faster than the inspiral predicts, as expected from nonlinear backreaction: the horizon that emits the mode has not yet settled to its final mass and spin. Zero-noise injections of numerical-relativity-calibrated waveforms reproduce both the preference and the shift, which are therefore features of general relativity.",
+    "arxiv_id": "2611.26591v1",
+    "published": "2026-11-19T18:47:24Z",
+    "updated": "2026-11-19T18:47:24Z",
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "hep-th"
+    ]
+  },
+  {
+    "title": "Hyperbolic Chiral Numerical Schemes for General Relativity",
+    "authors": [
+      "Adam Shaw"
+    ],
+    "abstract": "We develop numerical relativity evolution schemes based on Plebanski's chiral formulation of general relativity and its 3+1 form, Ashtekar's variables. At the linear level, we construct a two-parameter family of first-order gauge fixings that dynamically fixes both diffeomorphisms and internal SO(3,C) rotations; after a linear field redefinition, the resulting system splits into independent 12- and 4-component sectors. Lifting this gauge fixing to its minimal nonlinear extension and performing the 3+1 decomposition yields a strongly hyperbolic modification of Ashtekar's evolution equations that remains polynomial in the fields and includes constraint damping. We also introduce a conformal (unimodular) reformulation in which the nonlinear 12-component sector evolves completely independently of the remaining fields. All three systems are tested with gauge-wave convergence tests, robust-stability tests on a noisy Minkowski background, and long-time evolutions. The unmodified Ashtekar system crashes at T ~ 325, whereas the gauge-fixed hyperbolic and conformal systems remain stable up to T = 2000, with constraint violations and the imaginary part of the metric remaining at the 10^{-10} level.",
+    "arxiv_id": "2611.26325v1",
+    "published": "2026-11-19T16:09:05Z",
+    "updated": "2026-11-19T16:09:05Z",
+    "categories": [
+      "gr-qc"
+    ]
+  },
+  {
     "title": "Surrogate Modeling and Reduced-Order Methods in Gravitational-Wave Physics and Numerical Relativity: From Spectral Representations to Adaptive Compression",
     "authors": [
       "Manuel Tiglio"
